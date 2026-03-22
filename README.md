@@ -23,8 +23,8 @@ To use this project, you need to create a Python environment with the correct de
 python3.12 -m venv cait_env
 source cait_env/bin/activate
 
-pip install torch==2.5.1
 pip install -U git+https://github.com/Yu-val-weiss/supar-parser
+pip install torch==2.5.1
 pip install stanza 
 ```
 
@@ -48,7 +48,7 @@ python -u -m supar.cmds.dep.biaffine train -b -d 0 -c dep-biaffine-roberta-en -p
 
 ## 📊 Evaluation
 
-To evaluate the trained parser, we used the `evaluate` function from **Stanza**, as you can see in `eval_parser.py`.
+To evaluate the trained parser, we used the `evaluate` function from **Stanza**, as you can see in `evaluation/eval_parser_supar.py`.
 
 Evaluation requires:
 - The **ground truth** file (gold-standard annotations)
@@ -60,10 +60,34 @@ Evaluation requires:
 
 You can generate predictions using the following commands.
 
-#### Dev set
+#### Dev and Test set
 ```bash
 python -u -m supar.cmds.dep.biaffine predict -d 0 \
-    -p /Users/frapadovani/Desktop/CHILDES-Parser/parser/parser_trained/biaffine_roberta_large_childes_10/brlc \
+    -p biaffine_roberta_large_childes_10/brlc \
     --data UD_English-CHILDES/en_childes-ud-dev.conllu \
     --pred prediction_files/supar_childes_roberta_dev.conllu \
     --tree
+
+bash
+python -u -m supar.cmds.dep.biaffine predict -d 0 \
+    -p biaffine_roberta_large_childes_10/brlc \
+    --data /UD_English-CHILDES/en_childes-ud-test.conllu \
+    --pred /prediction_files/supar_childes_charlm.conllu \
+    --tree
+```
+
+## 📊 Evaluating Stanza Models
+
+To evaluate a Stanza dependency parser (either the default off-the-shelf model or a custom pre-trained one), you can use the provided script:
+
+```bash
+evaluation/eval_parser_stanza.py
+```
+
+
+## 🧠 Using a Custom POS Model
+
+If you want to evaluate using a custom POS tagger, you need to specify the path to the trained model:
+
+```bash
+stanza_models/pos/en_childes_charlm_tagger.pt

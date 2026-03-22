@@ -1,0 +1,4514 @@
+# sent_id = 39074
+# original_sent_id = 8479422
+# childes_toks = beep beep beep beep beep beep beep beep beep beep beep
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 24.591880736770776
+# child_gender = male
+# speaker_role = Target_Child
+# type = declarative
+# text = Beep beep beep beep beep beep beep beep beep beep beep.
+1	Beep	beep	NOUN	NN	_	0	root	0:root	_
+2	beep	beep	NOUN	NN	_	1	conj	1:conj	_
+3	beep	beep	NOUN	NN	_	1	conj	1:conj	_
+4	beep	beep	NOUN	NN	_	1	conj	1:conj	_
+5	beep	beep	NOUN	NN	_	1	conj	1:conj	_
+6	beep	beep	NOUN	NN	_	1	conj	1:conj	_
+7	beep	beep	NOUN	NN	_	1	conj	1:conj	_
+8	beep	beep	NOUN	NN	_	1	conj	1:conj	_
+9	beep	beep	NOUN	NN	_	1	conj	1:conj	_
+10	beep	beep	NOUN	NN	_	1	conj	1:conj	_
+11	beep	beep	NOUN	NN	_	1	conj	1:conj	SpaceAfter=No
+12	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = 40808
+# original_sent_id = 8827309
+# childes_toks = that's more like chicken like that like that friend chicken
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 36.06644900305961
+# child_gender = male
+# speaker_role = Target_Child
+# type = declarative
+# text = That's more like chicken like that like that friend chicken.
+1-2	That's	_	_	_	_	_	_	_	_
+1	That	that	PRON	DT	_	5	nsubj	5:nsubj	_
+2	's	be	AUX	VBZ	_	5	cop	5:cop	_
+3	more	more	ADV	RBR	_	5	advmod	5:advmod	_
+4	like	like	ADP	IN	_	5	case	5:case	_
+5	chicken	chicken	NOUN	NN	_	0	root	0:root	_
+6	like	like	ADP	IN	_	7	case	7:case	_
+7	that	that	PRON	DT	_	5	conj	11:reparandum	repetition
+8	like	like	ADP	IN	_	11	case	11:case	_
+9	that	that	DET	DT	_	11	det	11:det	_
+10	friend	friend	NOUN	NN	_	11	compound	11:compound	_
+11	chicken	chicken	NOUN	NN	_	5	parataxis	5:parataxis	SpaceAfter=No
+12	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = 40920
+# original_sent_id = 8829289
+# childes_toks = three four f in the post es the postman deliver it
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 36.09930388714347
+# child_gender = male
+# speaker_role = Target_Child
+# type = declarative
+# text = Three four f in the post es the postman deliver it.
+1	Three	three	NUM	CD	_	2	compound	2:reparandum	_
+2	four	four	NUM	CD	_	3	nummod	0:root	_
+3	f	f	NOUN	NN	_	0	root	2:reparandum	_
+4	in	in	ADP	IN	_	6	case	6:case	_
+5	the	the	DET	DT	_	6	det	6:det	_
+6	post	post	NOUN	NN	_	3	nmod	2:nmod:in	_
+7	es	es	ADP	IN	_	10	discourse	10:discourse	_
+8	the	the	DET	DT	_	9	det	9:det	_
+9	postman	postman	NOUN	NN	_	10	nsubj	10:nsubj	_
+10	deliver	deliver	VERB	VBP	_	3	parataxis	2:parataxis	_
+11	it	it	PRON	PRP	_	10	obj	10:obj	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	2:punct	_
+
+# sent_id = 41062
+# original_sent_id = 8831601
+# childes_toks = I a train comes a go up a bridge and choo down a bridge
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 36.06644900305961
+# child_gender = male
+# speaker_role = Target_Child
+# type = declarative
+# text = I a train comes a go up a bridge and choo down a bridge.
+1	I	I	PRON	PRP	_	2	reparandum	2:reparandum	restart
+2	a	a	DET	DT	_	3	det	3:det	_
+3	train	train	NOUN	NN	_	4	nsubj	4:nsubj|6:nsubj|11:nsubj	_
+4	comes	come	VERB	VBZ	_	0	root	0:root	_
+5	a	a	DET	DT	_	6	mark	6:discourse	_
+6	go	go	VERB	VB	_	4	conj	4:conj:and	_
+7	up	up	ADP	RP	_	9	case	9:case	_
+8	a	a	DET	DT	_	9	det	9:det	_
+9	bridge	bridge	NOUN	NN	_	4	obl	6:obl:up	_
+10	and	and	CCONJ	CC	_	11	cc	11:cc	_
+11	choo	choo	VERB	VB	_	4	conj	4:conj:and	_
+12	down	down	ADP	RP	_	14	case	14:case	_
+13	a	a	DET	DT	_	14	det	14:det	_
+14	bridge	bridge	NOUN	NN	_	11	obl	11:obl:down	SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = 41079
+# original_sent_id = 8831973
+# childes_toks = and rain like lie and like a choo choo train arout
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 36.06644900305961
+# child_gender = male
+# speaker_role = Target_Child
+# type = declarative
+# text = And rain like lie and like a choo choo train arout.
+1	And	and	CCONJ	CC	_	2	cc	2:cc	_
+2	rain	rain	NOUN	NN	_	0	root	0:root	_
+3	like	like	ADP	IN	_	4	case	4:case	_
+4	lie	lie	VERB	VB	_	2	parataxis	2:obl:like	_
+5	and	and	CCONJ	CC	_	10	cc	10:cc	_
+6	like	like	ADP	IN	_	10	case	10:case	_
+7	a	a	DET	DT	_	10	det	10:det	_
+8	choo	choo	NOUN	NN	_	10	compound	9:compound	_
+9	choo	choo	NOUN	NN	_	10	compound	10:compound	_
+10	train	train	NOUN	NN	_	2	conj	2:conj:and	_
+11	arout	arout	ADV	RB	_	10	advmod	10:advmod	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = 41090
+# original_sent_id = 8832172
+# childes_toks = just little snakes and big crocodiles and some some chocolate mice and pink pigs
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 36.32928807573051
+# child_gender = male
+# speaker_role = Target_Child
+# type = declarative
+# text = Just little snakes and big crocodiles and some some chocolate mice and pink pigs.
+1	Just	just	ADV	RB	_	3	advmod	3:advmod	_
+2	little	little	ADJ	JJ	_	3	amod	3:amod	_
+3	snakes	snake	NOUN	NNS	_	0	root	0:root	_
+4	and	and	CCONJ	CC	_	6	cc	6:cc	_
+5	big	big	ADJ	JJ	_	6	amod	6:amod	_
+6	crocodiles	crocodile	NOUN	NNS	_	3	conj	3:conj:and	_
+7	and	and	CCONJ	CC	_	11	cc	11:cc	_
+8	some	some	DET	DT	_	9	reparandum	9:reparandum	repetition
+9	some	some	DET	DT	_	11	det	11:det	_
+10	chocolate	chocolate	NOUN	NN	_	11	compound	11:compound	_
+11	mice	mouse	NOUN	NNS	_	3	conj	3:conj:and	_
+12	and	and	CCONJ	CC	_	14	cc	14:cc	_
+13	pink	pink	NOUN	NN	_	14	amod	14:amod	_
+14	pigs	pig	NOUN	NNS	_	3	conj	3:conj:and	SpaceAfter=No
+15	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = 41131
+# original_sent_id = 8832721
+# childes_toks = all your say crocodile all your say is a fireman's head
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 36.32928807573051
+# child_gender = male
+# speaker_role = Target_Child
+# type = declarative
+# text = All your say crocodile all your say is a fireman's head.
+1	All	all	DET	DT	_	3	obj	0:root	_
+2	your	you	PRON	PRP$	_	3	nsubj	3:nsubj	_
+3	say	say	VERB	VBP	_	0	root	1:acl:relcl	_
+4	crocodile	crocodile	NOUN	NN	_	3	vocative	1:parataxis	_
+5	all	all	DET	DT	_	12	nsubj	12:nsubj	_
+6	your	you	PRON	PRP$	_	7	nsubj	7:nsubj	_
+7	say	say	NOUN	NN	_	5	acl:relcl	5:acl:relcl	_
+8	is	be	AUX	VBZ	_	12	cop	12:cop	_
+9	a	a	DET	DT	_	12	det	10:det	_
+10-11	fireman's	_	_	_	_	_	_	_	_
+10	fireman	fireman	NOUN	NN	_	12	nmod:poss	12:nmod:poss	_
+11	's	's	PART	POS	_	10	case	10:case	_
+12	head	head	NOUN	NN	_	3	parataxis	1:parataxis	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	1:punct	_
+
+# sent_id = 41137
+# original_sent_id = 8832817
+# childes_toks = I got a hole in in the hole and sand all over the floor
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 36.49356249614982
+# child_gender = male
+# speaker_role = Target_Child
+# type = declarative
+# text = I got a hole in in the hole and sand all over the floor.
+1	I	I	PRON	PRP	_	2	nsubj	2:nsubj	_
+2	got	get	VERB	VBD	_	0	root	0:root	_
+3	a	a	DET	DT	_	4	det	4:det	_
+4	hole	hole	NOUN	NN	_	2	obj	2:obj	_
+5	in	in	ADV	RB	_	6	reparandum	6:reparandum	repetition
+6	in	in	ADP	IN	_	8	case	8:case	_
+7	the	the	DET	DT	_	8	det	8:det	_
+8	hole	hole	NOUN	NN	_	2	obl	2:obl:in	_
+9	and	and	CCONJ	CC	_	10	cc	10:cc	_
+10	sand	sand	NOUN	NN	_	2	conj	2:conj:and	_
+11	all	all	ADV	RB	_	14	advmod	14:advmod	_
+12	over	over	ADP	IN	_	14	case	14:case	_
+13	the	the	DET	DT	_	14	det	14:det	_
+14	floor	floor	NOUN	NN	_	10	nmod	10:nmod:over	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = 41312
+# original_sent_id = 8913700
+# childes_toks = uh when you put it down I will open it because I'm a driver
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 42.0008624407072
+# child_gender = male
+# speaker_role = Target_Child
+# type = declarative
+# text = Uh when you put it down I will open it because I'm a driver.
+1	Uh	uh	INTJ	UH	_	4	discourse	9:discourse	_
+2	when	when	SCONJ	WRB	_	4	mark	4:mark	_
+3	you	you	PRON	PRP	_	4	nsubj	4:nsubj	_
+4	put	put	VERB	VBP	_	9	advcl	9:advcl:when	_
+5	it	it	PRON	PRP	_	4	obj	4:obj	_
+6	down	down	ADP	RP	_	4	compound:prt	4:compound:prt	_
+7	I	I	PRON	PRP	_	9	nsubj	9:nsubj	_
+8	will	will	AUX	MD	_	9	aux	9:aux	_
+9	open	open	VERB	VB	_	0	root	0:root	_
+10	it	it	PRON	PRP	_	9	obj	9:obj	_
+11	because	because	SCONJ	IN	_	15	mark	15:mark	_
+12-13	I'm	_	_	_	_	_	_	_	_
+12	I	I	PRON	PRP	_	15	nsubj	15:nsubj	_
+13	'm	be	AUX	VBP	_	15	cop	15:cop	_
+14	a	a	DET	DT	_	15	det	15:det	_
+15	driver	driver	NOUN	NN	_	9	advcl	9:advcl:because	SpaceAfter=No
+16	.	.	PUNCT	.	_	9	punct	9:punct	_
+
+# sent_id = 41394
+# original_sent_id = 8916770
+# childes_toks = I'm going to just see if there's any crocodiles
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 42.0008624407072
+# child_gender = male
+# speaker_role = Target_Child
+# type = declarative
+# text = I'm going to just see if there's any crocodiles.
+1-2	I'm	_	_	_	_	_	_	_	_
+1	I	I	PRON	PRP	_	3	nsubj	3:nsubj|6:nsubj:xsubj	_
+2	'm	be	AUX	VBP	_	3	aux	3:aux	_
+3	going	go	VERB	VBG	_	0	root	0:root	_
+4	to	to	PART	TO	_	6	mark	6:mark	_
+5	just	just	ADV	RB	_	6	advmod	6:advmod	_
+6	see	see	VERB	VB	_	3	xcomp	3:xcomp	_
+7	if	if	SCONJ	IN	_	9	mark	9:mark	_
+8-9	there's	_	_	_	_	_	_	_	_
+8	there	there	PRON	EX	_	9	expl	9:expl	_
+9	's	be	VERB	VBZ	_	6	advcl	6:advcl:if	_
+10	any	any	DET	DT	_	11	det	11:det	_
+11	crocodiles	crocodile	NOUN	NNS	_	9	nsubj	9:nsubj	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = 41411
+# original_sent_id = 8917442
+# childes_toks = now we needta do a doors on the bus shall we
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 42.0008624407072
+# child_gender = male
+# speaker_role = Target_Child
+# type = question
+# text = Now we needta do a doors on the bus shall we?
+1	Now	now	ADV	RB	_	3	advmod	3:advmod	_
+2	we	we	PRON	PRP	_	3	nsubj	3:nsubj|5:nsubj:xsubj	_
+3-4	needta	_	_	_	_	_	_	_	_
+3	need	need	VERB	VBP	_	0	root	0:root	_
+4	ta	to	PART	TO	_	5	mark	5:mark	_
+5	do	do	VERB	VB	_	3	xcomp	3:xcomp	_
+6	a	a	DET	DT	_	7	det	7:det	_
+7	doors	door	NOUN	NNS	_	5	obj	5:obj	_
+8	on	on	ADP	IN	_	10	case	10:case	_
+9	the	the	DET	DT	_	10	det	10:det	_
+10	bus	bus	NOUN	NN	_	7	nmod	7:nmod:on	_
+11	shall	shall	AUX	MD	_	3	parataxis	3:parataxis	_
+12	we	we	PRON	PRP	_	11	nsubj	11:nsubj	SpaceAfter=No
+13	?	?	PUNCT	?	_	3	punct	3:punct	_
+
+# sent_id = 41508
+# original_sent_id = 8920768
+# childes_toks = just wait where my clock goes to bottom then it's I will stop
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 42.0008624407072
+# child_gender = male
+# speaker_role = Target_Child
+# type = declarative
+# text = Just wait where my clock goes to bottom then it's I will stop.
+1	Just	just	ADV	RB	_	2	advmod	2:advmod	_
+2	wait	wait	VERB	VB	_	0	root	0:root	_
+3	where	where	SCONJ	WRB	_	6	mark	6:mark	_
+4	my	my	PRON	PRP$	_	5	nmod:poss	5:nmod:poss	_
+5	clock	clock	NOUN	NN	_	6	nsubj	6:nsubj	_
+6	goes	go	VERB	VBZ	_	2	advcl	2:advcl:where	_
+7	to	to	ADP	IN	_	8	case	8:case	_
+8	bottom	bottom	NOUN	NN	_	6	obl	6:obl:to	_
+9	then	then	ADV	RB	_	11	advmod	11:advmod	_
+10-11	it's	_	_	_	_	_	_	_	_
+10	it	it	PRON	PRP	_	11	nsubj	11:nsubj	_
+11	's	be	AUX	VBZ	_	2	parataxis	2:conj	_
+12	I	I	PRON	PRP	_	14	nsubj	14:nsubj	_
+13	will	will	AUX	MD	_	14	aux	14:aux	_
+14	stop	stop	VERB	VB	_	2	parataxis	2:parataxis	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = 41559
+# original_sent_id = 8922143
+# childes_toks = Mummy you got on on then the sun shine then it started to rain
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 42.0008624407072
+# child_gender = male
+# speaker_role = Target_Child
+# type = declarative
+# text = Mummy you got on on then the sun shine then it started to rain.
+1	Mummy	mummy	NOUN	NN	_	3	vocative	3:vocative	_
+2	you	you	PRON	PRP	_	3	nsubj	3:nsubj	_
+3	got	get	VERB	VBD	_	0	root	0:root	_
+4	on	on	ADV	RB	_	3	advmod	3:advmod	_
+5	on	on	ADV	RB	_	3	advmod	4:reparandum	repetition
+6	then	then	ADV	RB	_	9	advmod	9:advmod	_
+7	the	the	DET	DT	_	8	det	8:det	_
+8	sun	sun	NOUN	NN	_	9	nsubj	9:nsubj	_
+9	shine	shine	VERB	VBP	_	3	parataxis	3:conj	_
+10	then	then	ADV	RB	_	12	advmod	12:advmod	_
+11	it	it	PRON	PRP	_	12	nsubj	12:nsubj|14:nsubj:xsubj	_
+12	started	start	VERB	VBD	_	3	conj	3:conj	_
+13	to	to	PART	TO	_	14	mark	14:mark	_
+14	rain	rain	VERB	VB	_	12	xcomp	12:xcomp	SpaceAfter=No
+15	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = 41594
+# original_sent_id = 8923338
+# childes_toks = are go past your house and straight through village and we stop at sweetie shop
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 42.0008624407072
+# child_gender = male
+# speaker_role = Target_Child
+# type = declarative
+# text = Are go past your house and straight through village and we stop at sweetie shop.
+1	Are	be	AUX	VBP	_	2	aux	2:reparandum	_
+2	go	go	VERB	VB	_	0	root	0:root	_
+3	past	past	ADP	IN	_	5	case	5:case	_
+4	your	you	PRON	PRP$	_	5	nmod:poss	5:nmod:poss	_
+5	house	house	NOUN	NN	_	2	obl	2:obl:past	_
+6	and	and	CCONJ	CC	_	9	cc	9:cc	_
+7	straight	straight	ADV	RB	_	5	advmod	9:advmod	_
+8	through	through	ADP	IN	_	9	case	9:case	_
+9	village	village	NOUN	NN	_	2	obl	2:obl:past|5:conj:and	_
+10	and	and	CCONJ	CC	_	12	cc	12:cc	_
+11	we	we	PRON	PRP	_	12	nsubj	12:nsubj	_
+12	stop	stop	VERB	VBP	_	2	conj	2:conj:and	_
+13	at	at	ADP	IN	_	15	case	15:case	_
+14	sweetie	sweetie	NOUN	NN	_	15	compound	15:compound	_
+15	shop	shop	NOUN	NN	_	12	obl	12:obl:at	SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = 41601
+# original_sent_id = 8923520
+# childes_toks = when tomorrow it's my birthday and that's a present for me
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 42.0008624407072
+# child_gender = male
+# speaker_role = Target_Child
+# type = declarative
+# text = When tomorrow it's my birthday and that's a present for me.
+1	When	when	SCONJ	WRB	_	2	mark	6:mark	_
+2	tomorrow	tomorrow	NOUN	NN	_	6	obl:unmarked	6:obl:unmarked	_
+3-4	it's	_	_	_	_	_	_	_	_
+3	it	it	PRON	PRP	_	6	nsubj	6:nsubj	_
+4	's	be	AUX	VBZ	_	6	cop	6:cop	_
+5	my	my	PRON	PRP$	_	6	nmod:poss	6:nmod:poss	_
+6	birthday	birthday	NOUN	NN	_	0	root	0:root	_
+7	and	and	CCONJ	CC	_	11	cc	11:cc	_
+8-9	that's	_	_	_	_	_	_	_	_
+8	that	that	PRON	DT	_	11	nsubj	11:nsubj	_
+9	's	be	AUX	VBZ	_	11	cop	11:cop	_
+10	a	a	DET	DT	_	11	det	11:det	_
+11	present	present	ADJ	JJ	_	6	conj	6:conj:and	_
+12	for	for	ADP	IN	_	13	case	13:case	_
+13	me	I	PRON	PRP	_	11	nmod	11:nmod:for	SpaceAfter=No
+14	.	.	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = 41613
+# original_sent_id = 8924053
+# childes_toks = you can have one money two money three money four money
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 42.0008624407072
+# child_gender = male
+# speaker_role = Target_Child
+# type = declarative
+# text = You can have one money two money three money four money.
+1	You	you	PRON	PRP	_	3	nsubj	3:nsubj	_
+2	can	can	AUX	MD	_	3	aux	3:aux	_
+3	have	have	VERB	VB	_	0	root	0:root	_
+4	one	one	NUM	CD	_	5	nummod	5:nummod	_
+5	money	money	NOUN	NN	_	3	obj	3:obj	_
+6	two	two	NUM	CD	_	7	nummod	7:nummod	_
+7	money	money	NOUN	NN	_	5	conj	3:obj|5:conj	_
+8	three	three	NUM	CD	_	9	nummod	9:nummod	_
+9	money	money	NOUN	NN	_	5	conj	3:obj|5:conj	_
+10	four	four	NUM	CD	_	11	nummod	11:nummod	_
+11	money	money	NOUN	NN	_	3	conj	3:obj|5:conj	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = 41621
+# original_sent_id = 8924461
+# childes_toks = I will go to tic sweetie shop and I will let you go back
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 42.0008624407072
+# child_gender = male
+# speaker_role = Target_Child
+# type = declarative
+# text = I will go to tic sweetie shop and I will let you go back.
+1	I	I	PRON	PRP	_	3	nsubj	3:nsubj	_
+2	will	will	AUX	MD	_	3	aux	3:aux	_
+3	go	go	VERB	VB	_	0	root	0:root	_
+4	to	to	ADP	IN	_	7	case	7:case	_
+5	tic	tic	NOUN	NN	_	7	compound	7:compound	_
+6	sweetie	sweetie	NOUN	NN	_	7	compound	7:compound	_
+7	shop	shop	NOUN	NN	_	3	obl	3:obl:to	_
+8	and	and	CCONJ	CC	_	11	cc	11:cc	_
+9	I	I	PRON	PRP	_	11	nsubj	11:nsubj	_
+10	will	will	AUX	MD	_	11	aux	11:aux	_
+11	let	let	VERB	VB	_	3	conj	3:conj:and	_
+12	you	you	PRON	PRP	_	11	obj	11:obj|13:nsubj:xsubj	_
+13	go	go	VERB	VB	_	11	xcomp	11:xcomp	_
+14	back	back	ADV	RB	_	13	advmod	13:advmod	SpaceAfter=No
+15	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = 41660
+# original_sent_id = 8926613
+# childes_toks = first I going to pick my back up and I won't be long
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 42.06657220887492
+# child_gender = male
+# speaker_role = Target_Child
+# type = declarative
+# text = First I going to pick my back up and I won't be long.
+1	First	first	ADV	RB	_	3	advmod	3:advmod	_
+2	I	I	PRON	PRP	_	3	nsubj	3:nsubj|5:nsubj:xsubj	_
+3	going	go	VERB	VBG	_	0	root	0:root	_
+4	to	to	PART	TO	_	5	mark	5:mark	_
+5	pick	pick	VERB	VB	_	3	xcomp	3:xcomp	_
+6	my	my	PRON	PRP$	_	7	nmod:poss	7:nmod:poss	_
+7	back	back	NOUN	NN	_	5	obj	5:obj	_
+8	up	up	ADP	RP	_	5	compound:prt	5:compound:prt	_
+9	and	and	CCONJ	CC	_	14	cc	14:cc	_
+10	I	I	PRON	PRP	_	14	nsubj	14:nsubj	_
+11-12	won't	_	_	_	_	_	_	_	_
+11	wo	will	AUX	MD	_	14	aux	14:aux	_
+12	n't	not	PART	RB	_	14	advmod	14:advmod	_
+13	be	be	AUX	VB	_	14	cop	14:cop	_
+14	long	long	ADV	RB	_	3	conj	3:conj:and	SpaceAfter=No
+15	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = 41672
+# original_sent_id = 8927084
+# childes_toks = it can fly on it's own but it doesn't fit in there
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 42.06657220887492
+# child_gender = male
+# speaker_role = Target_Child
+# type = declarative
+# text = It can fly on it's own but it doesn't fit in there.
+1	It	it	PRON	PRP	_	3	nsubj	3:nsubj	_
+2	can	can	AUX	MD	_	3	aux	3:aux	_
+3	fly	fly	VERB	VB	_	0	root	0:root	_
+4	on	on	ADP	IN	_	7	case	7:case	_
+5-6	it's	_	_	_	_	_	_	_	_
+5	it	it	PRON	PRP	_	7	nmod:poss	7:nmod:poss	_
+6	's	be	AUX	VBZ	_	5	case	5:cop	_
+7	own	own	ADJ	JJ	_	3	obl	3:obl:on	_
+8	but	but	CCONJ	CC	_	12	cc	12:cc	_
+9	it	it	PRON	PRP	_	12	nsubj	12:nsubj	_
+10-11	doesn't	_	_	_	_	_	_	_	_
+10	does	do	AUX	VBZ	_	12	aux	12:aux	_
+11	n't	not	PART	RB	_	12	advmod	12:advmod	_
+12	fit	fit	VERB	VB	_	3	conj	3:conj:but	_
+13	in	in	ADP	IN	_	14	advmod	14:case	_
+14	there	there	ADV	RB	_	12	advmod	12:obl:in	SpaceAfter=No
+15	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = 41674
+# original_sent_id = 8927261
+# childes_toks = but I won't just won't tell him off we go ah
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 42.06657220887492
+# child_gender = male
+# speaker_role = Target_Child
+# type = declarative
+# text = But I won't just won't tell him off we go ah.
+1	But	but	CCONJ	CC	_	8	cc	3:cc	_
+2	I	I	PRON	PRP	_	3	nsubj	3:nsubj	_
+3-4	won't	_	_	_	_	_	_	_	_
+3	wo	will	AUX	MD	_	8	reparandum	0:root	_
+4	n't	not	PART	RB	_	3	advmod	3:advmod	_
+5	just	just	ADV	RB	_	8	advmod	8:advmod	_
+6-7	won't	_	_	_	_	_	_	_	_
+6	wo	will	AUX	MD	_	8	aux	8:aux	_
+7	n't	not	PART	RB	_	8	advmod	8:advmod	_
+8	tell	tell	VERB	VB	_	0	root	3:parataxis	_
+9	him	he	PRON	PRP	_	8	obj	8:iobj	_
+10	off	off	ADP	RP	_	8	compound:prt	8:compound:prt	_
+11	we	we	PRON	PRP	_	12	nsubj	12:nsubj	_
+12	go	go	VERB	VBP	_	8	parataxis	8:parataxis	_
+13	ah	ah	INTJ	UH	_	12	discourse	12:discourse	SpaceAfter=No
+14	.	.	PUNCT	.	_	8	punct	3:punct	_
+
+# sent_id = 41693
+# original_sent_id = 8928026
+# childes_toks = I wanna look at I wanna look at something
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 42.06657220887492
+# child_gender = male
+# speaker_role = Target_Child
+# type = declarative
+# text = I wanna look at I wanna look at something.
+1	I	I	PRON	PRP	_	2	nsubj	2:nsubj|4:nsubj:xsubj	_
+2-3	wanna	_	_	_	_	_	_	_	_
+2	wan	want	VERB	VBP	_	7	reparandum	7:reparandum	repetition
+3	na	to	PART	TO	_	4	mark	4:mark	_
+4	look	look	VERB	VB	_	7	xcomp	2:xcomp	_
+5	at	at	ADP	IN	_	4	obl	4:obl	_
+6	I	I	PRON	PRP	_	7	nsubj	7:nsubj|9:nsubj:xsubj	_
+7-8	wanna	_	_	_	_	_	_	_	_
+7	wan	want	VERB	VBP	_	0	root	0:root	_
+8	na	to	PART	TO	_	9	mark	9:mark	_
+9	look	look	VERB	VB	_	7	xcomp	7:xcomp	_
+10	at	at	ADP	IN	_	11	case	11:case	_
+11	something	something	PRON	NN	_	9	obl	9:obl:at	SpaceAfter=No
+12	.	.	PUNCT	.	_	7	punct	7:punct	_
+
+# sent_id = 41715
+# original_sent_id = 8928907
+# childes_toks = start a music in a minute when I put a music lid on
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 42.0008624407072
+# child_gender = male
+# speaker_role = Target_Child
+# type = declarative
+# text = Start a music in a minute when I put a music lid on.
+1	Start	start	VERB	VB	_	0	root	0:root	_
+2	a	a	DET	DT	_	3	det	3:det	_
+3	music	music	NOUN	NN	_	1	obj	1:obj	_
+4	in	in	ADP	IN	_	6	case	6:case	_
+5	a	a	DET	DT	_	6	det	6:det	_
+6	minute	minute	NOUN	NN	_	1	obl	1:obl:in	_
+7	when	when	SCONJ	WRB	_	9	mark	9:mark	_
+8	I	I	PRON	PRP	_	9	nsubj	9:nsubj	_
+9	put	put	VERB	VBP	_	1	advcl	1:advcl:when	_
+10	a	a	DET	DT	_	12	det	12:det	_
+11	music	music	NOUN	NN	_	12	compound	12:compound	_
+12	lid	lid	NOUN	NN	_	9	obj	9:obj	_
+13	on	on	ADV	RB	_	9	compound:prt	9:compound:prt	SpaceAfter=No
+14	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = 41734
+# original_sent_id = 8929551
+# childes_toks = it's for when you blink your car and that's car wash and that's a lift for cars
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 42.03371732479106
+# child_gender = male
+# speaker_role = Target_Child
+# type = declarative
+# text = It's for when you blink your car and that's car wash and that's a lift for cars.
+1-2	It's	_	_	_	_	_	_	_	_
+1	It	it	PRON	PRP	_	2	nsubj	2:nsubj	_
+2	's	be	AUX	VBZ	_	0	root	0:root	_
+3	for	for	ADP	IN	_	6	mark	6:case	_
+4	when	when	SCONJ	WRB	_	6	mark	6:mark	_
+5	you	you	PRON	PRP	_	6	nsubj	6:nsubj	_
+6	blink	blink	VERB	VBP	_	2	advcl	2:advcl	_
+7	your	you	PRON	PRP$	_	8	nmod:poss	8:nmod:poss	_
+8	car	car	NOUN	NN	_	6	obj	6:obj	_
+9	and	and	CCONJ	CC	_	13	cc	13:cc	_
+10-11	that's	_	_	_	_	_	_	_	_
+10	that	that	PRON	DT	_	13	nsubj	13:nsubj:outer	_
+11	's	be	AUX	VBZ	_	13	cop	13:cop	_
+12	car	car	NOUN	NN	_	13	compound	13:compound	_
+13	wash	wash	VERB	VB	_	2	conj	2:advcl|6:conj:and	_
+14	and	and	CCONJ	CC	_	18	cc	18:cc	_
+15-16	that's	_	_	_	_	_	_	_	_
+15	that	that	PRON	DT	_	18	nsubj	18:nsubj	_
+16	's	be	AUX	VBZ	_	18	cop	18:cop	_
+17	a	a	DET	DT	_	18	det	18:det	_
+18	lift	lift	NOUN	NN	_	2	conj	6:conj|13:conj:and	_
+19	for	for	ADP	IN	_	20	case	20:case	_
+20	cars	car	NOUN	NNS	_	18	nmod	18:nmod:for	SpaceAfter=No
+21	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = 41744
+# original_sent_id = 8929959
+# childes_toks = you wanna put the sweeties in my bus I won't eat them
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 42.0008624407072
+# child_gender = male
+# speaker_role = Target_Child
+# type = declarative
+# text = You wanna put the sweeties in my bus I won't eat them.
+1	You	you	PRON	PRP	_	2	nsubj	2:nsubj|4:nsubj:xsubj	_
+2-3	wanna	_	_	_	_	_	_	_	_
+2	wan	want	VERB	VBP	_	0	root	0:root	_
+3	na	to	PART	TO	_	4	mark	4:mark	_
+4	put	put	VERB	VB	_	2	xcomp	2:xcomp	_
+5	the	the	DET	DT	_	6	det	6:det	_
+6	sweeties	sweety	NOUN	NNS	_	4	obj	4:obj	_
+7	in	in	ADP	IN	_	9	case	9:case	_
+8	my	my	PRON	PRP$	_	9	nmod:poss	9:nmod:poss	_
+9	bus	bus	NOUN	NN	_	4	obl	4:obl:in	_
+10	I	I	PRON	PRP	_	13	nsubj	13:nsubj	_
+11-12	won't	_	_	_	_	_	_	_	_
+11	wo	will	AUX	MD	_	13	aux	13:aux	_
+12	n't	not	PART	RB	_	13	advmod	13:advmod	_
+13	eat	eat	VERB	VB	_	2	parataxis	2:parataxis	_
+14	them	they	PRON	PRP	_	13	obj	13:obj	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = 41745
+# original_sent_id = 8930025
+# childes_toks = or you go under there when it's going down you get a flat bottom as well
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 42.03371732479106
+# child_gender = male
+# speaker_role = Target_Child
+# type = declarative
+# text = Or you go under there when it's going down you get a flat bottom as well.
+1	Or	or	CCONJ	CC	_	3	cc	3:cc	_
+2	you	you	PRON	PRP	_	3	nsubj	3:nsubj	_
+3	go	go	VERB	VBP	_	0	root	0:root	_
+4	under	under	ADP	IN	_	5	advmod	5:case	_
+5	there	there	ADV	RB	_	3	advmod	3:obl:under	_
+6	when	when	SCONJ	WRB	_	9	mark	9:mark	_
+7-8	it's	_	_	_	_	_	_	_	_
+7	it	it	PRON	PRP	_	9	nsubj	9:nsubj	_
+8	's	be	AUX	VBZ	_	9	aux	9:aux	_
+9	going	go	VERB	VBG	_	3	advcl	12:advcl:when	_
+10	down	down	ADV	RB	_	9	advmod	9:advmod	_
+11	you	you	PRON	PRP	_	12	nsubj	12:nsubj	_
+12	get	get	VERB	VBP	_	3	parataxis	3:parataxis	_
+13	a	a	DET	DT	_	15	det	15:det	_
+14	flat	flat	ADJ	JJ	_	15	amod	15:amod	_
+15	bottom	bottom	NOUN	NN	_	12	obj	12:obj	_
+16	as	as	ADV	RB	ExtPos=ADV	17	advmod	12:advmod	_
+17	well	well	ADV	RB	_	12	advmod	16:fixed	SpaceAfter=No
+18	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = 41759
+# original_sent_id = 8930903
+# childes_toks = yeah but I need this light off and then we could find everyone
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 42.03371732479106
+# child_gender = male
+# speaker_role = Target_Child
+# type = declarative
+# text = Yeah but I need this light off and then we could find everyone.
+1	Yeah	yeah	INTJ	UH	_	4	discourse	4:discourse	_
+2	but	but	CCONJ	CC	_	4	cc	4:cc	_
+3	I	I	PRON	PRP	_	4	nsubj	4:nsubj	_
+4	need	need	VERB	VBP	_	0	root	0:root	_
+5	this	this	DET	DT	_	6	det	6:det	_
+6	light	light	NOUN	NN	_	4	obj	4:obj	_
+7	off	off	ADP	RP	_	4	advmod	4:compound:prt	_
+8	and	and	CCONJ	CC	_	12	cc	12:cc	_
+9	then	then	ADV	RB	_	12	advmod	12:advmod	_
+10	we	we	PRON	PRP	_	12	nsubj	12:nsubj	_
+11	could	could	AUX	MD	_	12	aux	12:aux	_
+12	find	find	VERB	VB	_	4	conj	4:conj:and	_
+13	everyone	everyone	PRON	NN	_	12	obj	12:obj	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = 41763
+# original_sent_id = 8931035
+# childes_toks = getting on to just get your numbers then I open the door
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 42.0008624407072
+# child_gender = male
+# speaker_role = Target_Child
+# type = declarative
+# text = Getting on to just get your numbers then I open the door.
+1	Getting	get	VERB	VBG	_	0	root	0:root	_
+2	on	on	ADV	RB	_	1	compound:prt	1:advmod	_
+3	to	to	PART	TO	_	5	mark	5:mark	_
+4	just	just	ADV	RB	_	5	advmod	5:advmod	_
+5	get	get	VERB	VB	_	1	xcomp	1:advcl:to	_
+6	your	you	PRON	PRP$	_	7	nmod:poss	7:nmod:poss	_
+7	numbers	number	NOUN	NNS	_	5	obj	5:obj	_
+8	then	then	ADV	RB	_	10	advmod	10:advmod	_
+9	I	I	PRON	PRP	_	10	nsubj	10:nsubj	_
+10	open	open	VERB	VBP	_	1	conj	1:conj	_
+11	the	the	DET	DT	_	12	det	12:det	_
+12	door	door	NOUN	NN	_	10	obj	10:obj	SpaceAfter=No
+13	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = 41768
+# original_sent_id = 8931489
+# childes_toks = when I fin when I finish my breakfast can I watch Brum telly again
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 42.099427092958784
+# child_gender = male
+# speaker_role = Target_Child
+# type = question
+# text = When I fin when I finish my breakfast can I watch Brum telly again?
+1	When	when	SCONJ	WRB	_	3	mark	3:mark	_
+2	I	I	PRON	PRP	_	3	nsubj	3:nsubj	_
+3	fin	fin	VERB	VBP	_	11	reparandum	0:root	_
+4	when	when	SCONJ	WRB	_	6	mark	6:mark	_
+5	I	I	PRON	PRP	_	6	nsubj	6:nsubj	_
+6	finish	finish	VERB	VBP	_	11	advcl	3:advcl:when	_
+7	my	my	PRON	PRP$	_	8	nmod:poss	8:nmod:poss	_
+8	breakfast	breakfast	NOUN	NN	_	6	obj	6:obj	_
+9	can	can	AUX	MD	_	11	aux	11:aux	_
+10	I	I	PRON	PRP	_	11	nsubj	11:nsubj	_
+11	watch	watch	VERB	VB	_	0	root	3:parataxis	_
+12	Brum	Brum	PROPN	NNP	_	13	compound	13:compound	_
+13	telly	telly	NOUN	NN	_	11	obj	11:obj	_
+14	again	again	ADV	RB	_	11	advmod	11:advmod	SpaceAfter=No
+15	?	?	PUNCT	?	_	11	punct	3:punct	_
+
+# sent_id = 41898
+# original_sent_id = 8976559
+# childes_toks = I just wanna stick the telly on for a bit
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 48.06669541469024
+# child_gender = male
+# speaker_role = Target_Child
+# type = declarative
+# text = I just wanna stick the telly on for a bit.
+1	I	I	PRON	PRP	_	3	nsubj	3:nsubj|5:nsubj:xsubj	_
+2	just	just	ADV	RB	_	3	advmod	3:advmod	_
+3-4	wanna	_	_	_	_	_	_	_	_
+3	wan	want	VERB	VBP	_	0	root	0:root	_
+4	na	to	PART	TO	_	5	mark	5:mark	_
+5	stick	stick	VERB	VB	_	3	xcomp	3:xcomp	_
+6	the	the	DET	DT	_	7	det	7:det	_
+7	telly	telly	NOUN	NN	_	5	obj	5:obj	_
+8	on	on	ADP	IN	_	5	compound:prt	5:compound:prt	_
+9	for	for	ADP	IN	_	11	case	11:case	_
+10	a	a	DET	DT	_	11	det	11:det	_
+11	bit	bit	NOUN	NN	_	5	obl	5:obl:for	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = 41939
+# original_sent_id = 8977878
+# childes_toks = can you help us um have you got another of those
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 48.23096983510955
+# child_gender = male
+# speaker_role = Target_Child
+# type = question
+# text = Can you help us um have you got another of those?
+1	Can	can	AUX	MD	_	3	aux	3:aux	_
+2	you	you	PRON	PRP	_	3	nsubj	3:nsubj	_
+3	help	help	VERB	VB	_	0	root	0:root	_
+4	us	we	PRON	PRP	_	3	obj	3:obj	_
+5	um	um	INTJ	UH	_	8	discourse	3:discourse	_
+6	have	have	AUX	VBP	_	8	aux	8:aux	_
+7	you	you	PRON	PRP	_	8	nsubj	8:nsubj	_
+8	got	get	VERB	VBN	_	3	parataxis	3:parataxis	_
+9	another	another	DET	DT	_	8	obj	8:obj	_
+10	of	of	ADP	IN	_	11	case	11:case	_
+11	those	that	PRON	DT	_	9	nmod	9:nmod:of	SpaceAfter=No
+12	?	?	PUNCT	?	_	3	punct	3:punct	_
+
+# sent_id = 42090
+# original_sent_id = 8978708
+# childes_toks = but then they bash you bash you first and then then
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 49.033861064908926
+# child_gender = male
+# speaker_role = Target_Child
+# type = declarative
+# text = But then they bash you bash you first and then then.
+1	But	but	CCONJ	CC	_	4	cc	6:cc	_
+2	then	then	ADV	RB	_	4	advmod	6:advmod	_
+3	they	they	PRON	PRP	_	4	nsubj	4:nsubj	_
+4	bash	bash	VERB	VBP	_	0	root	6:reparandum	repetition
+5	you	you	PRON	PRP	_	4	obj	4:obj	_
+6	bash	bash	VERB	VB	_	4	parataxis	0:root	_
+7	you	you	PRON	PRP	_	6	obj	6:obj	_
+8	first	first	ADV	RB	_	6	advmod	6:advmod	_
+9	and	and	CCONJ	CC	_	11	cc	10:cc	_
+10	then	then	ADV	RB	_	11	advmod	6:conj:and	_
+11	then	then	ADV	RB	_	6	conj	6:conj|10:conj	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	6:punct	_
+
+# sent_id = 42100
+# original_sent_id = 8978748
+# childes_toks = uh round the bend round the bend round the bend round the bend
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 48.132405182857966
+# child_gender = male
+# speaker_role = Target_Child
+# type = declarative
+# text = Uh round the bend round the bend round the bend round the bend.
+1	Uh	uh	INTJ	UH	_	4	discourse	2:discourse	_
+2	round	round	ADP	IN	_	4	case	0:root	_
+3	the	the	DET	DT	_	4	det	4:det	_
+4	bend	bend	NOUN	NN	_	0	root	2:obj	_
+5	round	round	ADP	IN	_	7	case	2:conj	_
+6	the	the	DET	DT	_	7	det	7:det	_
+7	bend	bend	NOUN	NN	_	4	conj	5:obj	_
+8	round	round	ADP	IN	_	10	case	2:conj	_
+9	the	the	DET	DT	_	10	det	10:det	_
+10	bend	bend	NOUN	NN	_	4	conj	8:obj	_
+11	round	round	ADP	IN	_	13	case	2:conj	_
+12	the	the	DET	DT	_	13	det	13:det	_
+13	bend	bend	NOUN	NN	_	10	conj	11:obj	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	2:punct	_
+
+# sent_id = 42123
+# original_sent_id = 8978892
+# childes_toks = yes and can you go like that and Mum can look after it
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 49.001006180825065
+# child_gender = male
+# speaker_role = Target_Child
+# type = declarative
+# text = Yes and can you go like that and Mum can look after it.
+1	Yes	yes	INTJ	UH	_	5	discourse	5:discourse	_
+2	and	and	CCONJ	CC	_	5	cc	5:cc	_
+3	can	can	AUX	MD	_	5	aux	5:aux	_
+4	you	you	PRON	PRP	_	5	nsubj	5:nsubj	_
+5	go	go	VERB	VB	_	0	root	0:root	_
+6	like	like	ADP	IN	_	7	case	7:case	_
+7	that	that	PRON	DT	_	5	obl	5:obl:like	_
+8	and	and	CCONJ	CC	_	11	cc	11:cc	_
+9	Mum	Mum	PROPN	NNP	_	11	nsubj	11:nsubj	_
+10	can	can	AUX	MD	_	11	aux	11:aux	_
+11	look	look	VERB	VB	_	5	conj	5:conj:and	_
+12	after	after	ADP	IN	_	13	case	13:case	_
+13	it	it	PRON	PRP	_	11	obl	11:obl:after	SpaceAfter=No
+14	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = 42149
+# original_sent_id = 8979091
+# childes_toks = and you know there's a big one and a little one dinosaur
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 49.001006180825065
+# child_gender = male
+# speaker_role = Target_Child
+# type = declarative
+# text = And you know there's a big one and a little one dinosaur.
+1	And	and	CCONJ	CC	_	3	cc	3:cc	_
+2	you	you	PRON	PRP	_	3	nsubj	3:nsubj	_
+3	know	know	VERB	VBP	_	0	root	0:root	_
+4-5	there's	_	_	_	_	_	_	_	_
+4	there	there	PRON	EX	_	5	expl	5:expl	_
+5	's	be	VERB	VBZ	_	3	ccomp	3:ccomp	_
+6	a	a	DET	DT	_	8	det	8:det	_
+7	big	big	ADJ	JJ	_	8	amod	8:amod	_
+8	one	one	NOUN	NN	_	5	nsubj	5:nsubj	_
+9	and	and	CCONJ	CC	_	13	cc	13:cc	_
+10	a	a	DET	DT	_	13	det	13:det	_
+11	little	little	ADJ	JJ	_	12	amod	13:amod	_
+12	one	one	NUM	CD	_	13	nummod	13:nummod	_
+13	dinosaur	dinosaur	NOUN	NN	_	8	conj	5:nsubj|8:conj:and	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = 42183
+# original_sent_id = 8979468
+# childes_toks = the roof come off on our house and then the glass smashes
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 48.23096983510955
+# child_gender = male
+# speaker_role = Target_Child
+# type = declarative
+# text = The roof come off on our house and then the glass smashes.
+1	The	the	DET	DT	_	2	det	2:det	_
+2	roof	roof	NOUN	NN	_	3	nsubj	3:nsubj	_
+3	come	come	VERB	VBD	_	0	root	0:root	_
+4	off	off	ADP	RP	_	3	compound:prt	3:compound:prt	_
+5	on	on	ADP	IN	_	7	case	7:case	_
+6	our	we	PRON	PRP$	_	7	nmod:poss	7:nmod:poss	_
+7	house	house	NOUN	NN	_	3	obl	3:obl:on	_
+8	and	and	CCONJ	CC	_	12	cc	12:cc	_
+9	then	then	ADV	RB	_	12	advmod	12:advmod	_
+10	the	the	DET	DT	_	11	det	11:det	_
+11	glass	glass	NOUN	NN	_	12	nsubj	12:nsubj	_
+12	smashes	smash	VERB	VBZ	_	3	conj	3:conj:and	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = 42187
+# original_sent_id = 8979523
+# childes_toks = because if you don't have credit card you won't come to this shop again
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 49.165280601244376
+# child_gender = male
+# speaker_role = Target_Child
+# type = declarative
+# text = Because if you don't have credit card you won't come to this shop again.
+1	Because	because	SCONJ	IN	_	12	mark	12:mark	_
+2	if	if	SCONJ	IN	_	6	mark	6:mark	_
+3	you	you	PRON	PRP	_	6	nsubj	6:nsubj	_
+4-5	don't	_	_	_	_	_	_	_	_
+4	do	do	AUX	VBP	_	6	aux	6:aux	_
+5	n't	not	PART	RB	_	6	advmod	6:advmod	_
+6	have	have	VERB	VB	_	12	advcl	12:advcl:if	_
+7	credit	credit	NOUN	NN	_	8	compound	8:compound	_
+8	card	card	NOUN	NN	_	6	obj	6:obj	_
+9	you	you	PRON	PRP	_	12	nsubj	12:nsubj	_
+10-11	won't	_	_	_	_	_	_	_	_
+10	wo	will	AUX	MD	_	12	aux	12:aux	_
+11	n't	not	PART	RB	_	12	advmod	12:advmod	_
+12	come	come	VERB	VB	_	0	root	0:root	_
+13	to	to	ADP	IN	_	15	case	15:case	_
+14	this	this	DET	DT	_	15	det	15:det	_
+15	shop	shop	NOUN	NN	_	12	obl	12:obl:to	_
+16	again	again	ADV	RB	_	12	advmod	12:advmod	SpaceAfter=No
+17	.	.	PUNCT	.	_	12	punct	12:punct	_
+
+# sent_id = 42192
+# original_sent_id = 8979558
+# childes_toks = I think I'm going to be um a short express train
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 49.033861064908926
+# child_gender = male
+# speaker_role = Target_Child
+# type = declarative
+# text = I think I'm going to be um a short express train.
+1	I	I	PRON	PRP	_	2	nsubj	2:nsubj	_
+2	think	think	VERB	VBP	_	0	root	0:root	_
+3-4	I'm	_	_	_	_	_	_	_	_
+3	I	I	PRON	PRP	_	5	nsubj	5:nsubj|12:nsubj:xsubj	_
+4	'm	be	AUX	VBP	_	5	aux	5:aux	_
+5	going	go	VERB	VBG	_	2	ccomp	2:ccomp	_
+6	to	to	PART	TO	_	12	mark	12:mark	_
+7	be	be	AUX	VB	_	12	cop	12:cop	_
+8	um	um	ADV	RB	_	12	discourse	12:discourse	_
+9	a	a	DET	DT	_	12	det	12:det	_
+10	short	short	ADJ	JJ	_	12	amod	12:amod	_
+11	express	express	ADJ	JJ	_	12	amod	12:compound	_
+12	train	train	NOUN	NN	_	5	xcomp	5:xcomp	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = 42209
+# original_sent_id = 8979757
+# childes_toks = I played you can catch you can catch I can catch
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 49.001006180825065
+# child_gender = male
+# speaker_role = Target_Child
+# type = declarative
+# text = I played you can catch you can catch I can catch.
+1	I	I	PRON	PRP	_	2	nsubj	2:nsubj	_
+2	played	play	VERB	VBD	_	0	root	0:root	_
+3	you	you	PRON	PRP	_	5	nsubj	5:nsubj	_
+4	can	can	AUX	MD	_	5	aux	5:aux	_
+5	catch	catch	VERB	VB	_	2	parataxis	2:parataxis	_
+6	you	you	PRON	PRP	_	8	nsubj	8:nsubj	_
+7	can	can	AUX	MD	_	8	aux	8:aux	_
+8	catch	catch	VERB	VB	_	2	parataxis	2:parataxis	_
+9	I	I	PRON	PRP	_	11	nsubj	11:nsubj	_
+10	can	can	AUX	MD	_	11	aux	11:aux	_
+11	catch	catch	VERB	VB	_	2	parataxis	2:parataxis	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = 42218
+# original_sent_id = 8979854
+# childes_toks = and he pulled his pants down right in the middle of the camera
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 49.165280601244376
+# child_gender = male
+# speaker_role = Target_Child
+# type = declarative
+# text = And he pulled his pants down right in the middle of the camera.
+1	And	and	CCONJ	CC	_	3	cc	3:cc	_
+2	he	he	PRON	PRP	_	3	nsubj	3:nsubj	_
+3	pulled	pull	VERB	VBD	_	0	root	0:root	_
+4	his	he	PRON	PRP$	_	5	nmod:poss	5:nmod:poss	_
+5	pants	pant	NOUN	NNS	_	3	obj	3:obj	_
+6	down	down	ADV	RB	_	3	advmod	3:advmod	_
+7	right	right	ADV	RB	_	10	advmod	10:advmod	_
+8	in	in	ADP	IN	_	10	case	10:case	_
+9	the	the	DET	DT	_	10	det	10:det	_
+10	middle	middle	NOUN	NN	_	3	obl	3:obl:in	_
+11	of	of	ADP	IN	_	13	case	13:case	_
+12	the	the	DET	DT	_	13	det	13:det	_
+13	camera	camera	NOUN	NN	_	10	nmod	10:nmod:of	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = 42226
+# original_sent_id = 8979960
+# childes_toks = he was already being watched because he pulled his pants down right in the middle of a camera
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 49.165280601244376
+# child_gender = male
+# speaker_role = Target_Child
+# type = declarative
+# text = He was already being watched because he pulled his pants down right in the middle of a camera.
+1	He	he	PRON	PRP	_	5	nsubj:pass	5:nsubj:pass	_
+2	was	be	AUX	VBD	_	5	aux	5:aux	_
+3	already	already	ADV	RB	_	5	advmod	5:advmod	_
+4	being	be	AUX	VBG	_	5	aux:pass	5:aux:pass	_
+5	watched	watch	VERB	VBN	_	0	root	0:root	_
+6	because	because	SCONJ	IN	_	8	mark	8:mark	_
+7	he	he	PRON	PRP	_	8	nsubj	8:nsubj	_
+8	pulled	pull	VERB	VBD	_	5	advcl	5:advcl:because	_
+9	his	he	PRON	PRP$	_	10	nmod:poss	10:nmod:poss	_
+10	pants	pant	NOUN	NNS	_	8	obj	8:obj	_
+11	down	down	ADV	RB	_	8	compound:prt	8:advmod	_
+12	right	right	ADV	RB	_	15	advmod	15:advmod	_
+13	in	in	ADP	IN	_	15	case	15:case	_
+14	the	the	DET	DT	_	15	det	15:det	_
+15	middle	middle	NOUN	NN	_	8	obl	8:obl:in	_
+16	of	of	ADP	IN	_	18	case	18:case	_
+17	a	a	DET	DT	_	18	det	18:det	_
+18	camera	camera	NOUN	NN	_	15	nmod	15:nmod:of	SpaceAfter=No
+19	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = 42268
+# original_sent_id = 8980523
+# childes_toks = with all the cheese in the world we could make a cheese conservatory
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 48.23096983510955
+# child_gender = male
+# speaker_role = Target_Child
+# type = declarative
+# text = With all the cheese in the world we could make a cheese conservatory.
+1	With	with	ADP	IN	_	4	case	4:case	_
+2	all	all	DET	PDT	_	4	det:predet	4:det:predet	_
+3	the	the	DET	DT	_	4	det	4:det	_
+4	cheese	cheese	NOUN	NN	_	10	obl	10:obl:with	_
+5	in	in	ADP	IN	_	7	case	7:case	_
+6	the	the	DET	DT	_	7	det	7:det	_
+7	world	world	NOUN	NN	_	4	nmod	4:nmod:in	_
+8	we	we	PRON	PRP	_	10	nsubj	10:nsubj	_
+9	could	could	AUX	MD	_	10	aux	10:aux	_
+10	make	make	VERB	VB	_	0	root	0:root	_
+11	a	a	DET	DT	_	13	det	13:det	_
+12	cheese	cheese	NOUN	NN	_	13	compound	13:compound	_
+13	conservatory	conservatory	NOUN	NN	_	10	obj	10:obj	SpaceAfter=No
+14	.	.	PUNCT	.	_	10	punct	10:punct	_
+
+# sent_id = 42282
+# original_sent_id = 8980706
+# childes_toks = every time I was hungry I could break off the house
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 48.23096983510955
+# child_gender = male
+# speaker_role = Target_Child
+# type = declarative
+# text = Every time I was hungry I could break off the house.
+1	Every	every	DET	DT	_	2	det	2:det	_
+2	time	time	NOUN	NN	_	8	obl:unmarked	8:obl:unmarked	_
+3	I	I	PRON	PRP	_	5	nsubj	5:nsubj	_
+4	was	be	AUX	VBD	_	5	cop	5:cop	_
+5	hungry	hungry	ADJ	JJ	_	8	advcl	2:acl:relcl	_
+6	I	I	PRON	PRP	_	8	nsubj	8:nsubj	_
+7	could	could	AUX	MD	_	8	aux	8:aux	_
+8	break	break	VERB	VB	_	0	root	0:root	_
+9	off	off	ADP	RP	_	8	compound:prt	11:case	_
+10	the	the	DET	DT	_	11	det	11:det	_
+11	house	house	NOUN	NN	_	8	obj	8:obl:off	SpaceAfter=No
+12	.	.	PUNCT	.	_	8	punct	8:punct	_
+
+# sent_id = 42298
+# original_sent_id = 8980918
+# childes_toks = if you wanna because I will um all the police will say
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 50.132446251463065
+# child_gender = male
+# speaker_role = Target_Child
+# type = declarative
+# text = If you wanna because I will um all the police will say.
+1	If	if	SCONJ	IN	_	3	mark	3:mark	_
+2	you	you	PRON	PRP	_	3	nsubj	3:nsubj|4:nsubj:xsubj	_
+3-4	wanna	_	_	_	_	_	_	_	_
+3	wan	want	VERB	VBP	_	13	advcl	0:root	_
+4	na	to	PART	TO	_	3	xcomp	3:xcomp	_
+5	because	because	SCONJ	IN	_	7	mark	7:mark	_
+6	I	I	PRON	PRP	_	7	nsubj	13:nsubj:outer	_
+7	will	will	AUX	MD	_	3	advcl	3:advcl:because	_
+8	um	um	INTJ	UH	_	3	discourse	13:discourse	_
+9	all	all	DET	PDT	_	11	det:predet	11:det:predet	_
+10	the	the	DET	DT	_	11	det	11:det	_
+11	police	police	NOUN	NNS	_	13	nsubj	13:nsubj	_
+12	will	will	AUX	MD	_	13	aux	13:aux	_
+13	say	say	VERB	VB	_	0	root	3:parataxis	SpaceAfter=No
+14	.	.	PUNCT	.	_	13	punct	3:punct	_
+
+# sent_id = 42328
+# original_sent_id = 9016059
+# childes_toks = hey diddle diddle the cat and the fiddle the cow jumped over the moon
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 54.03396373642169
+# child_gender = male
+# speaker_role = Target_Child
+# type = trail off
+# text = Hey diddle diddle the cat and the fiddle the cow jumped over the moon.
+1	Hey	hey	INTJ	UH	_	3	discourse	11:discourse	_
+2	diddle	diddle	VERB	VB	_	0	root	11:nsubj	_
+3	diddle	diddle	VERB	VB	_	2	conj	2:conj|11:nsubj	_
+4	the	the	DET	DT	_	5	det	5:det	_
+5	cat	cat	NOUN	NN	_	3	obj	2:appos	_
+6	and	and	CCONJ	CC	_	8	cc	8:cc	_
+7	the	the	DET	DT	_	8	det	8:reparandum	_
+8	fiddle	fiddle	NOUN	NN	_	5	conj	2:appos|5:conj:and	_
+9	the	the	DET	DT	_	10	det	10:det	_
+10	cow	cow	NOUN	NN	_	11	nsubj	8:appos	_
+11	jumped	jump	VERB	VBD	_	2	parataxis	0:root	_
+12	over	over	ADP	IN	_	14	case	14:case	_
+13	the	the	DET	DT	_	14	det	14:det	_
+14	moon	moon	NOUN	NN	_	11	obl	11:obl:over	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	11:punct	_
+
+# sent_id = 42382
+# original_sent_id = 9017828
+# childes_toks = when this the truck um the builder's truck's digging
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 54.03396373642169
+# child_gender = male
+# speaker_role = Target_Child
+# type = trail off
+# text = When this the truck um the builder's truck's digging.
+1	When	when	SCONJ	WRB	_	2	mark	11:mark	_
+2	this	this	PRON	DT	_	11	reparandum	3:reparandum	_
+3	the	the	DET	DT	_	4	det	4:det	_
+4	truck	truck	NOUN	NN	_	11	reparandum	9:reparandum	_
+5	um	um	INTJ	UH	_	7	discourse	9:discourse	_
+6	the	the	DET	DT	_	7	det	7:det	_
+7-8	builder's	_	_	_	_	_	_	_	_
+7	builder	builder	NOUN	NN	_	9	nmod:poss	9:nmod:poss	_
+8	's	's	PART	POS	_	7	case	7:case	_
+9-10	truck's	_	_	_	_	_	_	_	_
+9	truck	truck	NOUN	NN	_	11	nsubj	11:nsubj	_
+10	's	be	AUX	VBZ	_	11	aux	11:aux	_
+11	digging	dig	NOUN	NN	_	0	root	0:root	SpaceAfter=No
+12	.	.	PUNCT	.	_	11	punct	11:punct	_
+
+# sent_id = 42383
+# original_sent_id = 9017849
+# childes_toks = they can get some tools out if they put the trailer away
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 54.03396373642169
+# child_gender = male
+# speaker_role = Target_Child
+# type = declarative
+# text = They can get some tools out if they put the trailer away.
+1	They	they	PRON	PRP	_	3	nsubj	3:nsubj	_
+2	can	can	AUX	MD	_	3	aux	3:aux	_
+3	get	get	VERB	VB	_	0	root	0:root	_
+4	some	some	DET	DT	_	5	det	5:det	_
+5	tools	tool	NOUN	NNS	_	3	obj	3:obj	_
+6	out	out	ADV	RB	_	3	advmod	3:advmod	_
+7	if	if	SCONJ	IN	_	9	mark	9:mark	_
+8	they	they	PRON	PRP	_	9	nsubj	9:nsubj	_
+9	put	put	VERB	VBP	_	3	advcl	3:advcl:if	_
+10	the	the	DET	DT	_	11	det	11:det	_
+11	trailer	trailer	NOUN	NN	_	9	obj	9:obj	_
+12	away	away	ADV	RB	_	9	compound:prt	9:compound:prt	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = 42387
+# original_sent_id = 9017939
+# childes_toks = it's going broke because the battery's worn out look
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 54.03396373642169
+# child_gender = male
+# speaker_role = Target_Child
+# type = declarative
+# text = It's going broke because the battery's worn out look.
+1-2	It's	_	_	_	_	_	_	_	_
+1	It	it	PRON	PRP	_	3	nsubj	3:nsubj|4:nsubj:xsubj	_
+2	's	be	AUX	VBZ	_	3	aux	3:aux	_
+3	going	go	VERB	VBG	_	0	root	0:root	_
+4	broke	break	VERB	VBD	_	3	xcomp	3:xcomp	_
+5	because	because	SCONJ	IN	_	9	mark	9:mark	_
+6	the	the	DET	DT	_	7	det	7:det	_
+7-8	battery's	_	_	_	_	_	_	_	_
+7	battery	battery	NOUN	NN	_	9	nsubj:pass	9:nsubj:pass	_
+8	's	have	AUX	VBZ	_	9	aux:pass	9:aux	_
+9	worn	wear	VERB	VBN	_	3	advcl	3:advcl:because	_
+10	out	out	ADP	RP	_	9	compound:prt	9:compound:prt	_
+11	look	look	NOUN	NN	_	3	parataxis	3:parataxis	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = 42420
+# original_sent_id = 9018980
+# childes_toks = you haven't played with me so I've got all the things away
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 54.03396373642169
+# child_gender = male
+# speaker_role = Target_Child
+# type = declarative
+# text = You haven't played with me so I've got all the things away.
+1	You	you	PRON	PRP	_	4	nsubj	4:nsubj	_
+2-3	haven't	_	_	_	_	_	_	_	_
+2	have	have	AUX	VBP	_	4	aux	4:aux	_
+3	n't	not	PART	RB	_	4	advmod	4:advmod	_
+4	played	play	VERB	VBN	_	0	root	0:root	_
+5	with	with	ADP	IN	_	6	case	6:case	_
+6	me	I	PRON	PRP	_	4	obl	4:obl:with	_
+7	so	so	ADV	RB	_	10	advmod	10:advmod	_
+8-9	I've	_	_	_	_	_	_	_	_
+8	I	I	PRON	PRP	_	10	nsubj	10:nsubj	_
+9	've	have	AUX	VBP	_	10	aux	10:aux	_
+10	got	get	VERB	VBN	_	4	conj	4:parataxis	_
+11	all	all	PRON	PDT	_	13	det:predet	13:det:predet	_
+12	the	the	DET	DT	_	13	det	13:det	_
+13	things	thing	NOUN	NNS	_	10	obj	10:obj	_
+14	away	away	ADV	RB	_	10	advmod	10:advmod	SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = 42425
+# original_sent_id = 9019069
+# childes_toks = it's gonna be a crisp site in a minute
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 54.03396373642169
+# child_gender = male
+# speaker_role = Target_Child
+# type = declarative
+# text = It's gonna be a crisp site in a minute.
+1-2	It's	_	_	_	_	_	_	_	_
+1	It	it	PRON	PRP	_	3	nsubj	3:nsubj|8:nsubj:xsubj	_
+2	's	be	AUX	VBZ	_	3	aux	3:aux	_
+3-4	gonna	_	_	_	_	_	_	_	_
+3	gon	go	VERB	VBG	_	0	root	0:root	_
+4	na	to	PART	TO	_	8	mark	8:mark	_
+5	be	be	AUX	VB	_	8	cop	8:cop	_
+6	a	a	DET	DT	_	8	det	8:det	_
+7	crisp	crisp	ADJ	JJ	_	8	amod	8:amod	_
+8	site	site	NOUN	NN	_	3	xcomp	3:xcomp	_
+9	in	in	ADP	IN	_	11	case	11:case	_
+10	a	a	DET	DT	_	11	det	11:det	_
+11	minute	minute	NOUN	NN	_	8	nmod	3:obl:in	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = 42525
+# original_sent_id = 9021029
+# childes_toks = but Mummy please leave it on because it has two films
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 55.19825869114356
+# child_gender = male
+# speaker_role = Target_Child
+# type = declarative
+# text = But Mummy please leave it on because it has two films.
+1	But	but	CCONJ	CC	_	4	cc	4:cc	_
+2	Mummy	Mummy	PROPN	NNP	_	4	vocative	4:vocative	_
+3	please	please	INTJ	UH	_	4	discourse	4:discourse	_
+4	leave	leave	VERB	VB	_	0	root	0:root	_
+5	it	it	PRON	PRP	_	4	obj	4:obj	_
+6	on	on	ADV	RB	_	4	compound:prt	4:advmod	_
+7	because	because	SCONJ	IN	_	9	mark	9:mark	_
+8	it	it	PRON	PRP	_	9	nsubj	9:nsubj	_
+9	has	have	VERB	VBZ	_	4	advcl	4:advcl:because	_
+10	two	two	NUM	CD	_	11	nummod	11:nummod	_
+11	films	film	NOUN	NNS	_	9	obj	9:obj	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = 42679
+# original_sent_id = 9022647
+# childes_toks = to give me some you of the um tunes off um some of the birds
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 55.19825869114356
+# child_gender = male
+# speaker_role = Target_Child
+# type = declarative
+# text = To give me some you of the um tunes off um some of the birds.
+1	To	to	PART	TO	_	2	mark	2:mark	_
+2	give	give	VERB	VB	_	0	root	0:root	_
+3	me	I	PRON	PRP	_	2	iobj	2:iobj	_
+4	some	some	DET	DT	_	2	obj	2:obj	_
+5	you	you	PRON	PRP	_	9	nsubj	6:reparandum	_
+6	of	of	ADP	IN	_	7	case	9:case	_
+7	the	the	DET	DT	_	9	det	9:det	_
+8	um	um	INTJ	UH	_	9	discourse	9:discourse	_
+9	tunes	tune	NOUN	NNS	_	4	nmod	4:nmod:of	_
+10	off	off	ADV	RB	_	12	advmod	2:advmod	_
+11	um	um	INTJ	UH	_	12	discourse	12:discourse	_
+12	some	some	DET	DT	_	9	nmod	2:parataxis	_
+13	of	of	ADP	IN	_	15	case	15:case	_
+14	the	the	DET	DT	_	15	det	15:det	_
+15	birds	bird	NOUN	NNS	_	12	nmod	12:nmod:of	SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = 42688
+# original_sent_id = 9022873
+# childes_toks = if you wanna know which is Sleepy got to have this on
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 55.19825869114356
+# child_gender = male
+# speaker_role = Target_Child
+# type = declarative
+# text = If you wanna know which is Sleepy got to have this on.
+1	If	if	SCONJ	IN	_	3	mark	3:mark	_
+2	you	you	PRON	PRP	_	3	nsubj	3:nsubj|5:nsubj:xsubj	_
+3-4	wanna	_	_	_	_	_	_	_	_
+3	wan	want	VERB	VBP	_	9	advcl	9:advcl:if	_
+4	na	to	PART	TO	_	5	mark	5:mark	_
+5	know	know	VERB	VB	_	3	xcomp	3:xcomp	_
+6	which	which	PRON	WDT	_	8	nsubj	8:nsubj	_
+7	is	be	AUX	VBZ	_	8	cop	8:cop	_
+8	Sleepy	Sleepy	PROPN	NNP	_	5	ccomp	5:ccomp	_
+9	got	get	VERB	VBD	_	0	root	0:root	_
+10	to	to	PART	TO	_	11	mark	11:mark	_
+11	have	have	VERB	VB	_	9	xcomp	9:xcomp	_
+12	this	this	PRON	DT	_	11	obj	11:obj	_
+13	on	on	ADV	RB	_	11	compound:prt	11:advmod	SpaceAfter=No
+14	.	.	PUNCT	.	_	9	punct	9:punct	_
+
+# sent_id = 42691
+# original_sent_id = 9022948
+# childes_toks = oh if he forgot his pants he would be like this
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 54.13252838867328
+# child_gender = male
+# speaker_role = Target_Child
+# type = self interruption
+# text = Oh if he forgot his pants he would be like this.
+1	Oh	oh	INTJ	UH	_	11	discourse	11:discourse	_
+2	if	if	SCONJ	IN	_	4	mark	4:mark	_
+3	he	he	PRON	PRP	_	4	nsubj	4:nsubj	_
+4	forgot	forget	VERB	VBD	_	11	advcl	11:advcl:if	_
+5	his	he	PRON	PRP$	_	6	nmod:poss	6:nmod:poss	_
+6	pants	pant	NOUN	NNS	_	4	obj	4:obj	_
+7	he	he	PRON	PRP	_	11	nsubj	11:nsubj	_
+8	would	would	AUX	MD	_	11	aux	11:aux	_
+9	be	be	AUX	VB	_	11	cop	11:cop	_
+10	like	like	ADP	IN	_	11	case	11:case	_
+11	this	this	PRON	DT	_	0	root	0:root	SpaceAfter=No
+12	.	.	PUNCT	.	_	11	punct	11:punct	_
+
+# sent_id = 42694
+# original_sent_id = 9023020
+# childes_toks = and then pe and the ladies say ah look at his boobie
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 54.13252838867328
+# child_gender = male
+# speaker_role = Target_Child
+# type = declarative
+# text = And then pe and the ladies say ah look at his boobie.
+1	And	and	CCONJ	CC	_	3	cc	7:cc	_
+2	then	then	ADV	RB	_	3	advmod	7:advmod	_
+3	pe	pe	INTJ	UH	_	0	root	7:nsubj	_
+4	and	and	CCONJ	CC	_	7	cc	6:cc	_
+5	the	the	DET	DT	_	6	det	6:det	_
+6	ladies	lady	NOUN	NNS	_	7	nsubj	3:conj:and|7:nsubj	_
+7	say	say	VERB	VBP	_	3	conj	0:root	_
+8	ah	ah	INTJ	UH	_	9	discourse	9:discourse	_
+9	look	look	VERB	VB	_	7	ccomp	7:ccomp	_
+10	at	at	ADP	IN	_	12	case	12:case	_
+11	his	he	PRON	PRP	_	12	nmod:poss	12:nmod:poss	_
+12	boobie	boobie	NOUN	NN	_	9	obl	9:obl:at	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	7:punct	_
+
+# sent_id = 42713
+# original_sent_id = 9023599
+# childes_toks = I wanna do it I wanna do it like after breakfast
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 54.09967350458942
+# child_gender = male
+# speaker_role = Target_Child
+# type = declarative
+# text = I wanna do it I wanna do it like after breakfast.
+1	I	I	PRON	PRP	_	2	nsubj	2:nsubj|4:nsubj:xsubj	_
+2-3	wanna	_	_	_	_	_	_	_	_
+2	wan	want	VERB	VBP	_	0	root	0:root	_
+3	na	to	PART	TO	_	4	mark	4:mark	_
+4	do	do	VERB	VB	_	2	xcomp	2:xcomp	_
+5	it	it	PRON	PRP	_	4	obj	4:obj	_
+6	I	I	PRON	PRP	_	7	nsubj	7:nsubj|9:nsubj:xsubj	_
+7-8	wanna	_	_	_	_	_	_	_	_
+7	wan	want	VERB	VBP	_	2	parataxis	2:parataxis	_
+8	na	to	PART	TO	_	9	mark	9:mark	_
+9	do	do	VERB	VB	_	7	xcomp	7:xcomp	_
+10	it	it	PRON	PRP	_	9	obj	9:obj	_
+11	like	like	ADP	IN	_	13	case	13:case	_
+12	after	after	ADP	IN	_	13	case	13:case	_
+13	breakfast	breakfast	NOUN	NN	_	9	obl	9:obl	SpaceAfter=No
+14	.	.	PUNCT	.	_	7	punct	2:punct	_
+
+# sent_id = 42720
+# original_sent_id = 9023822
+# childes_toks = talking about boops are we go to the race rail railway station today
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 54.03396373642169
+# child_gender = male
+# speaker_role = Target_Child
+# type = question
+# text = Talking about boops are we go to the race rail railway station today?
+1	Talking	talk	VERB	VBG	_	0	root	6:advcl	_
+2	about	about	ADP	IN	_	3	case	3:case	_
+3	boops	boop	NOUN	NNS	_	1	obl	1:obl:about	_
+4	are	be	AUX	VBP	_	6	aux	6:aux	_
+5	we	we	PRON	PRP	_	6	nsubj	6:nsubj	_
+6	go	go	VERB	VBP	_	1	parataxis	0:root	_
+7	to	to	ADP	IN	_	12	case	12:case	_
+8	the	the	DET	DT	_	12	det	12:det	_
+9	race	race	NOUN	NN	_	10	compound	12:compound	_
+10	rail	rail	NOUN	NN	_	12	compound	11:reparandum	_
+11	railway	railway	NOUN	NN	_	12	compound	12:compound	_
+12	station	station	NOUN	NN	_	6	obl	6:obl:to	_
+13	today	today	NOUN	NN	_	6	obl:unmarked	6:obl:unmarked	SpaceAfter=No
+14	?	?	PUNCT	?	_	1	punct	6:punct	_
+
+# sent_id = 42730
+# original_sent_id = 9024019
+# childes_toks = t guess what I saw when I was at um my h when at school
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 54.03396373642169
+# child_gender = male
+# speaker_role = Target_Child
+# type = question
+# text = T guess what I saw when I was at um my h when at school?
+1	T	t	INTJ	UH	_	2	nsubj	2:reparandum	_
+2	guess	guess	VERB	VB	_	0	root	0:root	_
+3	what	what	PRON	WP	_	5	obj	5:obj	_
+4	I	I	PRON	PRP	_	5	nsubj	5:nsubj	_
+5	saw	see	VERB	VBD	_	2	ccomp	2:ccomp	_
+6	when	when	SCONJ	WRB	_	12	mark	12:mark	_
+7	I	I	PRON	PRP	_	12	nsubj	12:nsubj	_
+8	was	be	AUX	VBD	_	12	cop	12:cop	_
+9	at	at	ADP	IN	_	12	case	12:case	_
+10	um	um	INTJ	UH	_	12	discourse	12:discourse	_
+11	my	my	PRON	PRP$	_	12	nmod:poss	12:nmod:poss	_
+12	h	h	NOUN	NN	_	5	advcl	15:reparandum	_
+13	when	when	SCONJ	WRB	_	15	mark	15:mark	_
+14	at	at	ADP	IN	_	15	case	15:case	_
+15	school	school	NOUN	NN	_	5	advcl	2:advcl:when	SpaceAfter=No
+16	?	?	PUNCT	?	_	2	punct	2:punct	_
+
+# sent_id = 42735
+# original_sent_id = 9024117
+# childes_toks = and it when he stopped to look at these hula hoops that robber did
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 54.03396373642169
+# child_gender = male
+# speaker_role = Target_Child
+# type = declarative
+# text = And it when he stopped to look at these hula hoops that robber did.
+1	And	and	CCONJ	CC	_	2	cc	2:cc	_
+2	it	it	PRON	PRP	_	14	reparandum	0:root	_
+3	when	when	SCONJ	WRB	_	5	mark	5:mark	_
+4	he	he	PRON	PRP	_	5	nsubj	5:nsubj	_
+5	stopped	stop	VERB	VBD	_	14	advcl	2:parataxis	_
+6	to	to	PART	TO	_	7	mark	7:mark	_
+7	look	look	VERB	VB	_	5	xcomp	5:advcl:to	_
+8	at	at	ADP	IN	_	11	case	11:case	_
+9	these	this	DET	DT	_	11	det	11:det	_
+10	hula	hula	NOUN	NN	_	11	compound	11:compound	_
+11	hoops	hoop	NOUN	NNS	_	7	obl	7:obl:at	_
+12	that	that	PRON	WDT	_	13	det	14:obj	_
+13	robber	robber	NOUN	NN	_	14	nsubj	14:nsubj	_
+14	did	do	VERB	VBD	_	0	root	2:parataxis	SpaceAfter=No
+15	.	.	PUNCT	.	_	14	punct	2:punct	_
+
+# sent_id = 42748
+# original_sent_id = 9024476
+# childes_toks = I been to a fire station and look what they gave me
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 55.19825869114356
+# child_gender = male
+# speaker_role = Target_Child
+# type = declarative
+# text = I been to a fire station and look what they gave me.
+1	I	I	PRON	PRP	_	6	nsubj	6:nsubj|8:nsubj	_
+2	been	be	AUX	VBN	_	6	cop	6:cop	_
+3	to	to	ADP	IN	_	6	case	6:case	_
+4	a	a	DET	DT	_	6	det	6:det	_
+5	fire	fire	NOUN	NN	_	6	compound	6:compound	_
+6	station	station	NOUN	NN	_	0	root	0:root	_
+7	and	and	CCONJ	CC	_	8	cc	8:cc	_
+8	look	look	VERB	VBP	_	6	conj	6:conj:and	_
+9	what	what	PRON	WP	_	11	obj	11:obj	_
+10	they	they	PRON	PRP	_	11	nsubj	11:nsubj	_
+11	gave	give	VERB	VBD	_	8	ccomp	8:ccomp	_
+12	me	I	PRON	PRP	_	11	iobj	11:iobj	SpaceAfter=No
+13	.	.	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = 42749
+# original_sent_id = 9024483
+# childes_toks = Mum I wanna go to the trace train station right now
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 54.03396373642169
+# child_gender = male
+# speaker_role = Target_Child
+# type = declarative
+# text = Mum I wanna go to the trace train station right now.
+1	Mum	mum	NOUN	NN	_	3	vocative	3:vocative	_
+2	I	I	PRON	PRP	_	3	nsubj	3:nsubj|5:nsubj:xsubj	_
+3-4	wanna	_	_	_	_	_	_	_	_
+3	wan	want	VERB	VBP	_	0	root	0:root	_
+4	na	to	PART	TO	_	5	mark	5:mark	_
+5	go	go	VERB	VB	_	3	xcomp	3:xcomp	_
+6	to	to	ADP	IN	_	10	case	10:case	_
+7	the	the	DET	DT	_	10	det	10:det	_
+8	trace	trace	NOUN	NN	_	10	compound	10:compound	_
+9	train	train	NOUN	NN	_	10	compound	10:compound	_
+10	station	station	NOUN	NN	_	5	obl	5:obl:to	_
+11	right	right	ADV	RB	_	12	advmod	12:advmod	_
+12	now	now	ADV	RB	_	5	advmod	5:advmod	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = 42757
+# original_sent_id = 9024675
+# childes_toks = if you got need one helmet for a boy then I the I the one that stop the fire and you can watch
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 55.19825869114356
+# child_gender = male
+# speaker_role = Target_Child
+# type = declarative
+# text = If you got need one helmet for a boy then I the I the one that stop the fire and you can watch.
+1	If	if	SCONJ	IN	_	4	mark	4:mark	_
+2	you	you	PRON	PRP	_	4	nsubj	4:nsubj	_
+3	got	get	AUX	VBD	_	4	reparandum	4:reparandum	_
+4	need	need	VERB	VB	_	15	advcl	15:advcl:if	_
+5	one	one	NUM	CD	_	6	nummod	6:nummod	_
+6	helmet	helmet	NOUN	NN	_	4	obj	4:obj	_
+7	for	for	ADP	IN	_	9	case	9:case	_
+8	a	a	DET	DT	_	9	det	9:det	_
+9	boy	boy	NOUN	NN	_	6	nmod	6:nmod:for	_
+10	then	then	ADV	RB	_	15	advmod	15:advmod	_
+11	I	I	PRON	PRP	_	12	reparandum	12:nsubj	_
+12	the	the	DET	DT	_	15	reparandum	15:reparandum	_
+13	I	I	PRON	PRP	_	15	nsubj	15:nsubj	_
+14	the	the	DET	DT	_	15	det	15:det	_
+15	one	one	NOUN	NN	_	0	root	0:root|17:nsubj	_
+16	that	that	PRON	WDT	_	17	nsubj	15:ref	_
+17	stop	stop	VERB	VBP	_	15	acl:relcl	15:acl:relcl	_
+18	the	the	DET	DT	_	19	det	19:det	_
+19	fire	fire	NOUN	NN	_	17	obj	17:obj	_
+20	and	and	CCONJ	CC	_	23	cc	23:cc	_
+21	you	you	PRON	PRP	_	23	nsubj	23:nsubj	_
+22	can	can	AUX	MD	_	23	aux	23:aux	_
+23	watch	watch	VERB	VB	_	15	conj	15:conj:and	SpaceAfter=No
+24	.	.	PUNCT	.	_	15	punct	15:punct	_
+
+# sent_id = 42763
+# original_sent_id = 9024905
+# childes_toks = don't tell me because I can see it from near my window
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 55.19825869114356
+# child_gender = male
+# speaker_role = Target_Child
+# type = declarative
+# text = Don't tell me because I can see it from near my window.
+1-2	Don't	_	_	_	_	_	_	_	_
+1	Do	do	AUX	VB	_	3	aux	3:aux	_
+2	n't	not	PART	RB	_	3	advmod	3:advmod	_
+3	tell	tell	VERB	VB	_	0	root	0:root	_
+4	me	I	PRON	PRP	_	3	iobj	3:iobj	_
+5	because	because	SCONJ	IN	_	8	mark	8:mark	_
+6	I	I	PRON	PRP	_	8	nsubj	8:nsubj	_
+7	can	can	AUX	MD	_	8	aux	8:aux	_
+8	see	see	VERB	VB	_	3	advcl	3:advcl:because	_
+9	it	it	PRON	PRP	_	8	obj	8:obj	_
+10	from	from	ADP	IN	_	13	case	13:case	_
+11	near	near	ADP	IN	_	13	advmod	13:case	_
+12	my	my	PRON	PRP$	_	13	nmod:poss	13:nmod:poss	_
+13	window	window	NOUN	NN	_	8	obl	8:obl	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = 42773
+# original_sent_id = 9025136
+# childes_toks = today um um the builders on there are uh have a day off today
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 54.13252838867328
+# child_gender = male
+# speaker_role = Target_Child
+# type = declarative
+# text = Today um um the builders on there are uh have a day off today.
+1	Today	today	NOUN	NN	_	10	obl:unmarked	10:obl:unmarked	_
+2	um	um	INTJ	UH	_	8	discourse	10:discourse	_
+3	um	um	INTJ	UH	_	2	conj	2:flat	_
+4	the	the	DET	DT	_	5	det	5:det	_
+5	builders	builder	NOUN	NNS	_	10	nsubj	10:nsubj	_
+6	on	on	ADP	IN	_	7	case	7:case	_
+7	there	there	PRON	EX	_	5	nmod	5:nmod:on	_
+8	are	be	VERB	VBP	_	10	reparandum	10:reparandum	_
+9	uh	uh	INTJ	UH	_	10	discourse	10:discourse	_
+10	have	have	VERB	VB	_	0	root	0:root	_
+11	a	a	DET	DT	_	12	det	12:det	_
+12	day	day	NOUN	NN	_	10	obj	10:obj	_
+13	off	off	ADV	RB	_	10	compound:prt	12:advmod	_
+14	today	today	NOUN	NN	_	10	obl:unmarked	10:obl:unmarked	SpaceAfter=No
+15	.	.	PUNCT	.	_	10	punct	10:punct	_
+
+# sent_id = 42775
+# original_sent_id = 9025145
+# childes_toks = the little ones fall off because the big ones needta grow
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 54.09967350458942
+# child_gender = male
+# speaker_role = Target_Child
+# type = declarative
+# text = The little ones fall off because the big ones needta grow.
+1	The	the	DET	DT	_	3	det	3:det	_
+2	little	little	ADJ	JJ	_	3	amod	3:amod	_
+3	ones	one	NOUN	NNS	_	4	nsubj	4:nsubj	_
+4	fall	fall	VERB	VBP	_	0	root	0:root	_
+5	off	off	ADV	RB	_	4	compound:prt	4:advmod	_
+6	because	because	SCONJ	IN	_	10	mark	10:mark	_
+7	the	the	DET	DT	_	9	det	9:det	_
+8	big	big	ADJ	JJ	_	9	amod	9:amod	_
+9	ones	one	NOUN	NNS	_	10	nsubj	10:nsubj|12:nsubj:xsubj	_
+10-11	needta	_	_	_	_	_	_	_	_
+10	need	need	VERB	VBP	_	4	advcl	4:advcl:because	_
+11	ta	to	PART	TO	_	12	mark	12:mark	_
+12	grow	grow	VERB	VB	_	10	xcomp	10:xcomp	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = 42776
+# original_sent_id = 9025156
+# childes_toks = the little ones fall off so the big ones can grow
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 54.09967350458942
+# child_gender = male
+# speaker_role = Target_Child
+# type = declarative
+# text = The little ones fall off so the big ones can grow.
+1	The	the	DET	DT	_	3	det	3:det	_
+2	little	little	ADJ	JJ	_	3	amod	3:amod	_
+3	ones	one	NOUN	NNS	_	4	nsubj	4:nsubj	_
+4	fall	fall	VERB	VBP	_	0	root	0:root	_
+5	off	off	ADP	RP	_	4	compound:prt	4:compound:prt	_
+6	so	so	ADV	RB	_	11	mark	11:mark	_
+7	the	the	DET	DT	_	9	det	9:det	_
+8	big	big	ADJ	JJ	_	9	amod	9:amod	_
+9	ones	one	NOUN	NNS	_	11	nsubj	11:nsubj	_
+10	can	can	AUX	MD	_	11	aux	11:aux	_
+11	grow	grow	VERB	VB	_	4	advcl	4:advcl:so	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = 42782
+# original_sent_id = 9025202
+# childes_toks = it was just when we got on the boat it was so rough and windy
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 54.03396373642169
+# child_gender = male
+# speaker_role = Target_Child
+# type = declarative
+# text = It was just when we got on the boat it was so rough and windy.
+1	It	it	PRON	PRP	_	2	nsubj	2:nsubj	_
+2	was	be	AUX	VBD	_	0	root	0:root	_
+3	just	just	ADV	RB	_	2	advmod	2:advmod	_
+4	when	when	SCONJ	WRB	_	6	mark	6:mark	_
+5	we	we	PRON	PRP	_	6	nsubj	6:nsubj	_
+6	got	get	VERB	VBD	_	2	advcl	13:advcl:when	_
+7	on	on	ADP	IN	_	9	case	9:case	_
+8	the	the	DET	DT	_	9	det	9:det	_
+9	boat	boat	NOUN	NN	_	6	obl	6:obl:on	_
+10	it	it	PRON	PRP	_	13	nsubj	13:nsubj|15:nsubj	_
+11	was	be	AUX	VBD	_	13	cop	13:cop	_
+12	so	so	ADV	RB	_	13	advmod	13:advmod	_
+13	rough	rough	ADJ	JJ	_	2	parataxis	2:ccomp	_
+14	and	and	CCONJ	CC	_	15	cc	15:cc	_
+15	windy	windy	ADJ	JJ	_	13	conj	2:ccomp|13:conj:and	SpaceAfter=No
+16	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = 42827
+# original_sent_id = 9026075
+# childes_toks = and then she might come in and then she might wanna come in and then might come in here and the come out again
+# child_name = Thomas
+# corpus_name = Thomas
+# gold_annotation = True
+# child_age = 54.13252838867328
+# child_gender = male
+# speaker_role = Target_Child
+# type = declarative
+# text = And then she might come in and then she might wanna come in and then might come in here and the come out again.
+1	And	and	CCONJ	CC	_	5	cc	5:cc	_
+2	then	then	ADV	RB	_	5	advmod	5:advmod	_
+3	she	she	PRON	PRP	_	5	nsubj	5:nsubj|18:nsubj|23:nsubj	_
+4	might	might	AUX	MD	_	5	aux	5:aux|23:aux	_
+5	come	come	VERB	VB	_	0	root	0:root	_
+6	in	in	ADV	RB	_	5	advmod	5:advmod	_
+7	and	and	CCONJ	CC	_	11	cc	11:cc	_
+8	then	then	ADV	RB	_	11	advmod	11:advmod	_
+9	she	she	PRON	PRP	_	11	nsubj	11:nsubj|13:nsubj:xsubj	_
+10	might	might	AUX	MD	_	11	aux	11:aux	_
+11-12	wanna	_	_	_	_	_	_	_	_
+11	wan	want	VERB	VB	_	5	conj	5:conj:and	_
+12	na	to	PART	TO	_	13	mark	13:mark	_
+13	come	come	VERB	VB	_	11	xcomp	11:xcomp	_
+14	in	in	ADV	RB	_	13	compound:prt	13:advmod	_
+15	and	and	CCONJ	CC	_	18	cc	18:cc	_
+16	then	then	ADV	RB	_	18	advmod	18:advmod	_
+17	might	might	AUX	MD	_	18	aux	18:aux	_
+18	come	come	VERB	VB	_	5	conj	5:conj:and	_
+19	in	in	ADP	IN	_	20	case	20:case	_
+20	here	here	ADV	RB	_	18	obl	18:obl:in	_
+21	and	and	CCONJ	CC	_	23	cc	23:cc	_
+22	the	the	DET	DT	_	23	det	23:advmod	_
+23	come	come	VERB	VB	_	5	conj	5:conj:and	_
+24	out	out	ADV	RB	_	23	advmod	23:advmod	_
+25	again	again	ADV	RB	_	23	advmod	23:advmod	SpaceAfter=No
+26	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = 44841
+# original_sent_id = 1830819
+# childes_toks = I think I have tear one and I think I can write one
+# child_name = Eve
+# corpus_name = Brown
+# gold_annotation = True
+# child_age = 27.000554426168915
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = I think I have tear one and I think I can write one.
+1	I	I	PRON	PRP	_	2	nsubj	2:nsubj	_
+2	think	think	VERB	VBP	_	0	root	0:root	_
+3	I	I	PRON	PRP	_	5	nsubj	4:nsubj	_
+4	have	have	VERB	VBP	_	5	aux	2:ccomp	_
+5	tear	tear	NOUN	NN	_	2	ccomp	6:nmod	_
+6	one	one	NUM	CD	_	5	obj	4:obj	_
+7	and	and	CCONJ	CC	_	9	cc	9:cc	_
+8	I	I	PRON	PRP	_	9	nsubj	9:nsubj	_
+9	think	think	VERB	VBP	_	5	conj	2:conj:and	_
+10	I	I	PRON	PRP	_	12	nsubj	12:nsubj	_
+11	can	can	AUX	MD	_	12	aux	12:aux	_
+12	write	write	VERB	VB	_	9	ccomp	9:ccomp	_
+13	one	one	NUM	CD	_	12	obj	12:obj	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = 44850
+# original_sent_id = 1830962
+# childes_toks = when I put the pencil in this hole I put it right here
+# child_name = Eve
+# corpus_name = Brown
+# gold_annotation = True
+# child_age = 27.000554426168915
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = When I put the pencil in this hole I put it right here.
+1	When	when	ADV	WRB	_	3	mark	3:mark	_
+2	I	I	PRON	PRP	_	3	nsubj	3:nsubj	_
+3	put	put	VERB	VBD	_	10	advcl	10:advcl:when	_
+4	the	the	DET	DT	_	5	det	5:det	_
+5	pencil	pencil	NOUN	NN	_	3	obj	3:obj	_
+6	in	in	ADP	IN	_	8	case	8:case	_
+7	this	this	DET	DT	_	8	det	8:det	_
+8	hole	hole	NOUN	NN	_	3	obl	3:obl:in	_
+9	I	I	PRON	PRP	_	10	nsubj	10:nsubj	_
+10	put	put	VERB	VBD	_	0	root	0:root	_
+11	it	it	PRON	PRP	_	10	obj	10:obj	_
+12	right	right	ADV	RB	_	13	advmod	13:advmod	_
+13	here	here	ADV	RB	_	10	advmod	10:advmod	SpaceAfter=No
+14	.	.	PUNCT	.	_	10	punct	10:punct	_
+
+# sent_id = 44898
+# original_sent_id = 1832227
+# childes_toks = we go to bed and wake up in the morning and go to Cathy Beach new house
+# child_name = Eve
+# corpus_name = Brown
+# gold_annotation = True
+# child_age = 27.000554426168915
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = We go to bed and wake up in the morning and go to Cathy Beach new house.
+1	We	we	PRON	PRP	_	2	nsubj	2:nsubj	_
+2	go	go	VERB	VBP	_	0	root	0:root	_
+3	to	to	ADP	IN	_	4	case	4:case	_
+4	bed	bed	NOUN	NN	_	2	obl	2:obl:to	_
+5	and	and	CCONJ	CC	_	6	cc	6:cc	_
+6	wake	wake	VERB	VBP	_	2	conj	2:conj:and	_
+7	up	up	ADP	RP	_	6	compound:prt	6:compound:prt	_
+8	in	in	ADP	IN	_	10	case	10:case	_
+9	the	the	DET	DT	_	10	det	10:det	_
+10	morning	morning	NOUN	NN	_	6	obl	6:obl:in	_
+11	and	and	CCONJ	CC	_	12	cc	12:cc	_
+12	go	go	VERB	VBP	_	2	conj	2:conj:and	_
+13	to	to	ADP	IN	_	17	case	17:case	_
+14	Cathy	Cathy	PROPN	NNP	_	17	nmod:poss	17:nmod	_
+15	Beach	Beach	PROPN	NNP	_	14	flat	17:nmod	_
+16	new	new	ADJ	JJ	_	17	amod	17:amod	_
+17	house	house	NOUN	NN	_	12	obl	12:obl:to	SpaceAfter=No
+18	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = 44899
+# original_sent_id = 1832264
+# childes_toks = when I wake up from my nap I will go right on the street in a car
+# child_name = Eve
+# corpus_name = Brown
+# gold_annotation = True
+# child_age = 27.000554426168915
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = When I wake up from my nap I will go right on the street in a car.
+1	When	when	ADV	WRB	_	3	mark	3:mark	_
+2	I	I	PRON	PRP	_	3	nsubj	3:nsubj	_
+3	wake	wake	VERB	VBP	_	10	advcl	10:advcl:when	_
+4	up	up	ADP	RP	_	3	compound:prt	3:compound:prt	_
+5	from	from	ADP	IN	_	7	case	7:case	_
+6	my	my	PRON	PRP$	_	7	nmod:poss	7:nmod:poss	_
+7	nap	nap	NOUN	NN	_	3	obl	3:obl:from	_
+8	I	I	PRON	PRP	_	10	nsubj	10:nsubj	_
+9	will	will	AUX	MD	_	10	aux	10:aux	_
+10	go	go	VERB	VB	_	0	root	0:root	_
+11	right	right	ADV	RB	_	14	advmod	14:advmod	_
+12	on	on	ADP	IN	_	14	case	14:case	_
+13	the	the	DET	DT	_	14	det	14:det	_
+14	street	street	NOUN	NN	_	10	obl	10:obl:on	_
+15	in	in	ADP	IN	_	17	case	17:case	_
+16	a	a	DET	DT	_	17	det	17:det	_
+17	car	car	NOUN	NN	_	10	obl	10:obl:in	SpaceAfter=No
+18	.	.	PUNCT	.	_	10	punct	10:punct	_
+
+# sent_id = 45236
+# original_sent_id = 2462764
+# childes_toks = to the house and he's going to go along too
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 32.033511981765535
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = To the house and he's going to go along too.
+1	To	to	ADP	IN	_	3	case	3:case	_
+2	the	the	DET	DT	_	3	det	3:det	_
+3	house	house	NOUN	NN	_	0	root	0:root	_
+4	and	and	CCONJ	CC	_	7	cc	7:cc	_
+5-6	he's	_	_	_	_	_	_	_	_
+5	he	he	PRON	PRP	_	7	nsubj	7:nsubj|9:nsubj:xsubj	_
+6	's	be	AUX	VBZ	_	7	aux	7:aux	_
+7	going	go	VERB	VBG	_	3	conj	3:conj:and	_
+8	to	to	PART	TO	_	9	mark	9:mark	_
+9	go	go	VERB	VB	_	7	xcomp	7:xcomp	_
+10	along	along	ADV	RB	_	9	advmod	9:advmod	_
+11	too	too	ADV	RB	_	9	advmod	9:advmod	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = 45426
+# original_sent_id = 2464550
+# childes_toks = after you draw on here it's gonna make it purple
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 32.033511981765535
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = After you draw on here it's gonna make it purple.
+1	After	after	SCONJ	IN	_	3	mark	3:mark	_
+2	you	you	PRON	PRP	_	3	nsubj	3:nsubj	_
+3	draw	draw	VERB	VBP	_	8	advcl	8:advcl:after	_
+4	on	on	ADP	IN	_	5	case	5:case	_
+5	here	here	ADV	RB	_	3	obl	3:obl:on	_
+6-7	it's	_	_	_	_	_	_	_	_
+6	it	it	PRON	PRP	_	8	nsubj	8:nsubj|10:nsubj:xsubj|12:nsubj:xsubj	_
+7	's	be	AUX	VBZ	_	8	aux	8:aux	_
+8-9	gonna	_	_	_	_	_	_	_	_
+8	gon	go	VERB	VBG	_	0	root	0:root	_
+9	na	to	PART	TO	_	10	mark	10:mark	_
+10	make	make	VERB	VB	_	8	xcomp	8:xcomp	_
+11	it	it	PRON	PRP	_	10	obj	10:obj|12:nsubj:xsubj	_
+12	purple	purple	ADJ	JJ	_	10	xcomp	10:xcomp	SpaceAfter=No
+13	.	.	PUNCT	.	_	8	punct	8:punct	_
+
+# sent_id = 45455
+# original_sent_id = 2464733
+# childes_toks = I think she's gonna drive in the driver's seat
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 33.00067763198423
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = I think she's gonna drive in the driver's seat.
+1	I	I	PRON	PRP	_	2	nsubj	2:nsubj	_
+2	think	think	VERB	VBP	_	0	root	0:root	_
+3-4	she's	_	_	_	_	_	_	_	_
+3	she	she	PRON	PRP	_	5	nsubj	5:nsubj|7:nsubj:xsubj	_
+4	's	be	AUX	VBZ	_	5	aux	5:aux	_
+5-6	gonna	_	_	_	_	_	_	_	_
+5	gon	go	VERB	VBG	_	2	ccomp	2:ccomp	_
+6	na	to	PART	TO	_	7	mark	7:mark	_
+7	drive	drive	VERB	VB	_	5	xcomp	5:xcomp	_
+8	in	in	ADP	IN	_	12	case	12:case	_
+9	the	the	DET	DT	_	12	det	10:det	_
+10-11	driver's	_	_	_	_	_	_	_	_
+10	driver	driver	NOUN	NN	_	12	nmod:poss	12:nmod:poss	_
+11	's	's	PART	POS	_	10	case	10:case	_
+12	seat	seat	NOUN	NN	_	7	obl	7:obl:in	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = 45464
+# original_sent_id = 2464798
+# childes_toks = this one is gonna sit in the driver's seat
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 33.00067763198423
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = This one is gonna sit in the driver's seat.
+1	This	this	DET	DT	_	2	det	2:det	_
+2	one	one	NOUN	NN	_	4	nsubj	4:nsubj:outer|6:nsubj:xsubj	_
+3	is	be	AUX	VBZ	_	4	aux	4:cop	_
+4-5	gonna	_	_	_	_	_	_	_	_
+4	gon	go	VERB	VBG	_	0	root	0:root	_
+5	na	to	PART	TO	_	6	mark	6:mark	_
+6	sit	sit	VERB	VB	_	4	xcomp	4:xcomp	_
+7	in	in	ADP	IN	_	11	case	11:case	_
+8	the	the	DET	DT	_	9	det	9:det	_
+9-10	driver's	_	_	_	_	_	_	_	_
+9	driver	driver	NOUN	NN	_	11	nmod:poss	11:nmod:poss	_
+10	's	's	PART	POS	_	9	case	9:case	_
+11	seat	seat	NOUN	NN	_	6	obl	6:obl:in	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = 45491
+# original_sent_id = 2464991
+# childes_toks = the baby is gonna go up there and then slide down there
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 33.00067763198423
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = The baby is gonna go up there and then slide down there.
+1	The	the	DET	DT	_	2	det	2:det	_
+2	baby	baby	NOUN	NN	_	4	nsubj	4:nsubj:outer|6:nsubj:xsubj|11:nsubj:outer	_
+3	is	be	AUX	VBZ	_	4	aux	4:cop	_
+4-5	gonna	_	_	_	_	_	_	_	_
+4	gon	go	VERB	VBG	_	0	root	0:root	_
+5	na	to	PART	TO	_	6	mark	6:mark	_
+6	go	go	VERB	VB	_	4	xcomp	4:xcomp	_
+7	up	up	ADV	RP	_	8	advmod	8:advmod	_
+8	there	there	ADV	RB	_	6	advmod	6:advmod	_
+9	and	and	CCONJ	CC	_	11	cc	11:cc	_
+10	then	then	ADV	RB	_	11	advmod	11:advmod	_
+11	slide	slide	VERB	VB	_	6	conj	4:conj:and	_
+12	down	down	ADV	RP	_	13	advmod	13:advmod	_
+13	there	there	ADV	RB	_	11	advmod	11:advmod	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = 45537
+# original_sent_id = 2465317
+# childes_toks = maybe the daddy can sit there and have a baby on his lap
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 33.00067763198423
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = Maybe the daddy can sit there and have a baby on his lap.
+1	Maybe	maybe	ADV	RB	_	5	advmod	5:advmod	_
+2	the	the	DET	DT	_	3	det	3:det	_
+3	daddy	daddy	NOUN	NN	_	5	nsubj	5:nsubj|8:nsubj	_
+4	can	can	AUX	MD	_	5	aux	5:aux|8:aux	_
+5	sit	sit	VERB	VB	_	0	root	0:root	_
+6	there	there	ADV	RB	_	5	advmod	5:advmod	_
+7	and	and	CCONJ	CC	_	8	cc	8:cc	_
+8	have	have	VERB	VB	_	5	conj	5:conj:and	_
+9	a	a	DET	DT	_	10	det	10:det	_
+10	baby	baby	NOUN	NN	_	8	obj	8:obj	_
+11	on	on	ADP	IN	_	13	case	13:case	_
+12	his	he	PRON	PRP$	_	13	nmod:poss	13:nmod:poss	_
+13	lap	lap	NOUN	NN	_	8	obl	8:obl:on	SpaceAfter=No
+14	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = 45557
+# original_sent_id = 2465450
+# childes_toks = I got some I got some some more more more ginger
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 33.493500893242164
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = I got some I got some some more more more ginger.
+1	I	I	PRON	PRP	_	2	nsubj	2:nsubj	_
+2	got	get	VERB	VBD	_	0	root	0:root	_
+3	some	some	DET	DT	_	2	obj	2:obj	_
+4	I	I	PRON	PRP	_	5	nsubj	5:nsubj	_
+5	got	get	VERB	VBD	_	2	parataxis	2:parataxis	_
+6	some	some	DET	DT	_	7	reparandum	7:reparandum	_
+7	some	some	DET	DT	_	11	det	11:det	_
+8	more	more	ADV	RBR	_	11	amod	10:reparandum	_
+9	more	more	ADV	RBR	_	8	conj	10:reparandum	_
+10	more	more	ADJ	JJR	_	8	conj	11:amod	_
+11	ginger	ginger	NOUN	NN	_	5	obj	5:obj	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = 45559
+# original_sent_id = 2465480
+# childes_toks = the baby is gonna slide down the do do do the slide
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 33.00067763198423
+# child_gender = female
+# speaker_role = Target_Child
+# type = imperative_emphatic
+# text = The baby is gonna slide down the do do do the slide!
+1	The	the	DET	DT	_	2	det	2:det	_
+2	baby	baby	NOUN	NN	_	4	nsubj	4:nsubj|6:nsubj:xsubj	_
+3	is	be	AUX	VBZ	_	4	aux	4:aux	_
+4-5	gonna	_	_	_	_	_	_	_	_
+4	gon	go	VERB	VBG	_	0	root	0:root	_
+5	na	to	PART	TO	_	6	mark	6:mark	_
+6	slide	slide	VERB	VB	_	4	xcomp	4:xcomp	_
+7	down	down	ADP	RP	_	6	advmod	8:case	_
+8	the	the	DET	DT	_	9	det	6:obl:down	_
+9	do	do	NOUN	NN	_	11	reparandum	11:reparandum	_
+10	do	do	AUX	VB	_	11	reparandum	11:reparandum	_
+11	do	do	VERB	VB	_	4	parataxis	4:parataxis	_
+12	the	the	DET	DT	_	13	det	13:det	_
+13	slide	slide	NOUN	NN	_	11	obj	11:obj	SpaceAfter=No
+14	!	!	PUNCT	!	_	4	punct	4:punct	_
+
+# sent_id = 45591
+# original_sent_id = 2465687
+# childes_toks = I can walk to drive to the land with the sea salt
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 33.493500893242164
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = I can walk to drive to the land with the sea salt.
+1	I	I	PRON	PRP	_	3	nsubj	3:nsubj|5:nsubj:xsubj	_
+2	can	can	AUX	MD	_	3	aux	3:aux	_
+3	walk	walk	VERB	VB	_	0	root	0:root	_
+4	to	to	PART	TO	_	5	mark	5:mark	_
+5	drive	drive	VERB	VB	_	3	xcomp	3:xcomp	_
+6	to	to	ADP	IN	_	8	case	8:case	_
+7	the	the	DET	DT	_	8	det	8:det	_
+8	land	land	NOUN	NN	_	5	obl	5:obl:to	_
+9	with	with	ADP	IN	_	12	case	12:case	_
+10	the	the	DET	DT	_	12	det	12:det	_
+11	sea	sea	NOUN	NN	_	12	compound	12:compound	_
+12	salt	salt	NOUN	NN	_	8	nmod	8:nmod:with	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = 45639
+# original_sent_id = 2466354
+# childes_toks = the daddy is gonna sit there and he's gonna hold the baby
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 33.00067763198423
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = The daddy is gonna sit there and he's gonna hold the baby.
+1	The	the	DET	DT	_	2	det	2:det	_
+2	daddy	daddy	NOUN	NN	_	4	nsubj	4:nsubj|6:nsubj:xsubj	_
+3	is	be	AUX	VBZ	_	4	aux	4:aux	_
+4-5	gonna	_	_	_	_	_	_	_	_
+4	gon	go	VERB	VBG	_	0	root	0:root	_
+5	na	to	PART	TO	_	6	mark	6:mark	_
+6	sit	sit	VERB	VB	_	4	xcomp	4:xcomp	_
+7	there	there	ADV	RB	_	6	advmod	6:advmod	_
+8	and	and	CCONJ	CC	_	11	cc	11:cc	_
+9-10	he's	_	_	_	_	_	_	_	_
+9	he	he	PRON	PRP	_	11	nsubj	11:nsubj|13:nsubj:xsubj	_
+10	's	be	AUX	VBZ	_	11	aux	11:aux	_
+11-12	gonna	_	_	_	_	_	_	_	_
+11	gon	go	VERB	VBG	_	4	conj	4:conj:and	_
+12	na	to	PART	TO	_	13	mark	13:mark	_
+13	hold	hold	VERB	VB	_	11	xcomp	11:xcomp	_
+14	the	the	DET	DT	_	15	det	15:det	_
+15	baby	baby	NOUN	NN	_	13	obj	13:obj	SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = 45643
+# original_sent_id = 2466369
+# childes_toks = I'm gonna drive to the library with the tractor
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 33.493500893242164
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = I'm gonna drive to the library with the tractor.
+1-2	I'm	_	_	_	_	_	_	_	_
+1	I	I	PRON	PRP	_	3	nsubj	3:nsubj|5:nsubj:xsubj	_
+2	'm	be	AUX	VBP	_	3	aux	3:aux	_
+3-4	gonna	_	_	_	_	_	_	_	_
+3	gon	go	VERB	VBG	_	0	root	0:root	_
+4	na	to	PART	TO	_	5	mark	5:mark	_
+5	drive	drive	VERB	VB	_	3	xcomp	3:xcomp	_
+6	to	to	ADP	IN	_	8	case	8:case	_
+7	the	the	DET	DT	_	8	det	8:det	_
+8	library	library	NOUN	NN	_	5	obl	5:obl:to	_
+9	with	with	ADP	IN	_	11	case	11:case	_
+10	the	the	DET	DT	_	11	det	11:det	_
+11	tractor	tractor	NOUN	NN	_	5	obl	5:obl:with	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = 45645
+# original_sent_id = 2466373
+# childes_toks = and the baby is the teddy gonna get in there
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 33.00067763198423
+# child_gender = female
+# speaker_role = Target_Child
+# type = question
+# text = And the baby is the teddy gonna get in there?
+1	And	and	CCONJ	CC	_	3	cc	3:cc	_
+2	the	the	DET	DT	_	3	det	3:det	_
+3	baby	baby	NOUN	NN	_	0	root	0:root	_
+4	is	be	AUX	VBZ	_	7	aux	7:cop	_
+5	the	the	DET	DT	_	6	det	7:det	_
+6	teddy	teddy	NOUN	NN	_	7	nsubj	7:nsubj|9:nsubj:xsubj	_
+7-8	gonna	_	_	_	_	_	_	_	_
+7	gon	go	VERB	VBG	_	3	parataxis	3:parataxis	_
+8	na	to	PART	TO	_	9	mark	9:mark	_
+9	get	get	VERB	VB	_	7	xcomp	7:xcomp	_
+10	in	in	ADP	IN	_	11	case	11:case	_
+11	there	there	ADV	RB	_	9	obl	9:obl:in	SpaceAfter=No
+12	?	?	PUNCT	?	_	7	punct	3:punct	_
+
+# sent_id = 45706
+# original_sent_id = 2466597
+# childes_toks = maybe outside and then draw on the sidewalk chalk with this
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 33.00067763198423
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = Maybe outside and then draw on the sidewalk chalk with this.
+1	Maybe	maybe	ADV	RB	_	2	advmod	2:advmod	_
+2	outside	outside	ADV	RB	_	0	root	0:root	_
+3	and	and	CCONJ	CC	_	5	cc	5:cc	_
+4	then	then	ADV	RB	_	5	advmod	5:advmod	_
+5	draw	draw	VERB	VB	_	2	conj	2:conj:and	_
+6	on	on	ADP	IN	_	9	case	9:case	_
+7	the	the	DET	DT	_	9	det	9:det	_
+8	sidewalk	sidewalk	NOUN	NN	_	9	compound	9:compound	_
+9	chalk	chalk	NOUN	NN	_	5	obl	5:obl:on	_
+10	with	with	ADP	IN	_	11	case	11:case	_
+11	this	this	PRON	DT	_	5	obl	5:obl:with	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = 45732
+# original_sent_id = 2466674
+# childes_toks = you put it back in there and I'm gonna squirt it
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 33.00067763198423
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = You put it back in there and I'm gonna squirt it.
+1	You	you	PRON	PRP	_	2	nsubj	2:nsubj	_
+2	put	put	VERB	VBP	_	0	root	0:root	_
+3	it	it	PRON	PRP	_	2	obj	2:obj	_
+4	back	back	ADV	RB	_	2	advmod	2:advmod	_
+5	in	in	ADP	IN	_	6	case	6:case	_
+6	there	there	ADV	RB	_	2	obl	2:obl:in	_
+7	and	and	CCONJ	CC	_	10	cc	10:cc	_
+8-9	I'm	_	_	_	_	_	_	_	_
+8	I	I	PRON	PRP	_	10	nsubj	10:nsubj|12:nsubj:xsubj	_
+9	'm	be	AUX	VBP	_	10	aux	10:aux	_
+10-11	gonna	_	_	_	_	_	_	_	_
+10	gon	go	VERB	VBG	_	2	conj	2:conj:and	_
+11	na	to	PART	TO	_	12	mark	12:mark	_
+12	squirt	squirt	VERB	VB	_	10	xcomp	10:xcomp	_
+13	it	it	PRON	PRP	_	12	obj	12:obj	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = 45780
+# original_sent_id = 2468140
+# childes_toks = I'm gonna give you a bed when you're done
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 36.09930388714347
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = I'm gonna give you a bed when you're done.
+1-2	I'm	_	_	_	_	_	_	_	_
+1	I	I	PRON	PRP	_	3	nsubj	3:nsubj|5:nsubj:xsubj	_
+2	'm	be	AUX	VBP	_	3	aux	3:aux	_
+3-4	gonna	_	_	_	_	_	_	_	_
+3	gon	go	VERB	VBG	_	0	root	0:root	_
+4	na	to	PART	TO	_	5	mark	5:mark	_
+5	give	give	VERB	VB	_	3	xcomp	3:xcomp	_
+6	you	you	PRON	PRP	_	5	iobj	5:iobj	_
+7	a	a	DET	DT	_	8	det	8:det	_
+8	bed	bed	NOUN	NN	_	5	obj	5:obj	_
+9	when	when	SCONJ	WRB	_	12	mark	12:mark	_
+10-11	you're	_	_	_	_	_	_	_	_
+10	you	you	PRON	PRP	_	12	nsubj:outer	12:nsubj:outer	_
+11	're	be	AUX	VBP	_	12	cop	12:cop	_
+12	done	do	VERB	VBN	_	5	advcl	5:advcl:when	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = 45802
+# original_sent_id = 2468349
+# childes_toks = there's a duckie that's in there and close that
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 36.09930388714347
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = There's a duckie that's in there and close that.
+1-2	There's	_	_	_	_	_	_	_	_
+1	There	there	PRON	EX	_	2	expl	2:expl	_
+2	's	be	VERB	VBZ	_	0	root	0:root	_
+3	a	a	DET	DT	_	4	det	4:det	_
+4	duckie	duckie	NOUN	NN	_	2	nsubj	2:nsubj|8:nsubj|10:nsubj	_
+5-6	that's	_	_	_	_	_	_	_	_
+5	that	that	PRON	WDT	_	8	nsubj	4:ref	_
+6	's	be	AUX	VBZ	_	8	cop	8:cop	_
+7	in	in	ADP	IN	_	8	case	8:case	_
+8	there	there	ADV	RB	_	2	advmod	4:acl:relcl	_
+9	and	and	CCONJ	CC	_	10	cc	10:cc	_
+10	close	close	VERB	VBP	_	2	conj	2:conj:and	_
+11	that	that	PRON	DT	_	10	obj	10:obj	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = 45817
+# original_sent_id = 2468465
+# childes_toks = he he's gonna carry it over somewhere else so the tractor won't get him over here
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 36.09930388714347
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = He he's gonna carry it over somewhere else so the tractor won't get him over here.
+1	He	he	PRON	PRP	_	2	reparandum	2:reparandum	_
+2-3	he's	_	_	_	_	_	_	_	_
+2	he	he	PRON	PRP	_	4	nsubj	4:nsubj|6:nsubj:xsubj	_
+3	's	be	AUX	VBZ	_	4	aux	4:aux	_
+4-5	gonna	_	_	_	_	_	_	_	_
+4	gon	go	VERB	VBG	_	0	root	0:root	_
+5	na	to	PART	TO	_	6	mark	6:mark	_
+6	carry	carry	VERB	VB	_	4	xcomp	4:xcomp	_
+7	it	it	PRON	PRP	_	6	obj	6:obj	_
+8	over	over	ADP	RP	_	6	advmod	9:case	_
+9	somewhere	somewhere	ADV	RB	_	6	advmod	6:obl:over	_
+10	else	else	ADV	RB	_	9	advmod	9:amod	_
+11	so	so	ADV	RB	_	16	mark	16:mark	_
+12	the	the	DET	DT	_	13	det	13:det	_
+13	tractor	tractor	NOUN	NN	_	16	nsubj	16:nsubj	_
+14-15	won't	_	_	_	_	_	_	_	_
+14	wo	will	AUX	MD	_	16	aux	16:aux	_
+15	n't	not	PART	RB	_	16	advmod	16:advmod	_
+16	get	get	VERB	VB	_	6	advcl	6:advcl:so	_
+17	him	he	PRON	PRP	_	16	obj	16:obj	_
+18	over	over	ADP	IN	_	19	case	19:case	_
+19	here	here	ADV	RB	_	16	advmod	16:obl:over	SpaceAfter=No
+20	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = 45850
+# original_sent_id = 2468650
+# childes_toks = I'm picking up this this little girl so she doesn't get scared of the lion
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 36.09930388714347
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = I'm picking up this this little girl so she doesn't get scared of the lion.
+1-2	I'm	_	_	_	_	_	_	_	_
+1	I	I	PRON	PRP	_	3	nsubj	3:nsubj	_
+2	'm	be	AUX	VBP	_	3	aux	3:aux	_
+3	picking	pick	VERB	VBG	_	0	root	0:root	_
+4	up	up	ADP	RP	_	3	compound:prt	3:compound:prt	_
+5	this	this	DET	DT	_	6	reparandum	6:reparandum	_
+6	this	this	DET	DT	_	8	det	8:det	_
+7	little	little	ADJ	JJ	_	8	amod	8:amod	_
+8	girl	girl	NOUN	NN	_	3	obj	3:obj	_
+9	so	so	ADV	RB	_	14	mark	14:mark	_
+10	she	she	PRON	PRP	_	14	nsubj	14:nsubj	_
+11-12	doesn't	_	_	_	_	_	_	_	_
+11	does	do	AUX	VBZ	_	14	aux	14:aux	_
+12	n't	not	PART	RB	_	14	advmod	14:advmod	_
+13	get	get	AUX	VB	_	3	advcl	14:aux:pass	_
+14	scared	scared	ADJ	JJ	_	13	xcomp	3:advcl:so	_
+15	of	of	ADP	IN	_	17	case	17:case	_
+16	the	the	DET	DT	_	17	det	17:det	_
+17	lion	lion	NOUN	NN	_	14	obl	14:obl:of	SpaceAfter=No
+18	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = 45865
+# original_sent_id = 2468721
+# childes_toks = they're just over here and people so that someone can sit in here
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 36.09930388714347
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = They're just over here and people so that someone can sit in here.
+1-2	They're	_	_	_	_	_	_	_	_
+1	They	they	PRON	PRP	_	5	nsubj	5:nsubj|7:nsubj	_
+2	're	be	AUX	VBP	_	5	cop	5:cop	_
+3	just	just	ADV	RB	_	5	advmod	5:advmod	_
+4	over	over	ADP	IN	_	5	case	5:case	_
+5	here	here	ADV	RB	_	0	root	0:root	_
+6	and	and	CCONJ	CC	_	7	cc	7:cc	_
+7	people	people	NOUN	NNS	_	5	conj	5:conj:and	_
+8	so	so	SCONJ	IN	ExtPos=SCONJ	12	mark	12:mark	_
+9	that	that	SCONJ	IN	_	12	mark	8:fixed	_
+10	someone	someone	PRON	NN	_	12	nsubj	12:nsubj	_
+11	can	can	AUX	MD	_	12	aux	12:aux	_
+12	sit	sit	VERB	VB	_	7	advcl	5:advcl:so_that	_
+13	in	in	ADP	IN	_	14	case	14:case	_
+14	here	here	ADV	RB	_	12	obl	12:obl:in	SpaceAfter=No
+15	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = 45887
+# original_sent_id = 2468816
+# childes_toks = I'm giving you a whole bunch but I have some more if you need some more
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 36.09930388714347
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = I'm giving you a whole bunch but I have some more if you need some more.
+1-2	I'm	_	_	_	_	_	_	_	_
+1	I	I	PRON	PRP	_	3	nsubj	3:nsubj	_
+2	'm	be	AUX	VBP	_	3	aux	3:aux	_
+3	giving	give	VERB	VBG	_	0	root	0:root	_
+4	you	you	PRON	PRP	_	3	iobj	3:iobj	_
+5	a	a	DET	DT	_	7	det	7:det	_
+6	whole	whole	ADJ	JJ	_	7	amod	7:amod	_
+7	bunch	bunch	NOUN	NN	_	3	obj	3:obj	_
+8	but	but	CCONJ	CC	_	10	cc	10:cc	_
+9	I	I	PRON	PRP	_	10	nsubj	10:nsubj	_
+10	have	have	VERB	VBP	_	3	conj	3:conj:but	_
+11	some	some	DET	DT	_	12	det	12:det	_
+12	more	more	ADJ	JJR	_	10	obj	10:obj	_
+13	if	if	SCONJ	IN	_	15	mark	15:mark	_
+14	you	you	PRON	PRP	_	15	nsubj	15:nsubj	_
+15	need	need	VERB	VBP	_	10	advcl	10:advcl:if	_
+16	some	some	DET	DT	_	17	det	17:det	_
+17	more	more	ADJ	JJR	_	15	obj	15:obj	SpaceAfter=No
+18	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = 45893
+# original_sent_id = 2468842
+# childes_toks = I think someone hasta help you do that do that
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 36.09930388714347
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = I think someone hasta help you do that do that.
+1	I	I	PRON	PRP	_	2	nsubj	2:nsubj	_
+2	think	think	VERB	VBP	_	0	root	0:root	_
+3	someone	someone	PRON	NN	_	4	nsubj	4:nsubj|6:nsubj:xsubj|8:nsubj:xsubj	_
+4-5	hasta	_	_	_	_	_	_	_	_
+4	has	have	VERB	VBZ	_	2	ccomp	2:ccomp	_
+5	ta	to	PART	TO	_	6	mark	6:mark	_
+6	help	help	VERB	VB	_	4	xcomp	4:xcomp	_
+7	you	you	PRON	PRP	_	6	obj	6:obj|8:nsubj:xsubj|10:nsubj:xsubj	_
+8	do	do	VERB	VB	_	4	xcomp	6:xcomp	_
+9	that	that	PRON	WDT	_	8	obj	8:obj	_
+10	do	do	VERB	VB	_	4	parataxis	6:xcomp|8:conj	_
+11	that	that	PRON	DT	_	10	obj	10:obj	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = 45910
+# original_sent_id = 2468915
+# childes_toks = I'm just going in and listening to and and you say
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 36.09930388714347
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = I'm just going in and listening to and and you say.
+1-2	I'm	_	_	_	_	_	_	_	_
+1	I	I	PRON	PRP	_	4	nsubj	4:nsubj|7:nsubj	_
+2	'm	be	AUX	VBP	_	4	aux	4:aux|7:aux	_
+3	just	just	ADV	RB	_	4	advmod	4:advmod	_
+4	going	go	VERB	VBG	_	0	root	0:root	_
+5	in	in	ADV	RB	_	4	advmod	4:advmod	_
+6	and	and	CCONJ	CC	_	7	cc	7:cc	_
+7	listening	listen	VERB	VBG	_	4	conj	4:conj:and	_
+8	to	to	ADP	IN	_	7	obl	7:obl	_
+9	and	and	CCONJ	CC	_	10	reparandum	10:reparandum	_
+10	and	and	CCONJ	CC	_	12	cc	12:cc	_
+11	you	you	PRON	PRP	_	12	nsubj	12:nsubj	_
+12	say	say	VERB	VBP	_	4	conj	4:conj:and	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = 45928
+# original_sent_id = 2468999
+# childes_toks = what kind of pillow do you want the chicken to have
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 36.09930388714347
+# child_gender = female
+# speaker_role = Target_Child
+# type = question
+# text = What kind of pillow do you want the chicken to have?
+1	What	what	DET	WDT	_	2	det	2:det	_
+2	kind	kind	NOUN	NN	_	11	obj	11:obj	_
+3	of	of	ADP	IN	_	4	case	4:case	_
+4	pillow	pillow	NOUN	NN	_	2	nmod	2:nmod:of	_
+5	do	do	AUX	VBP	_	7	aux	7:aux	_
+6	you	you	PRON	PRP	_	7	nsubj	7:nsubj	_
+7	want	want	VERB	VB	_	0	root	0:root	_
+8	the	the	DET	DT	_	9	det	9:det	_
+9	chicken	chicken	NOUN	NN	_	7	obj	7:obj|11:nsubj:xsubj	_
+10	to	to	PART	TO	_	11	mark	11:mark	_
+11	have	have	VERB	VB	_	7	xcomp	7:xcomp	SpaceAfter=No
+12	?	?	PUNCT	?	_	7	punct	7:punct	_
+
+# sent_id = 45948
+# original_sent_id = 2469075
+# childes_toks = I'm trying to get the tractor not that they scare you
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 36.09930388714347
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = I'm trying to get the tractor not that they scare you.
+1-2	I'm	_	_	_	_	_	_	_	_
+1	I	I	PRON	PRP	_	3	nsubj	3:nsubj|5:nsubj:xsubj	_
+2	'm	be	AUX	VBP	_	3	aux	3:aux	_
+3	trying	try	VERB	VBG	_	0	root	0:root	_
+4	to	to	PART	TO	_	5	mark	5:mark	_
+5	get	get	VERB	VB	_	3	xcomp	3:xcomp	_
+6	the	the	DET	DT	_	7	det	7:det	_
+7	tractor	tractor	NOUN	NN	_	5	obj	5:obj	_
+8	not	not	ADV	RB	_	11	advmod	11:advmod	_
+9	that	that	SCONJ	IN	_	11	mark	11:mark	_
+10	they	they	PRON	PRP	_	11	nsubj	11:nsubj	_
+11	scare	scare	VERB	VBP	_	3	parataxis	3:parataxis	_
+12	you	you	PRON	PRP	_	11	obj	11:obj	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = 45953
+# original_sent_id = 2469159
+# childes_toks = you you go sometime you get to not be scared of tractor sometime
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 36.09930388714347
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = You you go sometime you get to not be scared of tractor sometime.
+1	You	you	PRON	PRP	_	2	reparandum	2:reparandum	_
+2	you	you	PRON	PRP	_	3	nsubj	3:nsubj	_
+3	go	go	VERB	VBP	_	0	root	0:root	_
+4	sometime	sometime	ADV	RB	_	3	advmod	3:advmod	_
+5	you	you	PRON	PRP	_	6	nsubj	6:nsubj|10:nsubj:xsubj	_
+6	get	get	VERB	VBP	_	3	parataxis	3:parataxis	_
+7	to	to	PART	TO	_	10	mark	10:mark	_
+8	not	not	PART	RB	_	10	advmod	10:advmod	_
+9	be	be	AUX	VB	_	10	cop	10:cop	_
+10	scared	scared	ADJ	JJ	_	6	xcomp	6:xcomp	_
+11	of	of	ADP	IN	_	12	case	12:case	_
+12	tractor	tractor	NOUN	NN	_	10	obl	10:obl:of	_
+13	sometime	sometime	ADV	RB	_	10	advmod	6:advmod	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = 45986
+# original_sent_id = 2469778
+# childes_toks = I'm just gonna get out and swim in water
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 36.09930388714347
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = I'm just gonna get out and swim in water.
+1-2	I'm	_	_	_	_	_	_	_	_
+1	I	I	PRON	PRP	_	4	nsubj	4:nsubj|6:nsubj:xsubj|9:nsubj:xsubj	_
+2	'm	be	AUX	VBP	_	4	aux	4:aux	_
+3	just	just	ADV	RB	_	4	advmod	4:advmod	_
+4-5	gonna	_	_	_	_	_	_	_	_
+4	gon	go	VERB	VBG	_	0	root	0:root	_
+5	na	to	PART	TO	_	6	mark	6:mark	_
+6	get	get	VERB	VB	_	4	xcomp	4:xcomp	_
+7	out	out	ADV	RP	_	6	advmod	6:advmod	_
+8	and	and	CCONJ	CC	_	9	cc	9:cc	_
+9	swim	swim	VERB	VB	_	6	conj	4:xcomp|6:conj:and	_
+10	in	in	ADP	IN	_	11	case	11:case	_
+11	water	water	NOUN	NN	_	9	obl	9:obl:in	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = 46005
+# original_sent_id = 2470213
+# childes_toks = I'm the one and I'm the two and I'm the three one
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 36.09930388714347
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = I'm the one and I'm the two and I'm the three one.
+1-2	I'm	_	_	_	_	_	_	_	_
+1	I	I	PRON	PRP	_	4	nsubj	4:nsubj	_
+2	'm	be	AUX	VBP	_	4	cop	4:cop	_
+3	the	the	DET	DT	_	4	det	4:det	_
+4	one	one	NOUN	NN	_	0	root	0:root	_
+5	and	and	CCONJ	CC	_	9	cc	9:cc	_
+6-7	I'm	_	_	_	_	_	_	_	_
+6	I	I	PRON	PRP	_	9	nsubj	9:nsubj	_
+7	'm	be	AUX	VBP	_	9	cop	9:cop	_
+8	the	the	DET	DT	_	9	det	9:det	_
+9	two	two	NUM	CD	_	4	conj	4:conj:and	_
+10	and	and	CCONJ	CC	_	15	cc	15:cc	_
+11-12	I'm	_	_	_	_	_	_	_	_
+11	I	I	PRON	PRP	_	15	nsubj	15:nsubj	_
+12	'm	be	AUX	VBP	_	15	cop	15:cop	_
+13	the	the	DET	DT	_	15	det	15:det	_
+14	three	three	NUM	CD	_	15	nummod	15:nummod	_
+15	one	one	NOUN	NN	_	4	conj	4:conj:and	SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = 46026
+# original_sent_id = 2470531
+# childes_toks = green isn't that water that the green is the icky icky bicky water
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 36.09930388714347
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = Green isn't that water that the green is the icky icky bicky water.
+1	Green	green	NOUN	NN	_	0	root	5:nsubj	_
+2-3	isn't	_	_	_	_	_	_	_	_
+2	is	be	AUX	VBZ	_	1	cop	5:cop	_
+3	n't	not	PART	RB	_	5	advmod	5:advmod	_
+4	that	that	DET	DT	_	5	nsubj	5:det	_
+5	water	water	NOUN	NN	_	1	parataxis	0:root	_
+6	that	that	PRON	WDT	_	14	mark	7:reparandum	_
+7	the	the	DET	DT	_	8	det	8:det	_
+8	green	green	NOUN	NN	_	14	nsubj	14:nsubj	_
+9	is	be	AUX	VBZ	_	14	cop	14:cop	_
+10	the	the	DET	DT	_	14	det	14:det	_
+11	icky	icky	ADJ	JJ	_	14	amod	14:amod	_
+12	icky	icky	ADJ	JJ	_	11	conj	14:amod	_
+13	bicky	bicky	NOUN	NN	_	11	conj	14:amod	_
+14	water	water	NOUN	NN	_	5	parataxis	5:parataxis	SpaceAfter=No
+15	.	.	PUNCT	.	_	1	punct	5:punct	_
+
+# sent_id = 46038
+# original_sent_id = 2470951
+# childes_toks = all wanna hafta you hafta go in here and you other guys do in here and here then not ah you have one here because this is a not prickly
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 36.09930388714347
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = All wanna hafta you hafta go in here and you other guys do in here and here then not ah you have one here because this is a not prickly.
+1	All	all	DET	DT	_	2	nsubj	2:nsubj|3:nsubj:xsubj	_
+2-3	wanna	_	_	_	_	_	_	_	_
+2	wan	want	VERB	VBP	_	0	root	0:root	_
+3	na	to	PART	TO	_	4	mark	2:xcomp	_
+4-5	hafta	_	_	_	_	_	_	_	_
+4	haf	have	VERB	VB	_	2	xcomp	7:reparandum	_
+5	ta	to	PRON	PRP	_	4	xcomp	4:xcomp	_
+6	you	you	PRON	PRP	_	7	nsubj	7:nsubj|9:nsubj:xsubj	_
+7-8	hafta	_	_	_	_	_	_	_	_
+7	haf	have	VERB	VBP	_	2	parataxis	2:parataxis	_
+8	ta	to	PART	TO	_	9	mark	9:mark	_
+9	go	go	VERB	VB	_	7	xcomp	7:xcomp	_
+10	in	in	ADP	IN	_	11	case	11:case	_
+11	here	here	ADV	RB	_	9	obl	9:obl:in	_
+12	and	and	CCONJ	CC	_	16	cc	16:cc	_
+13	you	you	PRON	PRP	_	15	det	16:nsubj	_
+14	other	other	ADJ	JJ	_	15	amod	15:amod	_
+15	guys	guy	NOUN	NNS	_	16	nsubj	13:appos	_
+16	do	do	VERB	VBP	_	7	conj	7:conj:and	_
+17	in	in	ADP	IN	_	18	case	18:case	_
+18	here	here	ADV	RB	_	16	obl	16:obl:in	_
+19	and	and	CCONJ	CC	_	20	cc	20:cc	_
+20	here	here	ADV	RB	_	18	conj	16:obl:in|18:conj:and	_
+21	then	then	ADV	RB	_	25	advmod	25:advmod	_
+22	not	not	ADV	RB	_	16	advmod	24:reparandum	_
+23	ah	ah	INTJ	UH	_	25	discourse	25:discourse	_
+24	you	you	PRON	PRP	_	25	nsubj	25:nsubj	_
+25	have	have	VERB	VBP	_	2	parataxis	7:parataxis	_
+26	one	one	NUM	CD	_	25	obj	25:obj	_
+27	here	here	ADV	RB	_	25	advmod	25:advmod	_
+28	because	because	SCONJ	IN	_	33	mark	33:mark	_
+29	this	this	PRON	DT	_	33	nsubj	33:nsubj	_
+30	is	be	AUX	VBZ	_	33	cop	33:cop	_
+31	a	a	DET	DT	_	33	det	33:det	_
+32	not	not	ADV	RB	_	33	advmod	33:advmod	_
+33	prickly	prickly	ADJ	JJ	_	25	advcl	25:advcl:because	SpaceAfter=No
+34	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = 46099
+# original_sent_id = 2471853
+# childes_toks = mommy I wanna give the one that I hafta her
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 37.65785745087168
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = Mommy I wanna give the one that I hafta her.
+1	Mommy	mommy	NOUN	NN	_	3	vocative	3:vocative	_
+2	I	I	PRON	PRP	_	3	nsubj	3:nsubj|5:nsubj:xsubj	_
+3-4	wanna	_	_	_	_	_	_	_	_
+3	wan	want	VERB	VBP	_	0	root	0:root	_
+4	na	to	PART	TO	_	5	mark	5:mark	_
+5	give	give	VERB	VB	_	3	xcomp	3:xcomp	_
+6	the	the	DET	DT	_	7	det	7:det	_
+7	one	one	NOUN	NN	_	5	obj	5:obj|10:obj	_
+8	that	that	PRON	WDT	_	10	obj	7:ref	_
+9	I	I	PRON	PRP	_	10	nsubj	10:nsubj	_
+10-11	hafta	_	_	_	_	_	_	_	_
+10	haf	have	AUX	VBP	_	7	acl:relcl	7:acl:relcl	_
+11	ta	of	ADP	IN	_	12	case	12:case	_
+12	her	she	PRON	PRP	_	5	obl	5:obl:of	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = 46121
+# original_sent_id = 2472044
+# childes_toks = it's not the kitty puppet it's a bear thing
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 36.09930388714347
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = It's not the kitty puppet it's a bear thing.
+1-2	It's	_	_	_	_	_	_	_	_
+1	It	it	PRON	PRP	_	6	nsubj	6:nsubj	_
+2	's	be	AUX	VBZ	_	6	cop	6:cop	_
+3	not	not	PART	RB	_	6	advmod	6:advmod	_
+4	the	the	DET	DT	_	6	det	6:det	_
+5	kitty	kitty	NOUN	NN	_	6	compound	6:compound	_
+6	puppet	puppet	NOUN	NN	_	0	root	0:root	_
+7-8	it's	_	_	_	_	_	_	_	_
+7	it	it	PRON	PRP	_	11	nsubj	11:nsubj	_
+8	's	be	AUX	VBZ	_	11	cop	11:cop	_
+9	a	a	DET	DT	_	11	det	11:det	_
+10	bear	bear	NOUN	NN	_	11	compound	11:compound	_
+11	thing	thing	NOUN	NN	_	6	parataxis	6:parataxis	SpaceAfter=No
+12	.	.	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = 46129
+# original_sent_id = 2472107
+# childes_toks = but I wanna clean these ones up and then get a new one
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 37.65785745087168
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = But I wanna clean these ones up and then get a new one.
+1	But	but	CCONJ	CC	_	3	cc	3:cc	_
+2	I	I	PRON	PRP	_	3	nsubj	3:nsubj|5:nsubj:xsubj|11:nsubj:xsubj	_
+3-4	wanna	_	_	_	_	_	_	_	_
+3	wan	want	VERB	VBP	_	0	root	0:root	_
+4	na	to	PART	TO	_	5	mark	5:mark	_
+5	clean	clean	VERB	VB	_	3	xcomp	3:xcomp	_
+6	these	this	DET	DT	_	7	det	7:det	_
+7	ones	one	NOUN	NNS	_	5	obj	5:obj	_
+8	up	up	ADP	RP	_	5	compound:prt	5:compound:prt	_
+9	and	and	CCONJ	CC	_	11	cc	11:cc	_
+10	then	then	ADV	RB	_	11	advmod	11:advmod	_
+11	get	get	VERB	VB	_	5	conj	3:xcomp|5:conj:and	_
+12	a	a	DET	DT	_	14	det	14:det	_
+13	new	new	ADJ	JJ	_	14	amod	14:amod	_
+14	one	one	NOUN	NN	_	11	obj	11:obj	SpaceAfter=No
+15	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = 46139
+# original_sent_id = 2472223
+# childes_toks = we put the red ones in red and this is orange for orange
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 37.65785745087168
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = We put the red ones in red and this is orange for orange.
+1	We	we	PRON	PRP	_	2	nsubj	2:nsubj	_
+2	put	put	VERB	VBP	_	0	root	0:root	_
+3	the	the	DET	DT	_	5	det	5:det	_
+4	red	red	ADJ	JJ	_	5	amod	5:amod	_
+5	ones	one	NOUN	NNS	_	2	obj	2:obj	_
+6	in	in	ADP	IN	_	7	case	7:case	_
+7	red	red	ADJ	JJ	_	2	obl	2:obl:in	_
+8	and	and	CCONJ	CC	_	11	cc	11:cc	_
+9	this	this	PRON	DT	_	11	nsubj	11:nsubj	_
+10	is	be	AUX	VBZ	_	11	cop	11:cop	_
+11	orange	orange	ADJ	JJ	_	2	conj	2:conj:and	_
+12	for	for	ADP	IN	_	13	case	13:case	_
+13	orange	orange	NOUN	NN	_	11	obl	11:obl:for	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = 46145
+# original_sent_id = 2472308
+# childes_toks = and then the orange in the orange and then the green in the green
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 37.65785745087168
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = And then the orange in the orange and then the green in the green.
+1	And	and	CCONJ	CC	_	4	cc	4:cc	_
+2	then	then	ADV	RB	_	4	advmod	4:advmod	_
+3	the	the	DET	DT	_	4	det	4:det	_
+4	orange	orange	NOUN	NN	_	0	root	0:root	_
+5	in	in	ADP	IN	_	7	case	7:case	_
+6	the	the	DET	DT	_	7	det	7:det	_
+7	orange	orange	NOUN	NN	_	4	nmod	4:nmod:in	_
+8	and	and	CCONJ	CC	_	11	cc	11:cc	_
+9	then	then	ADV	RB	_	11	advmod	11:advmod	_
+10	the	the	DET	DT	_	11	det	11:det	_
+11	green	green	NOUN	NN	_	4	conj	4:conj:and	_
+12	in	in	ADP	IN	_	14	case	14:case	_
+13	the	the	DET	DT	_	14	det	14:det	_
+14	green	green	NOUN	NN	_	11	nmod	11:nmod:in	SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = 46149
+# original_sent_id = 2472381
+# childes_toks = the reds in the red yellows and the blues in the blues and the yellows in the yellows and the green in the green and the the orange into and the purple in here and the reds in there
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 37.65785745087168
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = The reds in the red yellows and the blues in the blues and the yellows in the yellows and the green in the green and the the orange into and the purple in here and the reds in there.
+1	The	the	DET	DT	_	2	det	2:det	_
+2	reds	red	NOUN	NNS	_	0	root	0:root	_
+3	in	in	ADP	IN	_	6	case	6:case	_
+4	the	the	DET	DT	_	6	det	6:det	_
+5	red	red	ADJ	JJ	_	6	amod	6:reparandum	_
+6	yellows	yellow	NOUN	NNS	_	2	nmod	2:nmod:in	_
+7	and	and	CCONJ	CC	_	9	cc	9:cc	_
+8	the	the	DET	DT	_	9	det	9:det	_
+9	blues	blue	NOUN	NNS	_	2	conj	2:conj:and	_
+10	in	in	ADP	IN	_	12	case	12:case	_
+11	the	the	DET	DT	_	12	det	12:det	_
+12	blues	blue	NOUN	NNS	_	9	nmod	9:nmod:in	_
+13	and	and	CCONJ	CC	_	15	cc	15:cc	_
+14	the	the	DET	DT	_	15	det	15:det	_
+15	yellows	yellow	NOUN	NNS	_	2	conj	2:conj:and	_
+16	in	in	ADP	IN	_	18	case	18:case	_
+17	the	the	DET	DT	_	18	det	18:det	_
+18	yellows	yellow	NOUN	NNS	_	15	nmod	15:nmod:in	_
+19	and	and	CCONJ	CC	_	21	cc	21:cc	_
+20	the	the	DET	DT	_	21	det	21:det	_
+21	green	green	NOUN	NN	_	15	conj	2:conj:and	_
+22	in	in	ADP	IN	_	24	case	24:case	_
+23	the	the	DET	DT	_	24	det	24:det	_
+24	green	green	NOUN	NN	_	21	conj	21:nmod:in	_
+25	and	and	CCONJ	CC	_	28	cc	28:cc	_
+26	the	the	DET	DT	_	28	det	27:reparandum	_
+27	the	the	DET	DT	_	28	det	28:det	_
+28	orange	orange	NOUN	NN	_	2	conj	2:conj:and	_
+29	into	into	ADP	IN	_	28	conj	28:obl	_
+30	and	and	CCONJ	CC	_	32	cc	32:cc	_
+31	the	the	DET	DT	_	32	det	32:det	_
+32	purple	purple	NOUN	NN	_	2	conj	2:conj:and	_
+33	in	in	ADP	IN	_	34	case	34:case	_
+34	here	here	ADV	RB	_	32	nmod	32:nmod:in	_
+35	and	and	CCONJ	CC	_	37	cc	37:cc	_
+36	the	the	DET	DT	_	37	det	37:det	_
+37	reds	red	NOUN	NNS	_	2	conj	2:conj:and	_
+38	in	in	ADP	IN	_	39	case	39:case	_
+39	there	there	ADV	RB	_	37	nmod	37:nmod:in	SpaceAfter=No
+40	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = 46180
+# original_sent_id = 2472952
+# childes_toks = we have all the purply and we have all the orange
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 37.65785745087168
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = We have all the purply and we have all the orange.
+1	We	we	PRON	PRP	_	2	nsubj	2:nsubj	_
+2	have	have	VERB	VBP	_	0	root	0:root	_
+3	all	all	DET	PDT	_	5	det:predet	5:det:predet	_
+4	the	the	DET	DT	_	5	det	5:det	_
+5	purply	purply	ADV	RB	_	2	obj	2:obj	_
+6	and	and	CCONJ	CC	_	8	cc	8:cc	_
+7	we	we	PRON	PRP	_	8	nsubj	8:nsubj	_
+8	have	have	VERB	VBP	_	2	conj	2:conj:and	_
+9	all	all	DET	PDT	_	11	det:predet	11:det:predet	_
+10	the	the	DET	DT	_	11	det	11:det	_
+11	orange	orange	NOUN	NN	_	8	obj	8:obj	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = 46182
+# original_sent_id = 2472965
+# childes_toks = I think I will go there for my fourth birthday party
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 43.690835540770856
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = I think I will go there for my fourth birthday party.
+1	I	I	PRON	PRP	_	2	nsubj	2:nsubj	_
+2	think	think	VERB	VBP	_	0	root	0:root	_
+3	I	I	PRON	PRP	_	5	nsubj	5:nsubj	_
+4	will	will	AUX	MD	_	5	aux	5:aux	_
+5	go	go	VERB	VB	_	2	ccomp	2:ccomp	_
+6	there	there	ADV	RB	_	5	advmod	5:advmod	_
+7	for	for	ADP	IN	_	11	case	11:case	_
+8	my	my	PRON	PRP$	_	11	nmod:poss	11:nmod:poss	_
+9	fourth	fourth	NUM	JJ	_	11	nummod	11:nummod	_
+10	birthday	birthday	NOUN	NN	_	11	compound	11:compound	_
+11	party	party	NOUN	NN	_	5	obl	5:obl:for	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = 46183
+# original_sent_id = 2472974
+# childes_toks = we have all the green and we have all the yellow
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 37.65785745087168
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = We have all the green and we have all the yellow.
+1	We	we	PRON	PRP	_	2	nsubj	2:nsubj	_
+2	have	have	VERB	VBP	_	0	root	0:root	_
+3	all	all	DET	PDT	_	5	det:predet	5:det:predet	_
+4	the	the	DET	DT	_	5	det	5:det	_
+5	green	green	NOUN	NN	_	2	obj	2:obj	_
+6	and	and	CCONJ	CC	_	8	cc	8:cc	_
+7	we	we	PRON	PRP	_	8	nsubj	8:nsubj	_
+8	have	have	VERB	VBP	_	2	conj	2:conj:and	_
+9	all	all	DET	PDT	_	11	det:predet	11:det:predet	_
+10	the	the	DET	DT	_	11	det	11:det	_
+11	yellow	yellow	ADJ	JJ	_	8	obj	8:obj	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = 46185
+# original_sent_id = 2473015
+# childes_toks = I wanna put it on the top and this one can go here and this one can go right in here
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 37.65785745087168
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = I wanna put it on the top and this one can go here and this one can go right in here.
+1	I	I	PRON	PRP	_	2	nsubj	2:nsubj|4:nsubj:xsubj	_
+2-3	wanna	_	_	_	_	_	_	_	_
+2	wan	want	VERB	VBP	_	0	root	0:root	_
+3	na	to	PART	TO	_	4	mark	4:mark	_
+4	put	put	VERB	VB	_	2	xcomp	2:xcomp	_
+5	it	it	PRON	PRP	_	4	obj	4:obj	_
+6	on	on	ADP	IN	_	8	case	8:case	_
+7	the	the	DET	DT	_	8	det	8:det	_
+8	top	top	NOUN	NN	_	4	obl	4:obl:on	_
+9	and	and	CCONJ	CC	_	13	cc	13:cc	_
+10	this	this	DET	DT	_	11	det	11:det	_
+11	one	one	NOUN	NN	_	13	nsubj	13:nsubj	_
+12	can	can	AUX	MD	_	13	aux	13:aux	_
+13	go	go	VERB	VB	_	2	conj	2:conj:and	_
+14	here	here	ADV	RB	_	13	advmod	13:advmod	_
+15	and	and	CCONJ	CC	_	19	cc	19:cc	_
+16	this	this	DET	DT	_	17	det	17:det	_
+17	one	one	NOUN	NN	_	19	nsubj	19:nsubj	_
+18	can	can	AUX	MD	_	19	aux	19:aux	_
+19	go	go	VERB	VB	_	4	conj	2:conj:and	_
+20	right	right	ADV	RB	_	22	advmod	22:advmod	_
+21	in	in	ADP	IN	_	22	case	22:case	_
+22	here	here	ADV	RB	_	19	obl	19:obl:in	SpaceAfter=No
+23	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = 46188
+# original_sent_id = 2473061
+# childes_toks = this one can go there and this one can go here and this one can go here
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 37.65785745087168
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = This one can go there and this one can go here and this one can go here.
+1	This	this	DET	DT	_	2	det	2:det	_
+2	one	one	NOUN	NN	_	4	nsubj	4:nsubj	_
+3	can	can	AUX	MD	_	4	aux	4:aux	_
+4	go	go	VERB	VB	_	0	root	0:root	_
+5	there	there	ADV	RB	_	4	advmod	4:advmod	_
+6	and	and	CCONJ	CC	_	10	cc	10:cc	_
+7	this	this	DET	DT	_	8	det	8:det	_
+8	one	one	NOUN	NN	_	10	nsubj	10:nsubj	_
+9	can	can	AUX	MD	_	10	aux	10:aux	_
+10	go	go	VERB	VB	_	4	conj	4:conj:and	_
+11	here	here	ADV	RB	_	10	advmod	10:advmod	_
+12	and	and	CCONJ	CC	_	16	cc	16:cc	_
+13	this	this	DET	DT	_	14	det	14:det	_
+14	one	one	NOUN	NN	_	16	nsubj	16:nsubj	_
+15	can	can	AUX	MD	_	16	aux	16:aux	_
+16	go	go	VERB	VB	_	4	conj	4:conj:and	_
+17	here	here	ADV	RB	_	16	advmod	16:advmod	SpaceAfter=No
+18	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = 46203
+# original_sent_id = 2473196
+# childes_toks = you tell them to me and I'll tell them to her
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 39.46076921497361
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = You tell them to me and I'll tell them to her.
+1	You	you	PRON	PRP	_	2	nsubj	2:nsubj	_
+2	tell	tell	VERB	VBP	_	0	root	0:root	_
+3	them	they	PRON	PRP	_	2	obj	2:iobj	_
+4	to	to	ADP	IN	_	5	case	5:case	_
+5	me	I	PRON	PRP	_	2	obl	2:obl:to	_
+6	and	and	CCONJ	CC	_	9	cc	9:cc	_
+7-8	I'll	_	_	_	_	_	_	_	_
+7	I	I	PRON	PRP	_	9	nsubj	9:nsubj	_
+8	'll	will	AUX	MD	_	9	aux	9:aux	_
+9	tell	tell	VERB	VB	_	2	conj	2:conj:and	_
+10	them	they	PRON	PRP	_	9	obj	9:iobj	_
+11	to	to	ADP	IN	_	12	case	12:case	_
+12	her	she	PRON	PRP	_	9	obl	9:obl:to	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = 46220
+# original_sent_id = 2473372
+# childes_toks = and then we we get them and then we put them in these holes
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 37.65785745087168
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = And then we we get them and then we put them in these holes.
+1	And	and	CCONJ	CC	_	5	cc	5:cc	_
+2	then	then	ADV	RB	_	5	advmod	5:advmod	_
+3	we	we	PRON	PRP	_	4	reparandum	4:reparandum	_
+4	we	we	PRON	PRP	_	5	nsubj	5:nsubj	_
+5	get	get	VERB	VBP	_	0	root	0:root	_
+6	them	they	PRON	PRP	_	5	obj	5:obj	_
+7	and	and	CCONJ	CC	_	10	cc	10:cc	_
+8	then	then	ADV	RB	_	10	advmod	10:advmod	_
+9	we	we	PRON	PRP	_	10	nsubj	10:nsubj	_
+10	put	put	VERB	VBP	_	5	conj	5:conj:and	_
+11	them	they	PRON	PRP	_	10	obj	10:obj	_
+12	in	in	ADP	IN	_	14	case	14:case	_
+13	these	this	DET	DT	_	14	det	14:det	_
+14	holes	hole	NOUN	NNS	_	10	obl	10:obl:in	SpaceAfter=No
+15	.	.	PUNCT	.	_	5	punct	5:punct	_
+
+# sent_id = 46238
+# original_sent_id = 2473581
+# childes_toks = you're doing silly thing to me and I don't wanna
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 39.46076921497361
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = You're doing silly thing to me and I don't wanna.
+1-2	You're	_	_	_	_	_	_	_	_
+1	You	you	PRON	PRP	_	3	nsubj	3:nsubj	_
+2	're	be	AUX	VBP	_	3	aux	3:aux	_
+3	doing	do	VERB	VBG	_	0	root	0:root	_
+4	silly	silly	ADJ	JJ	_	5	amod	5:amod	_
+5	thing	thing	NOUN	NN	_	3	obj	3:obj	_
+6	to	to	ADP	IN	_	7	case	7:case	_
+7	me	I	PRON	PRP	_	3	obl	3:obl:to	_
+8	and	and	CCONJ	CC	_	12	cc	12:cc	_
+9	I	I	PRON	PRP	_	12	nsubj	12:nsubj|13:nsubj:xsubj	_
+10-11	don't	_	_	_	_	_	_	_	_
+10	do	do	AUX	VBP	_	12	aux	12:aux	_
+11	n't	not	PART	RB	_	12	advmod	12:advmod	_
+12-13	wanna	_	_	_	_	_	_	_	SpaceAfter=No
+12	wan	want	VERB	VB	_	3	conj	3:conj:and	_
+13	na	to	PART	TO	_	12	xcomp	12:xcomp	_
+14	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = 46246
+# original_sent_id = 2473664
+# childes_toks = I want to make you to make a sun for Emma
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 37.65785745087168
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = I want to make you to make a sun for Emma.
+1	I	I	PRON	PRP	_	2	nsubj	2:nsubj|4:nsubj:xsubj|7:nsubj:xsubj	_
+2	want	want	VERB	VBP	_	0	root	0:root	_
+3	to	to	PART	TO	_	4	mark	4:mark	_
+4	make	make	VERB	VB	_	2	xcomp	2:xcomp	_
+5	you	you	PRON	PRP	_	4	obj	4:obj|7:nsubj:xsubj	_
+6	to	to	PART	TO	_	7	mark	7:mark	_
+7	make	make	VERB	VB	_	4	xcomp	4:xcomp	_
+8	a	a	DET	DT	_	9	det	9:det	_
+9	sun	sun	NOUN	NN	_	7	obj	7:obj	_
+10	for	for	ADP	IN	_	11	case	11:case	_
+11	Emma	Emma	PROPN	NNP	_	7	obl	7:obl:for	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = 46254
+# original_sent_id = 2473700
+# childes_toks = you Avril was in your tummy and then can I jump on your tummy
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 39.46076921497361
+# child_gender = female
+# speaker_role = Target_Child
+# type = question
+# text = You Avril was in your tummy and then can I jump on your tummy?
+1	You	you	PRON	PRP	_	6	nsubj	6:vocative	_
+2	Avril	Avril	PROPN	NNP	_	1	appos	6:nsubj	_
+3	was	be	AUX	VBD	_	6	cop	6:cop	_
+4	in	in	ADP	IN	_	6	case	6:case	_
+5	your	you	PRON	PRP$	_	6	nmod:poss	6:nmod:poss	_
+6	tummy	tummy	NOUN	NN	_	0	root	0:root	_
+7	and	and	CCONJ	CC	_	11	cc	11:cc	_
+8	then	then	ADV	RB	_	11	advmod	11:advmod	_
+9	can	can	AUX	MD	_	11	aux	11:aux	_
+10	I	I	PRON	PRP	_	11	nsubj	11:nsubj	_
+11	jump	jump	VERB	VB	_	6	conj	6:conj:and	_
+12	on	on	ADP	IN	_	14	case	14:case	_
+13	your	you	PRON	PRP$	_	14	nmod:poss	14:nmod:poss	_
+14	tummy	tummy	NOUN	NN	_	11	obl	11:obl:on	SpaceAfter=No
+15	?	?	PUNCT	?	_	6	punct	6:punct	_
+
+# sent_id = 46355
+# original_sent_id = 2473999
+# childes_toks = I don't no daddy got them for me because they were too heavy
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 39.46076921497361
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = I don't no daddy got them for me because they were too heavy.
+1	I	I	PRON	PRP	_	2	nsubj	2:nsubj	_
+2-3	don't	_	_	_	_	_	_	_	_
+2	do	do	AUX	VBP	_	0	root	0:root	_
+3	n't	not	PART	RB	_	2	advmod	2:advmod	_
+4	no	no	DET	DT	_	2	discourse	6:discourse	_
+5	daddy	daddy	NOUN	NN	_	6	nsubj	6:nsubj	_
+6	got	get	VERB	VBD	_	2	parataxis	2:parataxis	_
+7	them	they	PRON	PRP	_	6	obj	6:obj	_
+8	for	for	ADP	IN	_	9	case	9:case	_
+9	me	I	PRON	PRP	_	6	obl	6:obl:for	_
+10	because	because	SCONJ	IN	_	14	mark	14:mark	_
+11	they	they	PRON	PRP	_	14	nsubj	14:nsubj	_
+12	were	be	AUX	VBD	_	14	cop	14:cop	_
+13	too	too	ADV	RB	_	14	advmod	14:advmod	_
+14	heavy	heavy	ADJ	JJ	_	6	advcl	6:advcl:because	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = 46357
+# original_sent_id = 2474003
+# childes_toks = no I'm carrying you up by eating by holding your hand
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 42.78937965871989
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = No I'm carrying you up by eating by holding your hand.
+1	No	no	INTJ	UH	_	4	discourse	4:discourse	_
+2-3	I'm	_	_	_	_	_	_	_	_
+2	I	I	PRON	PRP	_	4	nsubj	4:nsubj	_
+3	'm	be	AUX	VBP	_	4	aux	4:aux	_
+4	carrying	carry	VERB	VBG	_	0	root	0:root	_
+5	you	you	PRON	PRP	_	4	obj	4:obj	_
+6	up	up	ADP	RP	_	4	compound:prt	4:compound:prt	_
+7	by	by	SCONJ	IN	_	8	mark	8:mark	_
+8	eating	eat	VERB	VBG	_	4	advcl	4:advcl:by	_
+9	by	by	SCONJ	IN	_	10	mark	10:mark	_
+10	holding	hold	VERB	VBG	_	4	advcl	4:advcl:by	_
+11	your	you	PRON	PRP$	_	12	nmod:poss	12:nmod:poss	_
+12	hand	hand	NOUN	NN	_	10	obj	10:obj	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = 46445
+# original_sent_id = 2474534
+# childes_toks = uh well people come to our door and we give trick or treats
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 39.46076921497361
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = Uh well people come to our door and we give trick or treats.
+1	Uh	uh	INTJ	UH	_	4	discourse	4:discourse	_
+2	well	well	INTJ	UH	_	4	discourse	4:discourse	_
+3	people	people	NOUN	NNS	_	4	nsubj	4:nsubj	_
+4	come	come	VERB	VBP	_	0	root	0:root	_
+5	to	to	ADP	IN	_	7	case	7:case	_
+6	our	we	PRON	PRP$	_	7	nmod:poss	7:nmod:poss	_
+7	door	door	NOUN	NN	_	4	obl	4:obl:to	_
+8	and	and	CCONJ	CC	_	10	cc	10:cc	_
+9	we	we	PRON	PRP	_	10	nsubj	10:nsubj	_
+10	give	give	VERB	VBP	_	4	conj	4:conj:and	_
+11	trick	trick	NOUN	NN	_	10	obj	10:obj	_
+12	or	or	CCONJ	CC	_	13	cc	13:cc	_
+13	treats	treat	NOUN	NNS	_	11	conj	10:obj|11:conj:or	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = 46450
+# original_sent_id = 2474564
+# childes_toks = daddy can I get some tape some tape out of your place
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 43.690835540770856
+# child_gender = female
+# speaker_role = Target_Child
+# type = question
+# text = Daddy can I get some tape some tape out of your place?
+1	Daddy	daddy	NOUN	NN	_	4	vocative	4:vocative	_
+2	can	can	AUX	MD	_	4	aux	4:aux	_
+3	I	I	PRON	PRP	_	4	nsubj	4:nsubj	_
+4	get	get	VERB	VB	_	0	root	0:root	_
+5	some	some	DET	DT	_	6	det	6:det	_
+6	tape	tape	NOUN	NN	_	4	obj	8:reparandum	_
+7	some	some	DET	DT	_	8	det	8:det	_
+8	tape	tape	NOUN	NN	_	4	obj	4:obj	_
+9	out	out	ADP	IN	_	12	case	12:case	_
+10	of	of	ADP	IN	_	12	case	12:case	_
+11	your	you	PRON	PRP$	_	12	nmod:poss	12:nmod:poss	_
+12	place	place	NOUN	NN	_	4	obl	4:obl:out_of	SpaceAfter=No
+13	?	?	PUNCT	?	_	4	punct	4:punct	_
+
+# sent_id = 46474
+# original_sent_id = 2474787
+# childes_toks = now let's see where is the um should we open this with some scissors
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 43.690835540770856
+# child_gender = female
+# speaker_role = Target_Child
+# type = question
+# text = Now let's see where is the um should we open this with some scissors?
+1	Now	now	ADV	RB	_	2	advmod	2:advmod	_
+2-3	let's	_	_	_	_	_	_	_	_
+2	let	let	VERB	VB	_	0	root	0:root	_
+3	's	we	PRON	PRP	_	2	obj	2:obj|4:nsubj:xsubj	_
+4	see	see	VERB	VB	_	2	xcomp	2:xcomp	_
+5	where	where	SCONJ	WRB	_	2	parataxis	4:ccomp	_
+6	is	be	AUX	VBZ	_	5	cop	5:cop	_
+7	the	the	DET	DT	_	5	nsubj	5:nsubj	_
+8	um	um	INTJ	UH	_	11	discourse	11:discourse	_
+9	should	should	AUX	MD	_	11	aux	11:aux	_
+10	we	we	PRON	PRP	_	11	nsubj	11:nsubj	_
+11	open	open	VERB	VB	_	2	parataxis	2:parataxis	_
+12	this	this	PRON	DT	_	11	obj	11:obj	_
+13	with	with	ADP	IN	_	15	case	15:case	_
+14	some	some	DET	DT	_	15	det	15:det	_
+15	scissors	scissors	NOUN	NNS	_	11	obl	11:obl:with	SpaceAfter=No
+16	?	?	PUNCT	?	_	2	punct	2:punct	_
+
+# sent_id = 46548
+# original_sent_id = 2475341
+# childes_toks = there's only you can use on this one one two three
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 43.690835540770856
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = There's only you can use on this one one two three.
+1-2	There's	_	_	_	_	_	_	_	_
+1	There	there	PRON	EX	_	2	expl	2:expl	_
+2	's	be	VERB	VBZ	_	0	root	0:root	_
+3	only	only	ADV	RB	_	2	advmod	2:advmod	_
+4	you	you	PRON	PRP	_	6	nsubj	6:nsubj	_
+5	can	can	AUX	MD	_	6	aux	6:aux	_
+6	use	use	VERB	VB	_	2	parataxis	2:parataxis	_
+7	on	on	ADP	IN	_	9	case	9:case	_
+8	this	this	DET	DT	_	9	det	9:det	_
+9	one	one	NUM	CD	_	6	obl	6:obl:on	_
+10	one	one	NUM	CD	_	2	parataxis	2:parataxis	_
+11	two	two	NUM	CD	_	10	conj	10:conj	_
+12	three	three	NUM	CD	_	10	conj	10:conj	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = 46575
+# original_sent_id = 2475506
+# childes_toks = how about you get some food at Tops and remember to pay money
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 44.72371095915727
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = How about you get some food at Tops and remember to pay money.
+1	How	how	ADV	WRB	_	0	root	4:advmod	_
+2	about	about	ADP	IN	_	4	mark	4:mark	_
+3	you	you	PRON	PRP	_	4	nsubj	4:nsubj|10:nsubj|12:nsubj:xsubj	_
+4	get	get	VERB	VB	_	1	advcl	0:root	_
+5	some	some	DET	DT	_	6	det	6:det	_
+6	food	food	NOUN	NN	_	4	obj	4:obj	_
+7	at	at	ADP	IN	_	8	case	8:case	_
+8	Tops	Top	PROPN	NNP	_	4	obl	4:obl:at	_
+9	and	and	CCONJ	CC	_	10	cc	10:cc	_
+10	remember	remember	VERB	VB	_	4	conj	4:conj:and	_
+11	to	to	PART	TO	_	12	mark	12:mark	_
+12	pay	pay	VERB	VB	_	10	xcomp	10:xcomp	_
+13	money	money	NOUN	NN	_	12	obj	12:obj	SpaceAfter=No
+14	.	.	PUNCT	.	_	1	punct	4:punct	_
+
+# sent_id = 46603
+# original_sent_id = 2475662
+# childes_toks = I can probably open this by myself with can you open this for me
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 43.690835540770856
+# child_gender = female
+# speaker_role = Target_Child
+# type = question
+# text = I can probably open this by myself with can you open this for me?
+1	I	I	PRON	PRP	_	4	nsubj	4:nsubj	_
+2	can	can	AUX	MD	_	4	aux	4:aux	_
+3	probably	probably	ADV	RB	_	4	advmod	4:advmod	_
+4	open	open	VERB	VB	_	0	root	0:root	_
+5	this	this	PRON	DT	_	4	obj	4:obj	_
+6	by	by	ADP	IN	_	7	case	7:case	_
+7	myself	myself	PRON	PRP	_	4	obl	4:obl:by	_
+8	with	with	ADP	IN	_	11	reparandum	4:obl	_
+9	can	can	AUX	MD	_	11	aux	11:aux	_
+10	you	you	PRON	PRP	_	11	nsubj	11:nsubj	_
+11	open	open	VERB	VB	_	4	parataxis	4:parataxis	_
+12	this	this	PRON	DT	_	11	obj	11:obj	_
+13	for	for	ADP	IN	_	14	case	14:case	_
+14	me	I	PRON	PRP	_	11	obl	11:obl:for	SpaceAfter=No
+15	?	?	PUNCT	?	_	4	punct	4:punct	_
+
+# sent_id = 46616
+# original_sent_id = 2475714
+# childes_toks = this dog is gonna crawl along the floor the floor and this dog is gonna stand up
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 44.72371095915727
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = This dog is gonna crawl along the floor the floor and this dog is gonna stand up.
+1	This	this	DET	DT	_	2	det	2:det	_
+2	dog	dog	NOUN	NN	_	4	nsubj	4:nsubj:outer|6:nsubj:xsubj	_
+3	is	be	AUX	VBZ	_	4	aux	4:cop	_
+4-5	gonna	_	_	_	_	_	_	_	_
+4	gon	go	VERB	VBG	_	0	root	0:root	_
+5	na	to	PART	TO	_	6	mark	6:mark	_
+6	crawl	crawl	VERB	VB	_	4	xcomp	4:xcomp	_
+7	along	along	ADP	IN	_	9	case	9:case	_
+8	the	the	DET	DT	_	9	det	9:det	_
+9	floor	floor	NOUN	NN	_	6	obl	6:obl:along	_
+10	the	the	DET	DT	_	11	det	11:det	_
+11	floor	floor	NOUN	NN	_	4	parataxis	6:obl:along|9:conj	_
+12	and	and	CCONJ	CC	_	16	cc	16:cc	_
+13	this	this	DET	DT	_	14	det	14:det	_
+14	dog	dog	NOUN	NN	_	16	nsubj	16:nsubj:outer|18:nsubj:xsubj	_
+15	is	be	AUX	VBZ	_	16	aux	16:cop	_
+16-17	gonna	_	_	_	_	_	_	_	_
+16	gon	go	VERB	VBG	_	4	conj	4:conj:and	_
+17	na	to	PART	TO	_	18	mark	18:mark	_
+18	stand	stand	VERB	VB	_	16	xcomp	16:xcomp	_
+19	up	up	ADP	RP	_	18	compound:prt	18:compound:prt	SpaceAfter=No
+20	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = 46634
+# original_sent_id = 2475795
+# childes_toks = momma is gonna get in the car and drive to Tops and get some food and buy the food
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 44.72371095915727
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = Momma is gonna get in the car and drive to Tops and get some food and buy the food.
+1	Momma	momma	NOUN	NN	_	3	nsubj	3:nsubj|5:nsubj:xsubj|10:nsubj:xsubj	_
+2	is	be	AUX	VBZ	_	3	aux	3:aux	_
+3-4	gonna	_	_	_	_	_	_	_	_
+3	gon	go	VERB	VBG	_	0	root	0:root	_
+4	na	to	PART	TO	_	5	mark	5:mark	_
+5	get	get	VERB	VB	_	3	xcomp	3:xcomp	_
+6	in	in	ADP	IN	_	8	case	8:case	_
+7	the	the	DET	DT	_	8	det	8:det	_
+8	car	car	NOUN	NN	_	5	obl	5:obl:in	_
+9	and	and	CCONJ	CC	_	10	cc	10:cc	_
+10	drive	drive	VERB	VB	_	5	conj	3:xcomp|5:conj:and	_
+11	to	to	ADP	IN	_	12	case	12:case	_
+12	Tops	top	NOUN	NNS	_	10	obl	10:obl:to	_
+13	and	and	CCONJ	CC	_	14	cc	14:cc	_
+14	get	get	VERB	VB	_	5	conj	5:conj|10:conj:and	_
+15	some	some	DET	DT	_	16	det	16:det	_
+16	food	food	NOUN	NN	_	14	obj	14:obj	_
+17	and	and	CCONJ	CC	_	18	cc	18:cc	_
+18	buy	buy	VERB	VB	_	5	conj	10:conj|14:conj:and	_
+19	the	the	DET	DT	_	20	det	20:det	_
+20	food	food	NOUN	NN	_	18	obj	18:obj	SpaceAfter=No
+21	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = 46652
+# original_sent_id = 2475923
+# childes_toks = yeah and he goes and when he runs and gets it
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 43.690835540770856
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = Yeah and he goes and when he runs and gets it.
+1	Yeah	yeah	INTJ	UH	_	4	discourse	4:discourse	_
+2	and	and	CCONJ	CC	_	4	cc	4:cc	_
+3	he	he	PRON	PRP	_	4	nsubj	4:nsubj	_
+4	goes	go	VERB	VBZ	_	0	root	0:root	_
+5	and	and	CCONJ	CC	_	8	cc	8:cc	_
+6	when	when	SCONJ	WRB	_	8	mark	8:mark	_
+7	he	he	PRON	PRP	_	8	nsubj	8:nsubj|10:nsubj	_
+8	runs	run	VERB	VBZ	_	4	conj	4:advcl:when	_
+9	and	and	CCONJ	CC	_	10	cc	10:cc	_
+10	gets	get	VERB	VBZ	_	8	conj	4:advcl:when|8:conj:and	_
+11	it	it	PRON	PRP	_	10	obj	10:obj	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = 46658
+# original_sent_id = 2475974
+# childes_toks = no there wasn't they didn't have a swimming pool
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 43.690835540770856
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = No there wasn't they didn't have a swimming pool.
+1	No	no	DET	DT	_	3	discourse	3:discourse	_
+2	there	there	PRON	EX	_	3	expl	3:expl	_
+3-4	wasn't	_	_	_	_	_	_	_	_
+3	was	be	VERB	VBD	_	0	root	0:root	_
+4	n't	not	PART	RB	_	3	advmod	3:advmod	_
+5	they	they	PRON	PRP	_	8	nsubj	8:nsubj	_
+6-7	didn't	_	_	_	_	_	_	_	_
+6	did	do	AUX	VBD	_	8	aux	8:aux	_
+7	n't	not	PART	RB	_	8	advmod	8:advmod	_
+8	have	have	VERB	VB	_	3	parataxis	3:parataxis	_
+9	a	a	DET	DT	_	11	det	11:det	_
+10	swimming	swim	NOUN	NN	_	11	compound	11:compound	_
+11	pool	pool	NOUN	NN	_	8	obj	8:obj	SpaceAfter=No
+12	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = 46732
+# original_sent_id = 2476365
+# childes_toks = no you you're too big to stay in the sandbox
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 44.72371095915727
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = No you you're too big to stay in the sandbox.
+1	No	no	INTJ	UH	_	6	discourse	6:discourse	_
+2	you	you	PRON	PRP	_	3	reparandum	3:reparandum	_
+3-4	you're	_	_	_	_	_	_	_	_
+3	you	you	PRON	PRP	_	6	nsubj	6:nsubj	_
+4	're	be	AUX	VBP	_	6	cop	6:cop	_
+5	too	too	ADV	RB	_	6	advmod	6:advmod	_
+6	big	big	ADJ	JJ	_	0	root	0:root	_
+7	to	to	PART	TO	_	8	mark	8:mark	_
+8	stay	stay	VERB	VB	_	6	advcl	6:advcl:to	_
+9	in	in	ADP	IN	_	11	case	11:case	_
+10	the	the	DET	DT	_	11	det	11:det	_
+11	sandbox	sandbox	NOUN	NN	_	8	obl	8:obl:in	SpaceAfter=No
+12	.	.	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = 46737
+# original_sent_id = 2476399
+# childes_toks = now I'm gonna go in the pool and now you can play in the sandbox
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 44.72371095915727
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = Now I'm gonna go in the pool and now you can play in the sandbox.
+1	Now	now	ADV	RB	_	4	advmod	4:advmod	_
+2-3	I'm	_	_	_	_	_	_	_	_
+2	I	I	PRON	PRP	_	4	nsubj	4:nsubj|6:nsubj:xsubj	_
+3	'm	be	AUX	VBP	_	4	aux	4:aux	_
+4-5	gonna	_	_	_	_	_	_	_	_
+4	gon	go	VERB	VBG	_	0	root	0:root	_
+5	na	to	PART	TO	_	6	mark	6:mark	_
+6	go	go	VERB	VB	_	4	xcomp	4:xcomp	_
+7	in	in	ADP	IN	_	9	case	9:case	_
+8	the	the	DET	DT	_	9	det	9:det	_
+9	pool	pool	NOUN	NN	_	6	obl	6:obl:in	_
+10	and	and	CCONJ	CC	_	14	cc	14:cc	_
+11	now	now	ADV	RB	_	14	advmod	14:advmod	_
+12	you	you	PRON	PRP	_	14	nsubj	14:nsubj	_
+13	can	can	AUX	MD	_	14	aux	14:aux	_
+14	play	play	VERB	VB	_	4	conj	4:conj:and	_
+15	in	in	ADP	IN	_	17	case	17:case	_
+16	the	the	DET	DT	_	17	det	17:det	_
+17	sandbox	sandbox	NOUN	NN	_	14	obl	14:obl:in	SpaceAfter=No
+18	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = 46746
+# original_sent_id = 2476450
+# childes_toks = and here's a slide if you wanna play on the slide too
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 44.72371095915727
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = And here's a slide if you wanna play on the slide too.
+1	And	and	CCONJ	CC	_	2	cc	2:cc	_
+2-3	here's	_	_	_	_	_	_	_	_
+2	here	here	ADV	RB	_	0	root	0:root	_
+3	's	be	AUX	VBZ	_	2	cop	2:cop	_
+4	a	a	DET	DT	_	5	det	5:det	_
+5	slide	slide	NOUN	NN	_	2	nsubj	2:nsubj	_
+6	if	if	SCONJ	IN	_	8	mark	8:mark	_
+7	you	you	PRON	PRP	_	8	nsubj	8:nsubj|10:nsubj:xsubj	_
+8-9	wanna	_	_	_	_	_	_	_	_
+8	wan	want	VERB	VBP	_	2	advcl	2:advcl:if	_
+9	na	to	PART	TO	_	10	mark	10:mark	_
+10	play	play	VERB	VB	_	8	xcomp	8:xcomp	_
+11	on	on	ADP	IN	_	13	case	13:case	_
+12	the	the	DET	DT	_	13	det	13:det	_
+13	slide	slide	NOUN	NN	_	10	obl	10:obl:on	_
+14	too	too	ADV	RB	_	10	advmod	10:advmod	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = 46747
+# original_sent_id = 2476459
+# childes_toks = I'm gonna play with my friend the killer whale in the pool
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 44.72371095915727
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = I'm gonna play with my friend the killer whale in the pool.
+1-2	I'm	_	_	_	_	_	_	_	_
+1	I	I	PRON	PRP	_	3	nsubj	3:nsubj|5:nsubj:xsubj	_
+2	'm	be	AUX	VBP	_	3	aux	3:aux	_
+3-4	gonna	_	_	_	_	_	_	_	_
+3	gon	go	VERB	VBG	_	0	root	0:root	_
+4	na	to	PART	TO	_	5	mark	5:mark	_
+5	play	play	VERB	VB	_	3	xcomp	3:xcomp	_
+6	with	with	ADP	IN	_	8	case	8:case	_
+7	my	my	PRON	PRP$	_	8	nmod:poss	8:nmod:poss	_
+8	friend	friend	NOUN	NN	_	5	obl	5:obl:with	_
+9	the	the	DET	DT	_	11	det	11:det	_
+10	killer	killer	NOUN	NN	_	11	compound	11:compound	_
+11	whale	whale	NOUN	NN	_	8	appos	8:appos	_
+12	in	in	ADP	IN	_	14	case	14:case	_
+13	the	the	DET	DT	_	14	det	14:det	_
+14	pool	pool	NOUN	NN	_	11	nmod	5:obl:in	SpaceAfter=No
+15	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = 46763
+# original_sent_id = 2476561
+# childes_toks = now let's see now we need ta now I need ta draw again
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 43.690835540770856
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = Now let's see now we need ta now I need ta draw again.
+1	Now	now	ADV	RB	_	2	advmod	2:advmod	_
+2-3	let's	_	_	_	_	_	_	_	_
+2	let	let	VERB	VB	_	0	root	0:root	_
+3	's	we	PRON	PRP	_	2	obj	2:obj|4:nsubj:xsubj	_
+4	see	see	VERB	VB	_	2	xcomp	2:xcomp	_
+5	now	now	ADV	RB	_	7	advmod	7:advmod	_
+6	we	we	PRON	PRP	_	7	nsubj	7:nsubj|8:nsubj:xsubj	_
+7	need	need	VERB	VBP	_	2	parataxis	4:ccomp	_
+8	ta	to	PRON	PRP	_	7	xcomp	7:xcomp	_
+9	now	now	ADV	RB	_	11	advmod	11:advmod	_
+10	I	I	PRON	PRP	_	11	nsubj	11:nsubj|13:nsubj:xsubj	_
+11	need	need	VERB	VBP	_	2	parataxis	2:parataxis	_
+12	ta	to	PART	TO	_	13	mark	13:mark	_
+13	draw	draw	VERB	VB	_	11	xcomp	11:xcomp	_
+14	again	again	ADV	RB	_	13	advmod	13:advmod	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = 46769
+# original_sent_id = 2476612
+# childes_toks = I a moon and we need a yellow outside and yellow there
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 43.690835540770856
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = I a moon and we need a yellow outside and yellow there.
+1	I	I	PRON	PRP	_	3	nsubj	2:reparandum	_
+2	a	a	DET	DT	_	3	det	3:det	_
+3	moon	moon	NOUN	NN	_	0	root	0:root	_
+4	and	and	CCONJ	CC	_	6	cc	6:cc	_
+5	we	we	PRON	PRP	_	6	nsubj	6:nsubj	_
+6	need	need	VERB	VBP	_	3	conj	3:conj:and	_
+7	a	a	DET	DT	_	9	det	8:det	_
+8	yellow	yellow	ADJ	JJ	_	9	amod	6:obj	_
+9	outside	outside	ADJ	JJ	_	6	obj	8:advmod	_
+10	and	and	CCONJ	CC	_	11	cc	11:cc	_
+11	yellow	yellow	ADJ	JJ	_	9	conj	6:obj|8:conj:and	_
+12	there	there	ADV	RB	_	11	advmod	11:advmod	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = 46773
+# original_sent_id = 2476629
+# childes_toks = yeah I'm gonna come downstairs in a m a minute
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 42.78937965871989
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = Yeah I'm gonna come downstairs in a m a minute.
+1	Yeah	yeah	INTJ	UH	_	4	discourse	4:discourse	_
+2-3	I'm	_	_	_	_	_	_	_	_
+2	I	I	PRON	PRP	_	4	nsubj	4:nsubj|6:nsubj:xsubj	_
+3	'm	be	AUX	VBP	_	4	aux	4:aux	_
+4-5	gonna	_	_	_	_	_	_	_	_
+4	gon	go	VERB	VBG	_	0	root	0:root	_
+5	na	to	PART	TO	_	6	mark	6:mark	_
+6	come	come	VERB	VB	_	4	xcomp	4:xcomp	_
+7	downstairs	downstairs	ADV	RB	_	6	advmod	6:advmod	_
+8	in	in	ADP	IN	_	12	case	12:case	_
+9	a	a	DET	DT	_	12	det	10:det	_
+10	m	m	NOUN	NN	_	12	reparandum	12:reparandum	_
+11	a	a	DET	DT	_	12	det	12:det	_
+12	minute	minute	NOUN	NN	_	6	obl	6:obl:in	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = 46774
+# original_sent_id = 2476640
+# childes_toks = I'm gonna come downstairs when I get Nu the Barneys
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 42.78937965871989
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = I'm gonna come downstairs when I get Nu the Barneys.
+1-2	I'm	_	_	_	_	_	_	_	_
+1	I	I	PRON	PRP	_	3	nsubj	3:nsubj|5:nsubj:xsubj	_
+2	'm	be	AUX	VBP	_	3	aux	3:aux	_
+3-4	gonna	_	_	_	_	_	_	_	_
+3	gon	go	VERB	VBG	_	0	root	0:root	_
+4	na	to	PART	TO	_	5	mark	5:mark	_
+5	come	come	VERB	VB	_	3	xcomp	3:xcomp	_
+6	downstairs	downstairs	ADV	RB	_	5	advmod	5:advmod	_
+7	when	when	SCONJ	WRB	_	9	mark	9:mark	_
+8	I	I	PRON	PRP	_	9	nsubj	9:nsubj	_
+9	get	get	VERB	VBP	_	5	advcl	5:advcl:when	_
+10	Nu	Nu	PROPN	NNP	_	9	discourse	9:obj	_
+11	the	the	DET	DT	_	12	det	12:det	_
+12	Barneys	Barneys	PROPN	NNP	_	9	obj	10:appos	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = 46786
+# original_sent_id = 2476747
+# childes_toks = there's a fish and we we need some different colors
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 43.690835540770856
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = There's a fish and we we need some different colors.
+1-2	There's	_	_	_	_	_	_	_	_
+1	There	there	PRON	EX	_	2	expl	2:expl	_
+2	's	be	VERB	VBZ	_	0	root	0:root	_
+3	a	a	DET	DT	_	4	det	4:det	_
+4	fish	fish	NOUN	NN	_	2	nsubj	2:nsubj	_
+5	and	and	CCONJ	CC	_	8	cc	8:cc	_
+6	we	we	PRON	PRP	_	7	reparandum	7:reparandum	_
+7	we	we	PRON	PRP	_	8	nsubj	8:nsubj	_
+8	need	need	VERB	VBP	_	2	conj	2:conj:and	_
+9	some	some	DET	DT	_	11	det	11:det	_
+10	different	different	ADJ	JJ	_	11	amod	11:amod	_
+11	colors	color	NOUN	NNS	_	8	obj	8:obj	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = 46791
+# original_sent_id = 2476794
+# childes_toks = now I'm gonna put it into the pool for me because that slide is littler for me and that is bigger for you
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 44.72371095915727
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = Now I'm gonna put it into the pool for me because that slide is littler for me and that is bigger for you.
+1	Now	now	ADV	RB	_	4	advmod	4:advmod	_
+2-3	I'm	_	_	_	_	_	_	_	_
+2	I	I	PRON	PRP	_	4	nsubj	4:nsubj|6:nsubj:xsubj	_
+3	'm	be	AUX	VBP	_	4	aux	4:aux	_
+4-5	gonna	_	_	_	_	_	_	_	_
+4	gon	go	VERB	VBG	_	0	root	0:root	_
+5	na	to	PART	TO	_	6	mark	6:mark	_
+6	put	put	VERB	VB	_	4	xcomp	4:xcomp	_
+7	it	it	PRON	PRP	_	6	obj	6:obj	_
+8	into	into	ADP	IN	_	10	case	10:case	_
+9	the	the	DET	DT	_	10	det	10:det	_
+10	pool	pool	NOUN	NN	_	6	obl	6:obl:into	_
+11	for	for	ADP	IN	_	12	case	12:case	_
+12	me	I	PRON	PRP	_	6	obl	6:obl:for	_
+13	because	because	SCONJ	IN	_	17	mark	17:mark	_
+14	that	that	DET	DT	_	15	det	15:det	_
+15	slide	slide	NOUN	NN	_	17	nsubj	17:nsubj	_
+16	is	be	AUX	VBZ	_	17	cop	17:cop	_
+17	littler	littler	NOUN	NN	_	4	advcl	6:advcl:because	_
+18	for	for	ADP	IN	_	19	case	19:case	_
+19	me	I	PRON	PRP	_	17	obl	17:obl:for	_
+20	and	and	CCONJ	CC	_	23	cc	23:cc	_
+21	that	that	PRON	DT	_	23	nsubj	23:nsubj	_
+22	is	be	AUX	VBZ	_	23	cop	23:cop	_
+23	bigger	big	ADJ	JJR	_	4	conj	6:advcl:because|17:conj:and	_
+24	for	for	ADP	IN	_	25	case	25:case	_
+25	you	you	PRON	PRP	_	23	obl	23:obl:for	SpaceAfter=No
+26	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = 46809
+# original_sent_id = 2476902
+# childes_toks = are you gonna have a party and cake for him
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 43.690835540770856
+# child_gender = female
+# speaker_role = Target_Child
+# type = question
+# text = Are you gonna have a party and cake for him?
+1	Are	be	AUX	VBP	_	3	aux	3:aux	_
+2	you	you	PRON	PRP	_	3	nsubj	3:nsubj|5:nsubj:xsubj	_
+3-4	gonna	_	_	_	_	_	_	_	_
+3	gon	go	VERB	VBG	_	0	root	0:root	_
+4	na	to	PART	TO	_	5	mark	5:mark	_
+5	have	have	VERB	VB	_	3	xcomp	3:xcomp	_
+6	a	a	DET	DT	_	7	det	7:det	_
+7	party	party	NOUN	NN	_	5	obj	5:obj	_
+8	and	and	CCONJ	CC	_	9	cc	9:cc	_
+9	cake	cake	NOUN	NN	_	7	conj	5:obj|7:conj:and	_
+10	for	for	ADP	IN	_	11	case	11:case	_
+11	him	he	PRON	PRP	_	5	obl	7:nmod:for	SpaceAfter=No
+12	?	?	PUNCT	?	_	3	punct	3:punct	_
+
+# sent_id = 46812
+# original_sent_id = 2476932
+# childes_toks = you you can come you're just right stuffed animal dog
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 44.72371095915727
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = You you can come you're just right stuffed animal dog.
+1	You	you	PRON	PRP	_	2	reparandum	2:reparandum	_
+2	you	you	PRON	PRP	_	4	nsubj	4:nsubj	_
+3	can	can	AUX	MD	_	4	aux	4:aux	_
+4	come	come	VERB	VB	_	0	root	0:root	_
+5-6	you're	_	_	_	_	_	_	_	_
+5	you	you	PRON	PRP	_	8	nsubj	11:nsubj	_
+6	're	be	AUX	VBP	_	8	cop	11:cop	_
+7	just	just	ADV	RB	_	8	advmod	8:advmod	_
+8	right	right	ADV	RB	_	4	parataxis	11:amod	_
+9	stuffed	stuff	VERB	VBN	_	10	amod	10:amod	_
+10	animal	animal	NOUN	NN	_	11	compound	11:compound	_
+11	dog	dog	NOUN	NN	_	8	parataxis	4:parataxis	SpaceAfter=No
+12	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = 46835
+# original_sent_id = 2477044
+# childes_toks = mm hm sometimes he he takes something from me and I cry
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 43.690835540770856
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = Mm hm sometimes he he takes something from me and I cry.
+1	Mm	mm	INTJ	UH	_	6	discourse	6:discourse	_
+2	hm	hm	INTJ	UH	_	1	flat	1:flat	_
+3	sometimes	sometimes	ADV	RB	_	6	advmod	6:advmod	_
+4	he	he	PRON	PRP	_	5	reparandum	5:reparandum	_
+5	he	he	PRON	PRP	_	6	nsubj	6:nsubj	_
+6	takes	take	VERB	VBZ	_	0	root	0:root	_
+7	something	something	PRON	NN	_	6	obj	6:obj	_
+8	from	from	ADP	IN	_	9	case	9:case	_
+9	me	I	PRON	PRP	_	6	obl	6:obl:from	_
+10	and	and	CCONJ	CC	_	12	cc	12:cc	_
+11	I	I	PRON	PRP	_	12	nsubj	12:nsubj	_
+12	cry	cry	VERB	VBP	_	6	conj	6:conj:and	SpaceAfter=No
+13	.	.	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = 46837
+# original_sent_id = 2477053
+# childes_toks = I hear to them that they got it from the Salvation Army
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 42.78937965871989
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = I hear to them that they got it from the Salvation Army.
+1	I	I	PRON	PRP	_	2	nsubj	2:nsubj	_
+2	hear	hear	VERB	VBP	_	0	root	0:root	_
+3	to	to	ADP	IN	_	4	case	4:case	_
+4	them	they	PRON	PRP	_	2	obl	2:obl:to	_
+5	that	that	SCONJ	IN	_	7	mark	7:mark	_
+6	they	they	PRON	PRP	_	7	nsubj	7:nsubj	_
+7	got	get	VERB	VBD	_	2	ccomp	2:ccomp	_
+8	it	it	PRON	PRP	_	7	obj	7:obj	_
+9	from	from	ADP	IN	_	12	case	12:case	_
+10	the	the	DET	DT	_	12	det	12:det	_
+11	Salvation	Salvation	PROPN	NNP	_	12	compound	12:compound	_
+12	Army	Army	PROPN	NNP	_	7	obl	7:obl:from	SpaceAfter=No
+13	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = 46842
+# original_sent_id = 2477085
+# childes_toks = finally I tug on a measuring tape and he tugs on one and then I get mad at him
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 43.690835540770856
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = Finally I tug on a measuring tape and he tugs on one and then I get mad at him.
+1	Finally	finally	ADV	RB	_	3	advmod	3:advmod	_
+2	I	I	PRON	PRP	_	3	nsubj	3:nsubj	_
+3	tug	tug	VERB	VBP	_	0	root	0:root	_
+4	on	on	ADP	IN	_	7	case	7:case	_
+5	a	a	DET	DT	_	7	det	7:det	_
+6	measuring	measuring	NOUN	NN	_	7	compound	7:compound	_
+7	tape	tape	NOUN	NN	_	3	obl	3:obl:on	_
+8	and	and	CCONJ	CC	_	10	cc	10:cc	_
+9	he	he	PRON	PRP	_	10	nsubj	10:nsubj	_
+10	tugs	tug	VERB	VBZ	_	3	conj	3:conj:and	_
+11	on	on	ADP	IN	_	12	case	12:case	_
+12	one	one	NUM	CD	_	10	obl	10:obl:on	_
+13	and	and	CCONJ	CC	_	16	cc	16:cc	_
+14	then	then	ADV	RB	_	16	advmod	16:advmod	_
+15	I	I	PRON	PRP	_	16	nsubj	16:nsubj|17:nsubj:xsubj	_
+16	get	get	VERB	VBP	_	3	conj	3:conj:and	_
+17	mad	mad	ADJ	JJ	_	16	xcomp	16:xcomp	_
+18	at	at	ADP	IN	_	19	case	19:case	_
+19	him	he	PRON	PRP	_	17	obl	16:obl:at	SpaceAfter=No
+20	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = 46847
+# original_sent_id = 2477109
+# childes_toks = when he gets the measuring tape and then mommy takes it away from me and then I get happy again
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 43.690835540770856
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = When he gets the measuring tape and then mommy takes it away from me and then I get happy again.
+1	When	when	SCONJ	WRB	_	3	mark	3:mark	_
+2	he	he	PRON	PRP	_	3	nsubj	3:nsubj	_
+3	gets	get	VERB	VBZ	_	0	root	18:advcl:when	_
+4	the	the	DET	DT	_	6	det	6:det	_
+5	measuring	measuring	NOUN	NN	_	6	compound	6:compound	_
+6	tape	tape	NOUN	NN	_	3	obj	3:obj	_
+7	and	and	CCONJ	CC	_	10	cc	10:cc	_
+8	then	then	ADV	RB	_	10	advmod	10:advmod	_
+9	mommy	mommy	NOUN	NN	_	10	nsubj	10:nsubj	_
+10	takes	take	VERB	VBZ	_	3	conj	3:conj:and|18:advcl:when	_
+11	it	it	PRON	PRP	_	10	obj	10:obj	_
+12	away	away	ADV	RB	_	10	compound:prt	10:advmod	_
+13	from	from	ADP	IN	_	14	case	14:case	_
+14	me	I	PRON	PRP	_	10	obl	12:obl:from	_
+15	and	and	CCONJ	CC	_	18	cc	18:cc	_
+16	then	then	ADV	RB	_	18	advmod	18:advmod	_
+17	I	I	PRON	PRP	_	18	nsubj	18:nsubj|19:nsubj:xsubj	_
+18	get	get	VERB	VBP	_	3	conj	0:root	_
+19	happy	happy	ADJ	JJ	_	18	xcomp	18:xcomp	_
+20	again	again	ADV	RB	_	18	advmod	18:advmod	SpaceAfter=No
+21	.	.	PUNCT	.	_	3	punct	18:punct	_
+
+# sent_id = 46849
+# original_sent_id = 2477120
+# childes_toks = I don't I didn't find him on the in the bedroom
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 42.78937965871989
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = I don't I didn't find him on the in the bedroom.
+1	I	I	PRON	PRP	_	2	nsubj	2:nsubj	_
+2-3	don't	_	_	_	_	_	_	_	_
+2	do	do	AUX	VBP	_	0	root	0:root	_
+3	n't	not	PART	RB	_	2	advmod	2:advmod	_
+4	I	I	PRON	PRP	_	7	nsubj	7:nsubj	_
+5-6	didn't	_	_	_	_	_	_	_	_
+5	did	do	AUX	VBD	_	7	aux	7:aux	_
+6	n't	not	PART	RB	_	7	advmod	7:advmod	_
+7	find	find	VERB	VB	_	2	parataxis	2:parataxis	_
+8	him	he	PRON	PRP	_	7	obj	7:obj	_
+9	on	on	ADP	IN	_	10	case	10:case	_
+10	the	the	DET	DT	_	13	reparandum	13:reparandum	_
+11	in	in	ADP	IN	_	13	case	13:case	_
+12	the	the	DET	DT	_	13	det	13:det	_
+13	bedroom	bedroom	NOUN	NN	_	7	obl	7:obl:in	SpaceAfter=No
+14	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = 46850
+# original_sent_id = 2477128
+# childes_toks = now how about this guy say and this is enough people
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 44.72371095915727
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = Now how about this guy say and this is enough people.
+1	Now	now	ADV	RB	_	2	advmod	6:advmod	_
+2	how	how	ADV	WRB	_	0	root	6:advmod	_
+3	about	about	ADP	IN	_	5	case	6:mark	_
+4	this	this	DET	DT	_	5	det	5:det	_
+5	guy	guy	NOUN	NN	_	2	nsubj	6:nsubj	_
+6	say	say	VERB	VBP	_	2	parataxis	0:root	_
+7	and	and	CCONJ	CC	_	11	cc	11:cc	_
+8	this	this	PRON	DT	_	11	nsubj	11:nsubj	_
+9	is	be	AUX	VBZ	_	11	cop	11:cop	_
+10	enough	enough	ADJ	JJ	_	11	amod	11:amod	_
+11	people	people	NOUN	NNS	_	2	parataxis	6:conj:and	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	6:punct	_
+
+# sent_id = 46862
+# original_sent_id = 2477185
+# childes_toks = and here's a game that I really know that I know from Sue
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 43.690835540770856
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = And here's a game that I really know that I know from Sue.
+1	And	and	CCONJ	CC	_	2	cc	2:cc	_
+2-3	here's	_	_	_	_	_	_	_	_
+2	here	here	ADV	RB	_	0	root	0:root	_
+3	's	be	AUX	VBZ	_	2	cop	2:cop	_
+4	a	a	DET	DT	_	5	det	5:det	_
+5	game	game	NOUN	NN	_	2	nsubj	2:nsubj|9:obj	_
+6	that	that	PRON	WDT	_	9	obj	5:ref	_
+7	I	I	PRON	PRP	_	9	nsubj	9:nsubj	_
+8	really	really	ADV	RB	_	9	advmod	9:advmod	_
+9	know	know	VERB	VBP	_	5	acl:relcl	5:acl:relcl	_
+10	that	that	SCONJ	IN	_	12	obj	12:obj	_
+11	I	I	PRON	PRP	_	12	nsubj	12:nsubj	_
+12	know	know	VERB	VBP	_	5	acl:relcl	9:ccomp	_
+13	from	from	ADP	IN	_	14	case	14:case	_
+14	Sue	Sue	PROPN	NNP	_	12	obl	12:obl:from	SpaceAfter=No
+15	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = 46863
+# original_sent_id = 2477189
+# childes_toks = he said that he wants to come down and see us
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 42.78937965871989
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = He said that he wants to come down and see us.
+1	He	he	PRON	PRP	_	2	nsubj	2:nsubj	_
+2	said	say	VERB	VBD	_	0	root	0:root	_
+3	that	that	SCONJ	IN	_	5	mark	5:mark	_
+4	he	he	PRON	PRP	_	5	nsubj	5:nsubj|7:nsubj:xsubj|10:nsubj:xsubj	_
+5	wants	want	VERB	VBZ	_	2	ccomp	2:ccomp	_
+6	to	to	PART	TO	_	7	mark	7:mark	_
+7	come	come	VERB	VB	_	5	xcomp	5:xcomp	_
+8	down	down	ADV	RP	_	7	advmod	7:advmod	_
+9	and	and	CCONJ	CC	_	10	cc	10:cc	_
+10	see	see	VERB	VB	_	7	conj	5:xcomp|7:conj:and	_
+11	us	we	PRON	PRP	_	10	obj	10:obj	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = 46951
+# original_sent_id = 2477878
+# childes_toks = no she bringed all these aminals but she didn't bring this
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 51.00104724943017
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = No she bringed all these aminals but she didn't bring this.
+1	No	no	INTJ	UH	_	3	discourse	3:discourse	_
+2	she	she	PRON	PRP	_	3	nsubj	3:nsubj	_
+3	bringed	bring	VERB	VBD	_	0	root	0:root	_
+4	all	all	DET	PDT	_	6	det:predet	6:det:predet	_
+5	these	this	DET	DT	_	6	det	6:det	_
+6	aminals	aminal	NOUN	NNS	_	3	obj	3:obj	_
+7	but	but	CCONJ	CC	_	11	cc	11:cc	_
+8	she	she	PRON	PRP	_	11	nsubj	11:nsubj	_
+9-10	didn't	_	_	_	_	_	_	_	_
+9	did	do	AUX	VBD	_	11	aux	11:aux	_
+10	n't	not	PART	RB	_	11	advmod	11:advmod	_
+11	bring	bring	VERB	VB	_	3	conj	3:conj:but	_
+12	this	this	PRON	DT	_	11	obj	11:obj	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = 46955
+# original_sent_id = 2477911
+# childes_toks = we don't have twin g girls but we have one of these
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 51.00104724943017
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = We don't have twin g girls but we have one of these.
+1	We	we	PRON	PRP	_	4	nsubj	4:nsubj	_
+2-3	don't	_	_	_	_	_	_	_	_
+2	do	do	AUX	VBP	_	4	aux	4:aux	_
+3	n't	not	PART	RB	_	4	advmod	4:advmod	_
+4	have	have	VERB	VB	_	0	root	0:root	_
+5	twin	twin	ADJ	JJ	_	7	compound	7:compound	_
+6	g	gram	NOUN	NNS	_	7	compound	7:reparandum	_
+7	girls	girl	NOUN	NNS	_	4	obj	4:obj	_
+8	but	but	CCONJ	CC	_	10	cc	10:cc	_
+9	we	we	PRON	PRP	_	10	nsubj	10:nsubj	_
+10	have	have	VERB	VBP	_	4	conj	4:conj:but	_
+11	one	one	NUM	CD	_	10	obj	10:obj	_
+12	of	of	ADP	IN	_	13	case	13:case	_
+13	these	this	PRON	DT	_	11	nmod	11:nmod:of	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = 46973
+# original_sent_id = 2478044
+# childes_toks = you can have the I get I'm gonna have the horsies
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 51.00104724943017
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = You can have the I get I'm gonna have the horsies.
+1	You	you	PRON	PRP	_	3	nsubj	3:nsubj	_
+2	can	can	AUX	MD	_	3	aux	3:aux	_
+3	have	have	VERB	VB	_	0	root	0:root	_
+4	the	the	DET	DT	_	3	obj	3:obj	_
+5	I	I	PRON	PRP	_	6	nsubj	6:nsubj	_
+6	get	get	VERB	VBP	_	3	parataxis	3:parataxis	_
+7-8	I'm	_	_	_	_	_	_	_	_
+7	I	I	PRON	PRP	_	9	nsubj	9:nsubj|11:nsubj:xsubj	_
+8	'm	be	AUX	VBP	_	9	aux	9:aux	_
+9-10	gonna	_	_	_	_	_	_	_	_
+9	gon	go	VERB	VBG	_	3	parataxis	3:parataxis	_
+10	na	to	PART	TO	_	11	mark	11:mark	_
+11	have	have	VERB	VB	_	9	xcomp	9:xcomp	_
+12	the	the	DET	DT	_	13	det	13:det	_
+13	horsies	horsie	NOUN	NNS	_	11	obj	11:obj	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = 47000
+# original_sent_id = 2478250
+# childes_toks = the girls are gonna go in their pet dog is gonna go in and the
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 51.00104724943017
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = The girls are gonna go in their pet dog is gonna go in and the.
+1	The	the	DET	DT	_	2	det	2:det	_
+2	girls	girl	NOUN	NNS	_	4	nsubj	4:nsubj|6:nsubj:xsubj	_
+3	are	be	AUX	VBP	_	4	aux	4:aux	_
+4-5	gonna	_	_	_	_	_	_	_	_
+4	gon	go	VERB	VBG	_	0	root	0:root	_
+5	na	to	PART	TO	_	6	mark	6:mark	_
+6	go	go	VERB	VB	_	4	xcomp	4:xcomp	_
+7	in	in	ADV	IN	_	6	advmod	6:advmod	_
+8	their	they	PRON	PRP$	_	10	nmod:poss	10:nmod:poss	_
+9	pet	pet	NOUN	NN	_	10	amod	10:compound	_
+10	dog	dog	NOUN	NN	_	12	nsubj	12:nsubj|14:nsubj:xsubj	_
+11	is	be	AUX	VBZ	_	12	aux	12:aux	_
+12-13	gonna	_	_	_	_	_	_	_	_
+12	gon	go	VERB	VBG	_	4	parataxis	4:parataxis	_
+13	na	to	PART	TO	_	14	mark	14:mark	_
+14	go	go	VERB	VB	_	12	xcomp	12:xcomp	_
+15	in	in	ADV	IN	_	14	advmod	14:advmod	_
+16	and	and	CCONJ	CC	_	17	cc	17:cc	_
+17	the	the	DET	DT	_	12	conj	12:conj:and	SpaceAfter=No
+18	.	.	PUNCT	.	_	4	punct	4:punct	_
+
+# sent_id = 47027
+# original_sent_id = 2478496
+# childes_toks = it's gonna be a a su a su a pretty big flower
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 49.82237828292162
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = It's gonna be a a su a su a pretty big flower.
+1-2	It's	_	_	_	_	_	_	_	_
+1	It	it	PRON	PRP	_	3	nsubj	3:nsubj|14:nsubj:xsubj	_
+2	's	be	AUX	VBZ	_	3	aux	3:aux	_
+3-4	gonna	_	_	_	_	_	_	_	_
+3	gon	go	VERB	VBG	_	0	root	0:root	_
+4	na	to	PART	TO	_	14	mark	14:mark	_
+5	be	be	AUX	VB	_	14	cop	14:cop	_
+6	a	a	DET	DT	_	11	reparandum	7:reparandum	_
+7	a	a	DET	DT	_	14	reparandum	8:det	_
+8	su	su	NOUN	NN	_	14	reparandum	12:reparandum	_
+9	a	a	DET	DT	_	7	conj	10:det	_
+10	su	su	NOUN	NN	_	7	conj	12:reparandum	_
+11	a	a	DET	DT	_	14	det	14:det	_
+12	pretty	pretty	ADV	RB	_	13	advmod	13:advmod	_
+13	big	big	ADJ	JJ	_	14	amod	14:amod	_
+14	flower	flower	NOUN	NN	_	3	xcomp	3:xcomp	SpaceAfter=No
+15	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = 47084
+# original_sent_id = 2479028
+# childes_toks = the kids wanna the grandmas were ba babysitting and then in pictures and they tripped the grandmas and run run away from them
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 51.92098400377831
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = The kids wanna the grandmas were ba babysitting and then in pictures and they tripped the grandmas and run run away from them.
+1	The	the	DET	DT	_	2	det	2:det	_
+2	kids	kid	NOUN	NNS	_	3	nsubj	3:nsubj|4:nsubj:xsubj	_
+3-4	wanna	_	_	_	_	_	_	_	_
+3	wan	want	VERB	VBP	_	0	root	0:root	_
+4	na	to	ADP	IN	_	3	mark	3:xcomp	_
+5	the	the	DET	DT	_	6	det	6:det	_
+6	grandmas	grandmas	NOUN	NNS	_	9	nsubj	9:nsubj	_
+7	were	be	AUX	VBD	_	9	cop	9:aux	_
+8	ba	ba	NOUN	NN	_	9	reparandum	9:reparandum	_
+9	babysitting	babysitting	NOUN	NN	_	3	parataxis	3:parataxis	_
+10	and	and	CCONJ	CC	_	13	cc	13:cc	_
+11	then	then	ADV	RB	_	13	advmod	13:advmod	_
+12	in	in	ADP	IN	_	13	case	13:case	_
+13	pictures	picture	NOUN	NNS	_	9	conj	9:conj:and	_
+14	and	and	CCONJ	CC	_	16	cc	16:cc	_
+15	they	they	PRON	PRP	_	16	nsubj	16:nsubj|21:nsubj	_
+16	tripped	trip	VERB	VBD	_	3	conj	3:conj:and	_
+17	the	the	DET	DT	_	18	det	18:det	_
+18	grandmas	grandmas	NOUN	NNS	_	16	obj	16:obj	_
+19	and	and	CCONJ	CC	_	21	cc	21:cc	_
+20	run	run	VERB	VBD	_	21	reparandum	21:reparandum	_
+21	run	run	VERB	VBN	_	16	conj	3:conj|16:conj:and	_
+22	away	away	ADV	RB	_	21	advmod	21:advmod	_
+23	from	from	ADP	IN	_	24	case	24:case	_
+24	them	they	PRON	PRP	_	21	obl	22:obl:from	SpaceAfter=No
+25	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = 47168
+# original_sent_id = 2479746
+# childes_toks = let's do a little same things but a little different things
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 51.92098400377831
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = Let's do a little same things but a little different things.
+1-2	Let's	_	_	_	_	_	_	_	_
+1	Let	let	VERB	VB	_	0	root	0:root	_
+2	's	we	PRON	PRP	_	1	obj	1:obj|3:nsubj:xsubj	_
+3	do	do	VERB	VB	_	1	xcomp	1:xcomp	_
+4	a	a	DET	DT	_	7	det	5:det	_
+5	little	little	ADJ	JJ	_	7	amod	6:obl:npmod	_
+6	same	same	ADJ	JJ	_	7	amod	7:amod	_
+7	things	thing	NOUN	NNS	_	3	obj	3:obj	_
+8	but	but	CCONJ	CC	_	12	cc	12:cc	_
+9	a	a	DET	DT	_	12	det	10:det	_
+10	little	little	ADJ	JJ	_	12	amod	11:obl:npmod	_
+11	different	different	ADJ	JJ	_	12	amod	12:amod	_
+12	things	thing	NOUN	NNS	_	7	conj	3:obj|7:conj:but	SpaceAfter=No
+13	.	.	PUNCT	.	_	1	punct	1:punct	_
+
+# sent_id = 47170
+# original_sent_id = 2479764
+# childes_toks = I'm only a tiny dog and my mother is tinier
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 51.00104724943017
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = I'm only a tiny dog and my mother is tinier.
+1-2	I'm	_	_	_	_	_	_	_	_
+1	I	I	PRON	PRP	_	6	nsubj	6:nsubj	_
+2	'm	be	AUX	VBP	_	6	cop	6:cop	_
+3	only	only	ADV	RB	_	6	advmod	6:advmod	_
+4	a	a	DET	DT	_	6	det	6:det	_
+5	tiny	tiny	ADJ	JJ	_	6	amod	6:amod	_
+6	dog	dog	NOUN	NN	_	0	root	0:root	_
+7	and	and	CCONJ	CC	_	11	cc	11:cc	_
+8	my	my	PRON	PRP$	_	9	nmod:poss	9:nmod:poss	_
+9	mother	mother	NOUN	NN	_	11	nsubj	11:nsubj	_
+10	is	be	AUX	VBZ	_	11	cop	11:cop	_
+11	tinier	tiny	ADJ	JJR	_	6	conj	6:conj:and	SpaceAfter=No
+12	.	.	PUNCT	.	_	6	punct	6:punct	_
+
+# sent_id = 47180
+# original_sent_id = 2479815
+# childes_toks = we're gonna have they're gonna have the parade in the house
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 51.92098400377831
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = We're gonna have they're gonna have the parade in the house.
+1-2	We're	_	_	_	_	_	_	_	_
+1	We	we	PRON	PRP	_	3	nsubj	3:nsubj|5:nsubj:xsubj	_
+2	're	be	AUX	VBP	_	3	aux	3:aux	_
+3-4	gonna	_	_	_	_	_	_	_	_
+3	gon	go	VERB	VBG	_	0	root	0:root	_
+4	na	to	PART	TO	_	5	mark	5:mark	_
+5	have	have	VERB	VB	_	8	reparandum	3:xcomp	_
+6-7	they're	_	_	_	_	_	_	_	_
+6	they	they	PRON	PRP	_	8	nsubj	8:nsubj|10:nsubj:xsubj	_
+7	're	be	AUX	VBP	_	8	aux	8:aux	_
+8-9	gonna	_	_	_	_	_	_	_	_
+8	gon	go	VERB	VBG	_	3	parataxis	3:parataxis	_
+9	na	to	PART	TO	_	10	mark	10:mark	_
+10	have	have	VERB	VB	_	8	xcomp	8:xcomp	_
+11	the	the	DET	DT	_	12	det	12:det	_
+12	parade	parade	NOUN	NN	_	10	obj	10:obj	_
+13	in	in	ADP	IN	_	15	case	15:case	_
+14	the	the	DET	DT	_	15	det	15:det	_
+15	house	house	NOUN	NN	_	10	obl	10:obl:in	SpaceAfter=No
+16	.	.	PUNCT	.	_	3	punct	3:punct	_
+
+# sent_id = 47226
+# original_sent_id = 2480089
+# childes_toks = stop it I'm not telling you until I'm done talking
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 51.92098400377831
+# child_gender = female
+# speaker_role = Target_Child
+# type = imperative_emphatic
+# text = Stop it I'm not telling you until I'm done talking!
+1	Stop	stop	VERB	VB	_	0	root	0:root	_
+2	it	it	PRON	PRP	_	1	obj	1:obj	_
+3-4	I'm	_	_	_	_	_	_	_	_
+3	I	I	PRON	PRP	_	6	nsubj	6:nsubj	_
+4	'm	be	AUX	VBP	_	6	aux	6:aux	_
+5	not	not	PART	RB	_	6	advmod	6:advmod	_
+6	telling	tell	VERB	VBG	_	1	parataxis	1:parataxis	_
+7	you	you	PRON	PRP	_	6	iobj	6:obj	_
+8	until	until	SCONJ	IN	_	11	mark	11:mark	_
+9-10	I'm	_	_	_	_	_	_	_	_
+9	I	I	PRON	PRP	_	11	nsubj:outer	11:nsubj:outer|12:nsubj:xsubj	_
+10	'm	be	AUX	VBP	_	11	cop	11:cop	_
+11	done	do	VERB	VBN	_	6	advcl	6:advcl:until	_
+12	talking	talk	VERB	VBG	_	11	advcl	11:xcomp	SpaceAfter=No
+13	!	!	PUNCT	!	_	1	punct	1:punct	_
+
+# sent_id = 47233
+# original_sent_id = 2480146
+# childes_toks = I'm not ca calling her I'm calling do you know the number who I'm calling
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 51.92098400377831
+# child_gender = female
+# speaker_role = Target_Child
+# type = question
+# text = I'm not ca calling her I'm calling do you know the number who I'm calling?
+1-2	I'm	_	_	_	_	_	_	_	_
+1	I	I	PRON	PRP	_	5	nsubj	5:nsubj	_
+2	'm	be	AUX	VBP	_	5	aux	5:aux	_
+3	not	not	PART	RB	_	5	advmod	5:advmod	_
+4	ca	can	AUX	MD	_	5	reparandum	5:reparandum	_
+5	calling	call	VERB	VBG	_	0	root	0:root	_
+6	her	she	PRON	PRP	_	5	obj	5:obj	_
+7-8	I'm	_	_	_	_	_	_	_	_
+7	I	I	PRON	PRP	_	9	nsubj	9:nsubj	_
+8	'm	be	AUX	VBP	_	9	aux	9:aux	_
+9	calling	call	VERB	VBG	_	5	parataxis	5:parataxis	_
+10	do	do	AUX	VBP	_	12	aux	12:aux	_
+11	you	you	PRON	PRP	_	12	nsubj	12:nsubj	_
+12	know	know	VERB	VB	_	5	parataxis	4:parataxis	_
+13	the	the	DET	DT	_	14	det	14:det	_
+14	number	number	NOUN	NN	_	12	obj	12:obj	_
+15	who	who	PRON	WP	_	18	obj	18:obj	_
+16-17	I'm	_	_	_	_	_	_	_	_
+16	I	I	PRON	PRP	_	18	nsubj	18:nsubj	_
+17	'm	be	AUX	VBP	_	18	aux	18:aux	_
+18	calling	call	VERB	VBG	_	14	acl:relcl	14:acl	SpaceAfter=No
+19	?	?	PUNCT	?	_	5	punct	5:punct	_
+
+# sent_id = 47285
+# original_sent_id = 2480468
+# childes_toks = um I need the baby's crying so I'll rock her to sleep after you after I tell you
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 51.92098400377831
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = Um I need the baby's crying so I'll rock her to sleep after you after I tell you.
+1	Um	um	INTJ	UH	_	3	discourse	3:discourse	_
+2	I	I	PRON	PRP	_	3	nsubj	3:nsubj	_
+3	need	need	VERB	VBP	_	0	root	7:reparandum	_
+4	the	the	DET	DT	_	5	det	5:det	_
+5-6	baby's	_	_	_	_	_	_	_	_
+5	baby	baby	NOUN	NN	_	7	nsubj	7:nsubj	_
+6	's	be	AUX	POS	_	7	aux	7:aux	_
+7	crying	cry	NOUN	NN	_	3	parataxis	0:root	_
+8	so	so	ADV	RB	_	11	mark	11:advmod	_
+9-10	I'll	_	_	_	_	_	_	_	_
+9	I	I	PRON	PRP	_	11	nsubj	11:nsubj	_
+10	'll	will	AUX	MD	_	11	aux	11:aux	_
+11	rock	rock	VERB	VB	_	3	parataxis	7:parataxis	_
+12	her	she	PRON	PRP	_	11	obj	11:obj	_
+13	to	to	PART	TO	_	14	case	14:case	_
+14	sleep	sleep	VERB	VB	_	11	obl	11:obl:to	_
+15	after	after	ADP	IN	_	16	case	16:mark	_
+16	you	you	PRON	PRP	_	11	obl	19:reparandum	_
+17	after	after	SCONJ	IN	_	19	mark	19:mark	_
+18	I	I	PRON	PRP	_	19	nsubj	19:nsubj	_
+19	tell	tell	VERB	VBP	_	11	advcl	11:advcl:after	_
+20	you	you	PRON	PRP	_	19	iobj	19:iobj	SpaceAfter=No
+21	.	.	PUNCT	.	_	3	punct	7:punct	_
+
+# sent_id = 47296
+# original_sent_id = 2480523
+# childes_toks = I would want I'll I'll look under my list
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 51.92098400377831
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = I would want I'll I'll look under my list.
+1	I	I	PRON	PRP	_	3	nsubj	3:nsubj	_
+2	would	would	AUX	MD	_	3	aux	3:aux	_
+3	want	want	VERB	VB	_	8	reparandum	0:root	_
+4-5	I'll	_	_	_	_	_	_	_	_
+4	I	I	PRON	PRP	_	3	nsubj	5:nsubj	_
+5	'll	will	AUX	MD	_	8	reparandum	8:reparandum	_
+6-7	I'll	_	_	_	_	_	_	_	_
+6	I	I	PRON	PRP	_	8	nsubj	8:nsubj	_
+7	'll	will	AUX	MD	_	8	aux	8:aux	_
+8	look	look	VERB	VB	_	0	root	3:parataxis	_
+9	under	under	ADP	IN	_	11	case	11:case	_
+10	my	my	PRON	PRP$	_	11	nmod:poss	11:nmod:poss	_
+11	list	list	NOUN	NN	_	8	obl	8:obl:under	SpaceAfter=No
+12	.	.	PUNCT	.	_	8	punct	3:punct	_
+
+# sent_id = 47328
+# original_sent_id = 2480684
+# childes_toks = everyone get in the truck and we'll and we'll get you to the farmhouse
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 51.00104724943017
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = Everyone get in the truck and we'll and we'll get you to the farmhouse.
+1	Everyone	everyone	PRON	NN	_	2	nsubj	2:nsubj	_
+2	get	get	VERB	VBP	_	0	root	0:root	_
+3	in	in	ADP	IN	_	5	case	5:case	_
+4	the	the	DET	DT	_	5	det	5:det	_
+5	truck	truck	NOUN	NN	_	2	obl	2:obl:in	_
+6	and	and	CCONJ	CC	_	8	cc	8:cc	_
+7-8	we'll	_	_	_	_	_	_	_	_
+7	we	we	PRON	PRP	_	8	nsubj	8:nsubj	_
+8	'll	will	AUX	MD	_	2	conj	12:reparandum	_
+9	and	and	CCONJ	CC	_	12	cc	12:cc	_
+10-11	we'll	_	_	_	_	_	_	_	_
+10	we	we	PRON	PRP	_	12	nsubj	12:nsubj	_
+11	'll	will	AUX	MD	_	12	aux	12:aux	_
+12	get	get	VERB	VB	_	2	conj	2:conj:and	_
+13	you	you	PRON	PRP	_	12	obj	12:obj	_
+14	to	to	ADP	IN	_	16	case	16:case	_
+15	the	the	DET	DT	_	16	det	16:det	_
+16	farmhouse	farmhouse	NOUN	NN	_	12	obl	12:obl:to	SpaceAfter=No
+17	.	.	PUNCT	.	_	2	punct	2:punct	_
+
+# sent_id = 47336
+# original_sent_id = 2480739
+# childes_toks = I want you to buy I want you to buy a broom a purple broom
+# child_name = Emma
+# corpus_name = Weist
+# gold_annotation = True
+# child_age = 51.92098400377831
+# child_gender = female
+# speaker_role = Target_Child
+# type = declarative
+# text = I want you to buy I want you to buy a broom a purple broom.
+1	I	I	PRON	PRP	_	2	nsubj	2:nsubj	_
+2	want	want	VERB	VBP	_	7	reparandum	7:reparandum	_
+3	you	you	PRON	PRP	_	2	obj	2:obj|5:nsubj:xsubj	_
+4	to	to	PART	TO	_	5	mark	5:mark	_
+5	buy	buy	VERB	VB	_	7	xcomp	2:xcomp	_
+6	I	I	PRON	PRP	_	7	nsubj	7:nsubj	_
+7	want	want	VERB	VBP	_	0	root	0:root	_
+8	you	you	PRON	PRP	_	7	obj	7:obj|10:nsubj:xsubj	_
+9	to	to	PART	TO	_	10	mark	10:mark	_
+10	buy	buy	VERB	VB	_	7	xcomp	7:xcomp	_
+11	a	a	DET	DT	_	12	det	12:det	_
+12	broom	broom	NOUN	NN	_	10	obj	10:obj	_
+13	a	a	DET	DT	_	15	det	15:det	_
+14	purple	purple	ADJ	JJ	_	15	amod	15:amod	_
+15	broom	broom	NOUN	NN	_	10	obj	10:obj|12:conj	SpaceAfter=No
+16	.	.	PUNCT	.	_	7	punct	7:punct	_
+
