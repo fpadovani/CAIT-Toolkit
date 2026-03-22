@@ -26,3 +26,22 @@ source cait_env/bin/activate
 pip install torch==2.5.1
 pip install -U git+https://github.com/Yu-val-weiss/supar-parser
 ```
+
+## 🔁 Training (Reproducibility)
+
+To reproduce the training of the dependency parser, we used the following command:
+
+```bash
+python -u -m supar.cmds.dep.biaffine train -b -d 0 -c dep-biaffine-roberta-en -p biaffine_roberta_large_childes_10/brlc \
+    --train /UD_English-CHILDES/en_childes-ud-train.conllu \
+    --dev /UD_English-CHILDES/en_childes-ud-dev.conllu \
+    --test /UD_English-CHILDES/en_childes-ud-test.conllu \
+    --encoder=bert \
+    --bert=roberta-large \
+    --lr=5e-5 \
+    --lr-rate=20 \
+    --batch-size=5000 \
+    --epochs=10 \
+    --update-steps=4
+```
+
