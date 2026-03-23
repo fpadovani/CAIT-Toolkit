@@ -30,7 +30,7 @@ cd stanza
 pip install -e .
 pip install -r requirements.txt
 ```
-### 2. To download the CAIT Parser follow this command:
+### 2. To download and start using CAIT Parser follow this command:
 
 ```bash
 huggingface-cli download fpadovani/biaffine_roberta_large_childes_10 --local-dir ./models/biaffine_roberta_large_childes_10
@@ -40,7 +40,7 @@ Since CAIT Parser trained with Supar don't predict PoS tags, you can use it in c
 
 
 
-## 🔁 Training (Reproducibility)
+## CAIT Training
 
 To train the dependency parser we used the following command:
 
@@ -58,7 +58,7 @@ python -u -m supar.cmds.dep.biaffine train -b -d 0 -c dep-biaffine-roberta-en -p
     --update-steps=4
 ```
 
-## 📊 Evaluation
+## CAIT Evaluation
 
 To evaluate the trained parser, we used the `evaluate` function from **Stanza**, as you can see in `evaluation/eval_parser_supar.py`.
 
@@ -68,7 +68,7 @@ Evaluation requires:
 
 ---
 
-### Generate Predictions
+### Predictions Generation
 
 You can generate predictions using the following commands.
 
@@ -88,7 +88,7 @@ python -u -m supar.cmds.dep.biaffine predict -d 0 \
     --tree
 ```
 
-## 📊 Evaluating Stanza Models
+## Off-the-shelf Stanza Model Evaluation
 
 To evaluate a Stanza dependency parser (either the default off-the-shelf model or a custom pre-trained one), you can use the provided script:
 
@@ -97,9 +97,11 @@ evaluation/eval_parser_stanza.py
 ```
 
 
-## 🧠 Using a Custom POS Model
+## POS Tagger Training and Evaluation
 
 If you want to evaluate using a custom POS tagger, you need to specify the path to the trained model:
 
 ```bash
 stanza_models/pos/en_childes_charlm_tagger.pt
+```
+# TO BE CONTINUED
