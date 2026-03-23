@@ -21,16 +21,16 @@ nlp = stanza.Pipeline(
 
 
 # Load UD-CHILDES test or dev set
-doc = CoNLL.conll2doc("UD_English-CHILDES/en_childes-ud-dev.conllu")
+doc = CoNLL.conll2doc("UD_English-CHILDES/en_childes-ud-test.conllu")
 
 doc = nlp(doc)
 
 # Save predictions
-CoNLL.write_doc2conll(doc, "prediction_files/off_the_shelf_dev_childes.conllu")
+CoNLL.write_doc2conll(doc, "prediction_files/off_the_shelf_test_childes.conllu")
 
 
-gold_ud = load_conllu_file("UD_English-CHILDES/en_childes-ud-dev.conllu")
-pred_ud = load_conllu_file("prediction_files/off_the_shelf_dev_childes.conllu")
+gold_ud = load_conllu_file("UD_English-CHILDES/en_childes-ud-test.conllu")
+pred_ud = load_conllu_file("prediction_files/off_the_shelf_test_childes.conllu")
 scores = evaluate(gold_ud, pred_ud)
 
 print("UAS: {:.2f}".format(100*scores["UAS"].f1))

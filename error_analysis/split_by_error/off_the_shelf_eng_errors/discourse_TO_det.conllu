@@ -1,0 +1,1168 @@
+# sent_id = 58
+Gold: token=1 form=A head=2 label=discourse
+Pred: token=1 form=A head=2 label=det
+Gold: token=2 form=this head=0 label=root
+Pred: token=2 form=this head=0 label=root
+Gold: token=3 form=. head=2 label=punct
+Pred: token=3 form=. head=2 label=punct
+------------------------------------------------------------
+# sent_id = 167
+Gold: token=1 form=A head=3 label=discourse
+Pred: token=1 form=A head=3 label=det
+Gold: token=2 form=more head=3 label=amod
+Pred: token=2 form=more head=3 label=amod
+Gold: token=3 form=pear head=0 label=root
+Pred: token=3 form=pear head=0 label=root
+Gold: token=4 form=. head=3 label=punct
+Pred: token=4 form=. head=3 label=punct
+------------------------------------------------------------
+# sent_id = 268
+Gold: token=1 form=A head=2 label=discourse
+Pred: token=1 form=A head=2 label=det
+Gold: token=2 form=do head=0 label=root
+Pred: token=2 form=do head=0 label=root
+Gold: token=3 form=. head=2 label=punct
+Pred: token=3 form=. head=2 label=punct
+------------------------------------------------------------
+# sent_id = 380
+Gold: token=1 form=M head=3 label=reparandum
+Pred: token=1 form=M head=4 label=discourse
+Gold: token=2 form=a head=4 label=discourse
+Pred: token=2 form=a head=4 label=det
+Gold: token=3 form=more head=4 label=amod
+Pred: token=3 form=more head=4 label=amod
+Gold: token=4 form=two head=0 label=root
+Pred: token=4 form=two head=0 label=root
+Gold: token=5 form=. head=4 label=punct
+Pred: token=5 form=. head=4 label=punct
+------------------------------------------------------------
+# sent_id = 385
+Gold: token=1 form=A head=2 label=discourse
+Pred: token=1 form=A head=2 label=det
+Gold: token=2 form=there head=0 label=root
+Pred: token=2 form=there head=0 label=root
+Gold: token=3 form=. head=2 label=punct
+Pred: token=3 form=. head=2 label=punct
+------------------------------------------------------------
+# sent_id = 548
+Gold: token=1 form=A head=3 label=discourse
+Pred: token=1 form=A head=3 label=det
+Gold: token=2 form=many head=3 label=amod
+Pred: token=2 form=many head=3 label=amod
+Gold: token=3 form=two head=0 label=root
+Pred: token=3 form=two head=0 label=root
+Gold: token=4 form=. head=3 label=punct
+Pred: token=4 form=. head=3 label=punct
+------------------------------------------------------------
+# sent_id = 578
+Gold: token=1 form=A head=3 label=discourse
+Pred: token=1 form=A head=3 label=det
+Gold: token=2 form=two head=3 label=nummod
+Pred: token=2 form=two head=3 label=nummod
+Gold: token=3 form=pear head=0 label=root
+Pred: token=3 form=pear head=0 label=root
+Gold: token=4 form=. head=3 label=punct
+Pred: token=4 form=. head=3 label=punct
+------------------------------------------------------------
+# sent_id = 580
+Gold: token=1 form=A head=2 label=discourse
+Pred: token=1 form=A head=2 label=det
+Gold: token=2 form=help head=0 label=root
+Pred: token=2 form=help head=0 label=root
+Gold: token=3 form=. head=2 label=punct
+Pred: token=3 form=. head=2 label=punct
+------------------------------------------------------------
+# sent_id = 583
+Gold: token=1 form=A head=3 label=discourse
+Pred: token=1 form=A head=3 label=det
+Gold: token=2 form=this head=3 label=det
+Pred: token=2 form=this head=3 label=det
+Gold: token=3 form=bus head=0 label=root
+Pred: token=3 form=bus head=0 label=root
+Gold: token=4 form=. head=3 label=punct
+Pred: token=4 form=. head=3 label=punct
+------------------------------------------------------------
+# sent_id = 604
+Gold: token=1 form=A head=3 label=discourse
+Pred: token=1 form=A head=3 label=det
+Gold: token=2 form=more head=3 label=amod
+Pred: token=2 form=more head=3 label=amod
+Gold: token=3 form=badge head=0 label=root
+Pred: token=3 form=badge head=0 label=root
+Gold: token=4 form=. head=3 label=punct
+Pred: token=4 form=. head=3 label=punct
+------------------------------------------------------------
+# sent_id = 605
+Gold: token=1 form=A head=3 label=discourse
+Pred: token=1 form=A head=3 label=det
+Gold: token=2 form=this head=3 label=det
+Pred: token=2 form=this head=3 label=det
+Gold: token=3 form=shoes head=0 label=root
+Pred: token=3 form=shoes head=0 label=root
+Gold: token=4 form=. head=3 label=punct
+Pred: token=4 form=. head=3 label=punct
+------------------------------------------------------------
+# sent_id = 646
+Gold: token=1 form=Um head=3 label=discourse
+Pred: token=1 form=Um head=3 label=discourse
+Gold: token=2 form=a head=3 label=discourse
+Pred: token=2 form=a head=3 label=det
+Gold: token=3 form=this head=0 label=root
+Pred: token=3 form=this head=0 label=root
+Gold: token=4 form=? head=3 label=punct
+Pred: token=4 form=? head=3 label=punct
+------------------------------------------------------------
+# sent_id = 667
+Gold: token=1 form=A head=3 label=discourse
+Pred: token=1 form=A head=3 label=det
+Gold: token=2 form=more head=3 label=amod
+Pred: token=2 form=more head=3 label=amod
+Gold: token=3 form=trees head=0 label=root
+Pred: token=3 form=trees head=0 label=root
+Gold: token=4 form=. head=3 label=punct
+Pred: token=4 form=. head=3 label=punct
+------------------------------------------------------------
+# sent_id = 672
+Gold: token=1 form=And head=5 label=cc
+Pred: token=1 form=And head=5 label=cc
+Gold: token=2 form=m head=5 label=discourse
+Pred: token=2 form=m head=5 label=cop
+Gold: token=3 form=a head=5 label=discourse
+Pred: token=3 form=a head=5 label=det
+Gold: token=4 form=two head=5 label=nummod
+Pred: token=4 form=two head=5 label=nummod
+Gold: token=5 form=Bow head=0 label=root
+Pred: token=5 form=Bow head=0 label=root
+Gold: token=6 form=. head=5 label=punct
+Pred: token=6 form=. head=5 label=punct
+------------------------------------------------------------
+# sent_id = 674
+Gold: token=1 form=A head=2 label=discourse
+Pred: token=1 form=A head=2 label=det
+Gold: token=2 form=grapes head=0 label=root
+Pred: token=2 form=grapes head=0 label=root
+Gold: token=3 form=. head=2 label=punct
+Pred: token=3 form=. head=2 label=punct
+------------------------------------------------------------
+# sent_id = 682
+Gold: token=1 form=A head=4 label=discourse
+Pred: token=1 form=A head=4 label=det
+Gold: token=2 form=Mamma head=4 label=vocative
+Pred: token=2 form=Mamma head=4 label=compound
+Gold: token=3 form=two head=4 label=nummod
+Pred: token=3 form=two head=2 label=nummod
+Gold: token=4 form=ball head=0 label=root
+Pred: token=4 form=ball head=0 label=root
+Gold: token=5 form=. head=4 label=punct
+Pred: token=5 form=. head=4 label=punct
+------------------------------------------------------------
+# sent_id = 732
+Gold: token=1 form=A head=2 label=discourse
+Pred: token=1 form=A head=2 label=det
+Gold: token=2 form=gone head=0 label=root
+Pred: token=2 form=gone head=0 label=root
+Gold: token=3 form=. head=2 label=punct
+Pred: token=3 form=. head=2 label=punct
+------------------------------------------------------------
+# sent_id = 736
+Gold: token=1 form=A head=2 label=discourse
+Pred: token=1 form=A head=2 label=det
+Gold: token=2 form=Dadda head=0 label=root
+Pred: token=2 form=Dadda head=0 label=root
+Gold: token=3 form=Dadda head=2 label=conj
+Pred: token=3 form=Dadda head=2 label=flat
+Gold: token=4 form=Dadda head=2 label=conj
+Pred: token=4 form=Dadda head=2 label=flat
+Gold: token=5 form=. head=2 label=punct
+Pred: token=5 form=. head=2 label=punct
+------------------------------------------------------------
+# sent_id = 768
+Gold: token=1 form=Blue head=0 label=root
+Pred: token=1 form=Blue head=0 label=root
+Gold: token=2 form=a head=1 label=discourse
+Pred: token=2 form=a head=3 label=det
+Gold: token=3 form=here head=1 label=advmod
+Pred: token=3 form=here head=1 label=advmod
+Gold: token=4 form=. head=1 label=punct
+Pred: token=4 form=. head=1 label=punct
+------------------------------------------------------------
+# sent_id = 770
+Gold: token=1 form=A head=2 label=discourse
+Pred: token=1 form=A head=2 label=det
+Gold: token=2 form=there head=0 label=root
+Pred: token=2 form=there head=0 label=root
+Gold: token=3 form=a head=4 label=discourse
+Pred: token=3 form=a head=4 label=det
+Gold: token=4 form=there head=2 label=conj
+Pred: token=4 form=there head=2 label=advmod
+Gold: token=5 form=. head=2 label=punct
+Pred: token=5 form=. head=2 label=punct
+------------------------------------------------------------
+# sent_id = 786
+Gold: token=1 form=A head=3 label=discourse
+Pred: token=1 form=A head=3 label=det
+Gold: token=2 form=more head=3 label=amod
+Pred: token=2 form=more head=3 label=amod
+Gold: token=3 form=chair head=0 label=root
+Pred: token=3 form=chair head=0 label=root
+Gold: token=4 form=. head=3 label=punct
+Pred: token=4 form=. head=3 label=punct
+------------------------------------------------------------
+# sent_id = 791
+Gold: token=1 form=A head=3 label=discourse
+Pred: token=1 form=A head=2 label=det
+Gold: token=2 form=he head=3 label=nsubj
+Pred: token=2 form=he head=3 label=nsubj
+Gold: token=3 form=gone head=0 label=root
+Pred: token=3 form=gone head=0 label=root
+Gold: token=4 form=. head=3 label=punct
+Pred: token=4 form=. head=3 label=punct
+------------------------------------------------------------
+# sent_id = 832
+Gold: token=1 form=A head=3 label=discourse
+Pred: token=1 form=A head=3 label=det
+Gold: token=2 form=more head=3 label=amod
+Pred: token=2 form=more head=3 label=amod
+Gold: token=3 form=grapes head=0 label=root
+Pred: token=3 form=grapes head=0 label=root
+Gold: token=4 form=. head=3 label=punct
+Pred: token=4 form=. head=3 label=punct
+------------------------------------------------------------
+# sent_id = 837
+Gold: token=1 form=A head=2 label=discourse
+Pred: token=1 form=A head=2 label=det
+Gold: token=2 form=Dadda head=0 label=root
+Pred: token=2 form=Dadda head=0 label=root
+Gold: token=3 form='s head=2 label=case
+Pred: token=3 form='s head=2 label=case
+Gold: token=4 form=. head=2 label=punct
+Pred: token=4 form=. head=2 label=punct
+------------------------------------------------------------
+# sent_id = 842
+Gold: token=1 form=A head=3 label=discourse
+Pred: token=1 form=A head=3 label=det
+Gold: token=2 form=more head=3 label=amod
+Pred: token=2 form=more head=3 label=amod
+Gold: token=3 form=bubble head=0 label=root
+Pred: token=3 form=bubble head=0 label=root
+Gold: token=4 form=. head=3 label=punct
+Pred: token=4 form=. head=3 label=punct
+------------------------------------------------------------
+# sent_id = 846
+Gold: token=1 form=A head=3 label=discourse
+Pred: token=1 form=A head=3 label=det
+Gold: token=2 form=more head=3 label=amod
+Pred: token=2 form=more head=3 label=amod
+Gold: token=3 form=bubbles head=0 label=root
+Pred: token=3 form=bubbles head=0 label=root
+Gold: token=4 form=. head=3 label=punct
+Pred: token=4 form=. head=3 label=punct
+------------------------------------------------------------
+# sent_id = 849
+Gold: token=1 form=A head=3 label=discourse
+Pred: token=1 form=A head=3 label=det
+Gold: token=2 form=two head=3 label=nummod
+Pred: token=2 form=two head=3 label=nummod
+Gold: token=3 form=truck head=0 label=root
+Pred: token=3 form=truck head=0 label=root
+Gold: token=4 form=. head=3 label=punct
+Pred: token=4 form=. head=3 label=punct
+------------------------------------------------------------
+# sent_id = 862
+Gold: token=1 form=Where head=0 label=root
+Pred: token=1 form=Where head=0 label=root
+Gold: token=2 form=a head=3 label=discourse
+Pred: token=2 form=a head=3 label=det
+Gold: token=3 form=blue head=1 label=nsubj
+Pred: token=3 form=blue head=1 label=nsubj
+Gold: token=4 form=? head=1 label=punct
+Pred: token=4 form=? head=1 label=punct
+------------------------------------------------------------
+# sent_id = 865
+Gold: token=1 form=Um head=4 label=discourse
+Pred: token=1 form=Um head=4 label=discourse
+Gold: token=2 form=um head=1 label=conj
+Pred: token=2 form=um head=4 label=discourse
+Gold: token=3 form=a head=4 label=discourse
+Pred: token=3 form=a head=4 label=det
+Gold: token=4 form=this head=0 label=root
+Pred: token=4 form=this head=0 label=root
+Gold: token=5 form=? head=4 label=punct
+Pred: token=5 form=? head=4 label=punct
+------------------------------------------------------------
+# sent_id = 867
+Gold: token=1 form=A head=3 label=discourse
+Pred: token=1 form=A head=3 label=det
+Gold: token=2 form=more head=3 label=amod
+Pred: token=2 form=more head=3 label=amod
+Gold: token=3 form=hat head=0 label=root
+Pred: token=3 form=hat head=0 label=root
+Gold: token=4 form=. head=3 label=punct
+Pred: token=4 form=. head=3 label=punct
+------------------------------------------------------------
+# sent_id = 872
+Gold: token=1 form=A head=3 label=discourse
+Pred: token=1 form=A head=3 label=det
+Gold: token=2 form=in head=3 label=case
+Pred: token=2 form=in head=3 label=case
+Gold: token=3 form=there head=0 label=root
+Pred: token=3 form=there head=0 label=root
+Gold: token=4 form=. head=3 label=punct
+Pred: token=4 form=. head=3 label=punct
+------------------------------------------------------------
+# sent_id = 875
+Gold: token=1 form=That head=4 label=nsubj
+Pred: token=1 form=That head=4 label=nsubj
+Gold: token=2 form='s head=4 label=cop
+Pred: token=2 form='s head=4 label=cop
+Gold: token=3 form=a head=4 label=discourse
+Pred: token=3 form=a head=4 label=det
+Gold: token=4 form=this head=0 label=root
+Pred: token=4 form=this head=0 label=root
+Gold: token=5 form=. head=4 label=punct
+Pred: token=5 form=. head=4 label=punct
+------------------------------------------------------------
+# sent_id = 888
+Gold: token=1 form=A head=3 label=discourse
+Pred: token=1 form=A head=3 label=det
+Gold: token=2 form=this head=3 label=det
+Pred: token=2 form=this head=3 label=det
+Gold: token=3 form=banana head=0 label=root
+Pred: token=3 form=banana head=0 label=root
+Gold: token=4 form=. head=3 label=punct
+Pred: token=4 form=. head=3 label=punct
+------------------------------------------------------------
+# sent_id = 889
+Gold: token=1 form=Oh head=3 label=discourse
+Pred: token=1 form=Oh head=3 label=discourse
+Gold: token=2 form=a head=3 label=discourse
+Pred: token=2 form=a head=3 label=det
+Gold: token=3 form=this head=0 label=root
+Pred: token=3 form=this head=0 label=root
+Gold: token=4 form=? head=3 label=punct
+Pred: token=4 form=? head=3 label=punct
+------------------------------------------------------------
+# sent_id = 912
+Gold: token=1 form=A head=3 label=discourse
+Pred: token=1 form=A head=3 label=det
+Gold: token=2 form=more head=3 label=amod
+Pred: token=2 form=more head=3 label=amod
+Gold: token=3 form=juice head=0 label=root
+Pred: token=3 form=juice head=0 label=root
+Gold: token=4 form=. head=3 label=punct
+Pred: token=4 form=. head=3 label=punct
+------------------------------------------------------------
+# sent_id = 935
+Gold: token=1 form=A head=3 label=discourse
+Pred: token=1 form=A head=2 label=det
+Gold: token=2 form=Dadda head=3 label=nsubj
+Pred: token=2 form=Dadda head=3 label=nsubj
+Gold: token=3 form=gone head=0 label=root
+Pred: token=3 form=gone head=0 label=root
+Gold: token=4 form=. head=3 label=punct
+Pred: token=4 form=. head=3 label=punct
+------------------------------------------------------------
+# sent_id = 1236
+Gold: token=1 form=No head=3 label=discourse
+Pred: token=1 form=No head=3 label=det
+Gold: token=2 form=no head=1 label=conj
+Pred: token=2 form=no head=3 label=det
+Gold: token=3 form=thanks head=0 label=root
+Pred: token=3 form=thanks head=0 label=root
+Gold: token=4 form=. head=3 label=punct
+Pred: token=4 form=. head=3 label=punct
+------------------------------------------------------------
+# sent_id = 1249
+Gold: token=1 form=No head=2 label=discourse
+Pred: token=1 form=No head=2 label=det
+Gold: token=2 form=Mummy head=0 label=root
+Pred: token=2 form=Mummy head=0 label=root
+Gold: token=3 form='s head=2 label=case
+Pred: token=3 form='s head=2 label=case
+Gold: token=4 form=. head=2 label=punct
+Pred: token=4 form=. head=2 label=punct
+------------------------------------------------------------
+# sent_id = 1280
+Gold: token=1 form=No head=2 label=discourse
+Pred: token=1 form=No head=2 label=det
+Gold: token=2 form=open head=0 label=root
+Pred: token=2 form=open head=0 label=root
+Gold: token=3 form=. head=2 label=punct
+Pred: token=3 form=. head=2 label=punct
+------------------------------------------------------------
+# sent_id = 1282
+Gold: token=1 form=A head=2 label=discourse
+Pred: token=1 form=A head=2 label=det
+Gold: token=2 form=watch head=0 label=root
+Pred: token=2 form=watch head=0 label=root
+Gold: token=3 form=Pippin head=2 label=obj
+Pred: token=3 form=Pippin head=2 label=appos
+Gold: token=4 form=on head=2 label=advmod
+Pred: token=4 form=on head=2 label=nmod
+Gold: token=5 form=. head=2 label=punct
+Pred: token=5 form=. head=2 label=punct
+------------------------------------------------------------
+# sent_id = 1310
+Gold: token=1 form=A head=2 label=discourse
+Pred: token=1 form=A head=2 label=det
+Gold: token=2 form=fall head=0 label=root
+Pred: token=2 form=fall head=0 label=root
+Gold: token=3 form=over head=2 label=advmod
+Pred: token=3 form=over head=2 label=advmod
+Gold: token=4 form=. head=2 label=punct
+Pred: token=4 form=. head=2 label=punct
+------------------------------------------------------------
+# sent_id = 1527
+Gold: token=1 form=A head=3 label=discourse
+Pred: token=1 form=A head=3 label=det
+Gold: token=2 form=na head=3 label=discourse
+Pred: token=2 form=na head=3 label=case
+Gold: token=3 form=crisps head=0 label=root
+Pred: token=3 form=crisps head=0 label=root
+Gold: token=4 form=that head=5 label=det
+Pred: token=4 form=that head=5 label=nsubj
+Gold: token=5 form=drawer head=3 label=parataxis
+Pred: token=5 form=drawer head=3 label=acl:relcl
+Gold: token=6 form=. head=3 label=punct
+Pred: token=6 form=. head=3 label=punct
+------------------------------------------------------------
+# sent_id = 1593
+Gold: token=1 form=Wait head=0 label=root
+Pred: token=1 form=Wait head=0 label=root
+Gold: token=2 form=a head=4 label=discourse
+Pred: token=2 form=a head=4 label=det
+Gold: token=3 form=not head=4 label=advmod
+Pred: token=3 form=not head=4 label=advmod
+Gold: token=4 form=comes head=1 label=parataxis
+Pred: token=4 form=comes head=1 label=ccomp
+Gold: token=5 form=. head=1 label=punct
+Pred: token=5 form=. head=1 label=punct
+------------------------------------------------------------
+# sent_id = 1625
+Gold: token=1 form=A head=3 label=discourse
+Pred: token=1 form=A head=3 label=det
+Gold: token=2 form=two head=3 label=nummod
+Pred: token=2 form=two head=3 label=nummod
+Gold: token=3 form=lights head=0 label=root
+Pred: token=3 form=lights head=0 label=root
+Gold: token=4 form=. head=3 label=punct
+Pred: token=4 form=. head=3 label=punct
+------------------------------------------------------------
+# sent_id = 1628
+Gold: token=1 form=A head=2 label=discourse
+Pred: token=1 form=A head=2 label=det
+Gold: token=2 form=play head=0 label=root
+Pred: token=2 form=play head=0 label=root
+Gold: token=3 form=a head=5 label=det
+Pred: token=3 form=a head=5 label=det
+Gold: token=4 form=fire head=5 label=compound
+Pred: token=4 form=fire head=5 label=compound
+Gold: token=5 form=engine head=2 label=obj
+Pred: token=5 form=engine head=2 label=appos
+Gold: token=6 form=. head=2 label=punct
+Pred: token=6 form=. head=2 label=punct
+------------------------------------------------------------
+# sent_id = 1631
+Gold: token=1 form=A head=2 label=discourse
+Pred: token=1 form=A head=2 label=det
+Gold: token=2 form=move head=0 label=root
+Pred: token=2 form=move head=0 label=root
+Gold: token=3 form=one head=2 label=nummod
+Pred: token=3 form=one head=2 label=vocative
+Gold: token=4 form=. head=2 label=punct
+Pred: token=4 form=. head=2 label=punct
+------------------------------------------------------------
+# sent_id = 1647
+Gold: token=1 form=No head=4 label=discourse
+Pred: token=1 form=No head=4 label=det
+Gold: token=2 form=no head=1 label=conj
+Pred: token=2 form=no head=4 label=det
+Gold: token=3 form=no head=4 label=det
+Pred: token=3 form=no head=4 label=det
+Gold: token=4 form=trailer head=0 label=root
+Pred: token=4 form=trailer head=0 label=root
+Gold: token=5 form=. head=4 label=punct
+Pred: token=5 form=. head=4 label=punct
+------------------------------------------------------------
+# sent_id = 1656
+Gold: token=1 form=A head=3 label=discourse
+Pred: token=1 form=A head=3 label=det
+Gold: token=2 form=the head=3 label=det
+Pred: token=2 form=the head=3 label=det
+Gold: token=3 form=car head=0 label=root
+Pred: token=3 form=car head=0 label=root
+Gold: token=4 form=. head=3 label=punct
+Pred: token=4 form=. head=3 label=punct
+------------------------------------------------------------
+# sent_id = 1671
+Gold: token=1 form=That head=3 label=nsubj
+Pred: token=1 form=That head=3 label=nsubj
+Gold: token=2 form=a head=3 label=discourse
+Pred: token=2 form=a head=3 label=det
+Gold: token=3 form=tasty head=0 label=root
+Pred: token=3 form=tasty head=0 label=root
+Gold: token=4 form=. head=3 label=punct
+Pred: token=4 form=. head=3 label=punct
+------------------------------------------------------------
+# sent_id = 1683
+Gold: token=1 form=This head=4 label=nsubj
+Pred: token=1 form=This head=4 label=nsubj
+Gold: token=2 form=all head=4 label=advmod
+Pred: token=2 form=all head=4 label=det:predet
+Gold: token=3 form=a head=4 label=discourse
+Pred: token=3 form=a head=4 label=det
+Gold: token=4 form=wet head=0 label=root
+Pred: token=4 form=wet head=0 label=root
+Gold: token=5 form=. head=4 label=punct
+Pred: token=5 form=. head=4 label=punct
+------------------------------------------------------------
+# sent_id = 1685
+Gold: token=1 form=No head=4 label=discourse
+Pred: token=1 form=No head=4 label=det
+Gold: token=2 form=no head=1 label=conj
+Pred: token=2 form=no head=4 label=det
+Gold: token=3 form=no head=4 label=det
+Pred: token=3 form=no head=4 label=det
+Gold: token=4 form=birthday head=0 label=root
+Pred: token=4 form=birthday head=0 label=root
+Gold: token=5 form=. head=4 label=punct
+Pred: token=5 form=. head=4 label=punct
+------------------------------------------------------------
+# sent_id = 1687
+Gold: token=1 form=No head=3 label=discourse
+Pred: token=1 form=No head=3 label=det
+Gold: token=2 form=no head=3 label=det
+Pred: token=2 form=no head=3 label=det
+Gold: token=3 form=moneys head=0 label=root
+Pred: token=3 form=moneys head=0 label=root
+Gold: token=4 form=. head=3 label=punct
+Pred: token=4 form=. head=3 label=punct
+------------------------------------------------------------
+# sent_id = 1692
+Gold: token=1 form=No head=3 label=discourse
+Pred: token=1 form=No head=2 label=det
+Gold: token=2 form=Mummy head=3 label=nsubj
+Pred: token=2 form=Mummy head=3 label=nsubj
+Gold: token=3 form=cry head=0 label=root
+Pred: token=3 form=cry head=0 label=root
+Gold: token=4 form=. head=3 label=punct
+Pred: token=4 form=. head=3 label=punct
+------------------------------------------------------------
+# sent_id = 1697
+Gold: token=1 form=No head=3 label=discourse
+Pred: token=1 form=No head=2 label=det
+Gold: token=2 form=Granddad head=3 label=nsubj
+Pred: token=2 form=Granddad head=3 label=nsubj
+Gold: token=3 form=cry head=0 label=root
+Pred: token=3 form=cry head=0 label=root
+Gold: token=4 form=. head=3 label=punct
+Pred: token=4 form=. head=3 label=punct
+------------------------------------------------------------
+# sent_id = 1699
+Gold: token=1 form=A head=3 label=discourse
+Pred: token=1 form=A head=2 label=det
+Gold: token=2 form=Mummy head=3 label=nsubj
+Pred: token=2 form=Mummy head=3 label=nsubj
+Gold: token=3 form=eat head=0 label=root
+Pred: token=3 form=eat head=0 label=root
+Gold: token=4 form=. head=3 label=punct
+Pred: token=4 form=. head=3 label=punct
+------------------------------------------------------------
+# sent_id = 1701
+Gold: token=1 form=A head=3 label=discourse
+Pred: token=1 form=A head=2 label=det
+Gold: token=2 form=Thomas head=3 label=nsubj
+Pred: token=2 form=Thomas head=3 label=nsubj
+Gold: token=3 form=eat head=0 label=root
+Pred: token=3 form=eat head=0 label=root
+Gold: token=4 form=. head=3 label=punct
+Pred: token=4 form=. head=3 label=punct
+------------------------------------------------------------
+# sent_id = 1705
+Gold: token=1 form=No head=3 label=discourse
+Pred: token=1 form=No head=3 label=det
+Gold: token=2 form=no head=3 label=det
+Pred: token=2 form=no head=3 label=det
+Gold: token=3 form=milk head=0 label=root
+Pred: token=3 form=milk head=0 label=root
+Gold: token=4 form=. head=3 label=punct
+Pred: token=4 form=. head=3 label=punct
+------------------------------------------------------------
+# sent_id = 1712
+Gold: token=1 form=A head=3 label=discourse
+Pred: token=1 form=A head=3 label=det
+Gold: token=2 form=two head=3 label=nummod
+Pred: token=2 form=two head=3 label=nummod
+Gold: token=3 form=bash head=0 label=root
+Pred: token=3 form=bash head=0 label=root
+Gold: token=4 form=. head=3 label=punct
+Pred: token=4 form=. head=3 label=punct
+------------------------------------------------------------
+# sent_id = 1719
+Gold: token=1 form=A head=2 label=discourse
+Pred: token=1 form=A head=2 label=det
+Gold: token=2 form=gone head=0 label=root
+Pred: token=2 form=gone head=0 label=root
+Gold: token=3 form=away head=2 label=advmod
+Pred: token=3 form=away head=2 label=advmod
+Gold: token=4 form=now head=2 label=advmod
+Pred: token=4 form=now head=2 label=advmod
+Gold: token=5 form=. head=2 label=punct
+Pred: token=5 form=. head=2 label=punct
+------------------------------------------------------------
+# sent_id = 1732
+Gold: token=1 form=No head=5 label=discourse
+Pred: token=1 form=No head=2 label=det
+Gold: token=2 form=Purdie head=5 label=nsubj
+Pred: token=2 form=Purdie head=5 label=nsubj
+Gold: token=3 form='s head=5 label=cop
+Pred: token=3 form='s head=5 label=cop
+Gold: token=4 form=a head=5 label=det
+Pred: token=4 form=a head=5 label=det
+Gold: token=5 form=teeth head=0 label=root
+Pred: token=5 form=teeth head=0 label=root
+Gold: token=6 form=. head=5 label=punct
+Pred: token=6 form=. head=5 label=punct
+------------------------------------------------------------
+# sent_id = 1792
+Gold: token=1 form=A head=2 label=discourse
+Pred: token=1 form=A head=2 label=det
+Gold: token=2 form=bump head=0 label=root
+Pred: token=2 form=bump head=0 label=root
+Gold: token=3 form=my head=4 label=nmod:poss
+Pred: token=3 form=my head=4 label=nmod:poss
+Gold: token=4 form=head head=2 label=obj
+Pred: token=4 form=head head=2 label=vocative
+Gold: token=5 form=. head=2 label=punct
+Pred: token=5 form=. head=2 label=punct
+------------------------------------------------------------
+# sent_id = 1807
+Gold: token=1 form=Jake head=0 label=root
+Pred: token=1 form=Jake head=0 label=root
+Gold: token=2 form=a head=1 label=discourse
+Pred: token=2 form=a head=3 label=det
+Gold: token=3 form=Georgia head=1 label=flat
+Pred: token=3 form=Georgia head=1 label=appos
+Gold: token=4 form=. head=1 label=punct
+Pred: token=4 form=. head=1 label=punct
+------------------------------------------------------------
+# sent_id = 1829
+Gold: token=1 form=A head=3 label=discourse
+Pred: token=1 form=A head=3 label=det
+Gold: token=2 form=Mummy head=3 label=vocative
+Pred: token=2 form=Mummy head=3 label=nsubj
+Gold: token=3 form=red head=0 label=root
+Pred: token=3 form=red head=0 label=root
+Gold: token=4 form=. head=3 label=punct
+Pred: token=4 form=. head=3 label=punct
+------------------------------------------------------------
+# sent_id = 1834
+Gold: token=1 form=A head=2 label=discourse
+Pred: token=1 form=A head=4 label=det
+Gold: token=2 form=crying head=0 label=root
+Pred: token=2 form=crying head=4 label=amod
+Gold: token=3 form=ne head=4 label=det
+Pred: token=3 form=ne head=4 label=compound
+Gold: token=4 form=rain head=2 label=parataxis
+Pred: token=4 form=rain head=0 label=root
+Gold: token=5 form=. head=2 label=punct
+Pred: token=5 form=. head=4 label=punct
+------------------------------------------------------------
+# sent_id = 1858
+Gold: token=1 form=Talk head=0 label=root
+Pred: token=1 form=Talk head=0 label=root
+Gold: token=2 form=a head=1 label=discourse
+Pred: token=2 form=a head=3 label=det
+Gold: token=3 form=Mummy head=1 label=vocative
+Pred: token=3 form=Mummy head=1 label=obj
+Gold: token=4 form=a head=6 label=det
+Pred: token=4 form=a head=6 label=det
+Gold: token=5 form=fire head=6 label=compound
+Pred: token=5 form=fire head=6 label=compound
+Gold: token=6 form=engine head=1 label=parataxis
+Pred: token=6 form=engine head=1 label=obj
+Gold: token=7 form=and head=9 label=cc
+Pred: token=7 form=and head=9 label=cc
+Gold: token=8 form=police head=9 label=compound
+Pred: token=8 form=police head=9 label=compound
+Gold: token=9 form=car head=6 label=conj
+Pred: token=9 form=car head=6 label=conj
+Gold: token=10 form=. head=1 label=punct
+Pred: token=10 form=. head=1 label=punct
+------------------------------------------------------------
+# sent_id = 1866
+Gold: token=1 form=A head=3 label=discourse
+Pred: token=1 form=A head=3 label=det
+Gold: token=2 form=too head=3 label=advmod
+Pred: token=2 form=too head=3 label=advmod
+Gold: token=3 form=fast head=0 label=root
+Pred: token=3 form=fast head=0 label=root
+Gold: token=4 form=. head=3 label=punct
+Pred: token=4 form=. head=3 label=punct
+------------------------------------------------------------
+# sent_id = 1869
+Gold: token=1 form=Yes head=4 label=discourse
+Pred: token=1 form=Yes head=4 label=discourse
+Gold: token=2 form=a head=4 label=discourse
+Pred: token=2 form=a head=4 label=det
+Gold: token=3 form=the head=4 label=det
+Pred: token=3 form=the head=4 label=det
+Gold: token=4 form=doctor head=0 label=root
+Pred: token=4 form=doctor head=0 label=root
+Gold: token=5 form=. head=4 label=punct
+Pred: token=5 form=. head=4 label=punct
+------------------------------------------------------------
+# sent_id = 1870
+Gold: token=1 form=Come head=0 label=root
+Pred: token=1 form=Come head=0 label=root
+Gold: token=2 form=policeman head=1 label=parataxis
+Pred: token=2 form=policeman head=1 label=obj
+Gold: token=3 form=a head=2 label=discourse
+Pred: token=3 form=a head=4 label=det
+Gold: token=4 form=there head=2 label=advmod
+Pred: token=4 form=there head=1 label=advmod
+Gold: token=5 form=. head=1 label=punct
+Pred: token=5 form=. head=1 label=punct
+------------------------------------------------------------
+# sent_id = 1874
+Gold: token=1 form=Peter head=0 label=root
+Pred: token=1 form=Peter head=0 label=root
+Gold: token=2 form=a head=3 label=discourse
+Pred: token=2 form=a head=3 label=det
+Gold: token=3 form=Brian head=1 label=flat
+Pred: token=3 form=Brian head=1 label=flat
+Gold: token=4 form=too head=1 label=advmod
+Pred: token=4 form=too head=1 label=advmod
+Gold: token=5 form=. head=1 label=punct
+Pred: token=5 form=. head=1 label=punct
+------------------------------------------------------------
+# sent_id = 1890
+Gold: token=1 form=A head=3 label=discourse
+Pred: token=1 form=A head=3 label=det
+Gold: token=2 form=the head=3 label=det
+Pred: token=2 form=the head=3 label=det
+Gold: token=3 form=shoe head=0 label=root
+Pred: token=3 form=shoe head=0 label=root
+Gold: token=4 form=. head=3 label=punct
+Pred: token=4 form=. head=3 label=punct
+------------------------------------------------------------
+# sent_id = 1900
+Gold: token=1 form=No head=3 label=discourse
+Pred: token=1 form=No head=3 label=det
+Gold: token=2 form=sa head=3 label=discourse
+Pred: token=2 form=sa head=3 label=discourse
+Gold: token=3 form=move head=0 label=root
+Pred: token=3 form=move head=0 label=root
+Gold: token=4 form=. head=3 label=punct
+Pred: token=4 form=. head=3 label=punct
+------------------------------------------------------------
+# sent_id = 1944
+Gold: token=1 form=Whoops head=3 label=discourse
+Pred: token=1 form=Whoops head=3 label=discourse
+Gold: token=2 form=a head=3 label=discourse
+Pred: token=2 form=a head=3 label=det
+Gold: token=3 form=gone head=0 label=root
+Pred: token=3 form=gone head=0 label=root
+Gold: token=4 form=again head=3 label=advmod
+Pred: token=4 form=again head=3 label=advmod
+Gold: token=5 form=. head=3 label=punct
+Pred: token=5 form=. head=3 label=punct
+------------------------------------------------------------
+# sent_id = 2471
+Gold: token=1 form=I head=2 label=reparandum
+Pred: token=1 form=I head=4 label=nsubj
+Gold: token=2 form=a head=3 label=det
+Pred: token=2 form=a head=3 label=det
+Gold: token=3 form=train head=4 label=nsubj
+Pred: token=3 form=train head=4 label=nsubj
+Gold: token=4 form=comes head=0 label=root
+Pred: token=4 form=comes head=0 label=root
+Gold: token=5 form=a head=6 label=discourse
+Pred: token=5 form=a head=6 label=det
+Gold: token=6 form=go head=4 label=conj
+Pred: token=6 form=go head=4 label=xcomp
+Gold: token=7 form=up head=9 label=case
+Pred: token=7 form=up head=6 label=compound:prt
+Gold: token=8 form=a head=9 label=det
+Pred: token=8 form=a head=9 label=det
+Gold: token=9 form=bridge head=6 label=obl
+Pred: token=9 form=bridge head=6 label=obj
+Gold: token=10 form=and head=11 label=cc
+Pred: token=10 form=and head=11 label=cc
+Gold: token=11 form=choo head=4 label=conj
+Pred: token=11 form=choo head=6 label=conj
+Gold: token=12 form=down head=14 label=case
+Pred: token=12 form=down head=14 label=case
+Gold: token=13 form=a head=14 label=det
+Pred: token=13 form=a head=14 label=det
+Gold: token=14 form=bridge head=11 label=obl
+Pred: token=14 form=bridge head=11 label=obl
+Gold: token=15 form=. head=4 label=punct
+Pred: token=15 form=. head=4 label=punct
+------------------------------------------------------------
+# sent_id = 2498
+Gold: token=1 form=No head=3 label=discourse
+Pred: token=1 form=No head=3 label=discourse
+Gold: token=2 form=a head=3 label=discourse
+Pred: token=2 form=a head=3 label=det
+Gold: token=3 form=call head=0 label=root
+Pred: token=3 form=call head=0 label=root
+Gold: token=4 form=me head=3 label=obj
+Pred: token=4 form=me head=3 label=obj
+Gold: token=5 form=. head=3 label=punct
+Pred: token=5 form=. head=3 label=punct
+------------------------------------------------------------
+# sent_id = 2575
+Gold: token=1 form=A head=2 label=discourse
+Pred: token=1 form=A head=4 label=det
+Gold: token=2 form=some head=4 label=det
+Pred: token=2 form=some head=4 label=det
+Gold: token=3 form=traffic head=4 label=compound
+Pred: token=3 form=traffic head=4 label=compound
+Gold: token=4 form=cones head=0 label=root
+Pred: token=4 form=cones head=0 label=root
+Gold: token=5 form=. head=4 label=punct
+Pred: token=5 form=. head=4 label=punct
+------------------------------------------------------------
+# sent_id = 2585
+Gold: token=1 form=A head=2 label=discourse
+Pred: token=1 form=A head=2 label=det
+Gold: token=2 form=Sonia head=0 label=root
+Pred: token=2 form=Sonia head=0 label=root
+Gold: token=3 form=and head=4 label=cc
+Pred: token=3 form=and head=4 label=cc
+Gold: token=4 form=Isabelle head=2 label=conj
+Pred: token=4 form=Isabelle head=2 label=conj
+Gold: token=5 form=. head=2 label=punct
+Pred: token=5 form=. head=2 label=punct
+------------------------------------------------------------
+# sent_id = 2780
+Gold: token=1 form=A head=6 label=discourse
+Pred: token=1 form=A head=2 label=det
+Gold: token=2 form=what head=6 label=nsubj
+Pred: token=2 form=what head=6 label=nsubj
+Gold: token=3 form='s head=6 label=cop
+Pred: token=3 form='s head=6 label=cop
+Gold: token=4 form=in head=6 label=case
+Pred: token=4 form=in head=6 label=case
+Gold: token=5 form=this head=6 label=det
+Pred: token=5 form=this head=6 label=det
+Gold: token=6 form=box head=0 label=root
+Pred: token=6 form=box head=0 label=root
+Gold: token=7 form=? head=6 label=punct
+Pred: token=7 form=? head=6 label=punct
+------------------------------------------------------------
+# sent_id = 3002
+Gold: token=1 form=No head=5 label=discourse
+Pred: token=1 form=No head=2 label=det
+Gold: token=2 form=where head=5 label=advmod
+Pred: token=2 form=where head=5 label=advmod
+Gold: token=3 form=are head=5 label=aux
+Pred: token=3 form=are head=5 label=aux
+Gold: token=4 form=we head=5 label=nsubj
+Pred: token=4 form=we head=5 label=nsubj
+Gold: token=5 form=going head=0 label=root
+Pred: token=5 form=going head=0 label=root
+Gold: token=6 form=? head=5 label=punct
+Pred: token=6 form=? head=5 label=punct
+------------------------------------------------------------
+# sent_id = 3139
+Gold: token=1 form=Thomas head=3 label=nsubj
+Pred: token=1 form=Thomas head=3 label=nsubj
+Gold: token=2 form=a head=3 label=discourse
+Pred: token=2 form=a head=3 label=det
+Gold: token=3 form=flying head=0 label=root
+Pred: token=3 form=flying head=0 label=root
+Gold: token=4 form=. head=3 label=punct
+Pred: token=4 form=. head=3 label=punct
+------------------------------------------------------------
+# sent_id = 3147
+Gold: token=1 form=Anywhere head=0 label=root
+Pred: token=1 form=Anywhere head=0 label=root
+Gold: token=2 form=a head=1 label=discourse
+Pred: token=2 form=a head=3 label=det
+Gold: token=3 form=not head=1 label=advmod
+Pred: token=3 form=not head=1 label=advmod
+Gold: token=4 form=. head=1 label=punct
+Pred: token=4 form=. head=1 label=punct
+------------------------------------------------------------
+# sent_id = 3178
+Gold: token=1 form=No head=2 label=discourse
+Pred: token=1 form=No head=4 label=det
+Gold: token=2 form=you head=0 label=root
+Pred: token=2 form=you head=4 label=nmod:poss
+Gold: token=3 form=naughty head=4 label=amod
+Pred: token=3 form=naughty head=4 label=amod
+Gold: token=4 form=girl head=2 label=appos
+Pred: token=4 form=girl head=0 label=root
+Gold: token=5 form=. head=2 label=punct
+Pred: token=5 form=. head=4 label=punct
+------------------------------------------------------------
+# sent_id = 4699
+Gold: token=1 form=No head=5 label=discourse
+Pred: token=1 form=No head=2 label=det
+Gold: token=2 form=Mommy head=5 label=nsubj
+Pred: token=2 form=Mommy head=5 label=nsubj
+Gold: token=3 form='s head=5 label=cop
+Pred: token=3 form='s head=5 label=aux
+Gold: token=4 form=not head=5 label=advmod
+Pred: token=4 form=not head=5 label=advmod
+Gold: token=5 form=gon head=0 label=root
+Pred: token=5 form=gon head=0 label=root
+Gold: token=6 form=na head=7 label=mark
+Pred: token=6 form=na head=7 label=mark
+Gold: token=7 form=read head=5 label=ccomp
+Pred: token=7 form=read head=5 label=xcomp
+Gold: token=8 form=. head=5 label=punct
+Pred: token=8 form=. head=5 label=punct
+------------------------------------------------------------
+# sent_id = 4701
+Gold: token=1 form=No head=5 label=discourse
+Pred: token=1 form=No head=2 label=det
+Gold: token=2 form=Mommy head=5 label=nsubj
+Pred: token=2 form=Mommy head=5 label=nsubj
+Gold: token=3 form=ca head=5 label=aux
+Pred: token=3 form=ca head=5 label=aux
+Gold: token=4 form=n't head=5 label=advmod
+Pred: token=4 form=n't head=5 label=advmod
+Gold: token=5 form=read head=0 label=root
+Pred: token=5 form=read head=0 label=root
+Gold: token=6 form=. head=5 label=punct
+Pred: token=6 form=. head=5 label=punct
+------------------------------------------------------------
+# sent_id = 4729
+Gold: token=1 form=No head=5 label=discourse
+Pred: token=1 form=No head=2 label=det
+Gold: token=2 form=Neil head=5 label=nsubj
+Pred: token=2 form=Neil head=5 label=nsubj
+Gold: token=3 form='s head=5 label=aux
+Pred: token=3 form='s head=5 label=aux
+Gold: token=4 form=not head=5 label=advmod
+Pred: token=4 form=not head=5 label=advmod
+Gold: token=5 form=going head=0 label=root
+Pred: token=5 form=going head=0 label=root
+Gold: token=6 form=to head=7 label=mark
+Pred: token=6 form=to head=7 label=mark
+Gold: token=7 form=sit head=5 label=xcomp
+Pred: token=7 form=sit head=5 label=xcomp
+Gold: token=8 form=. head=5 label=punct
+Pred: token=8 form=. head=5 label=punct
+------------------------------------------------------------
+# sent_id = 4730
+Gold: token=1 form=No head=4 label=discourse
+Pred: token=1 form=No head=2 label=det
+Gold: token=2 form=Eve head=4 label=nsubj
+Pred: token=2 form=Eve head=4 label=nsubj
+Gold: token=3 form='s head=4 label=aux
+Pred: token=3 form='s head=4 label=aux
+Gold: token=4 form=sitting head=0 label=root
+Pred: token=4 form=sitting head=0 label=root
+Gold: token=5 form=on head=7 label=case
+Pred: token=5 form=on head=7 label=case
+Gold: token=6 form=the head=7 label=det
+Pred: token=6 form=the head=7 label=det
+Gold: token=7 form=stool head=4 label=obl
+Pred: token=7 form=stool head=4 label=obl
+Gold: token=8 form=. head=4 label=punct
+Pred: token=8 form=. head=4 label=punct
+------------------------------------------------------------
+# sent_id = 4731
+Gold: token=1 form=No head=5 label=discourse
+Pred: token=1 form=No head=2 label=det
+Gold: token=2 form=Neil head=5 label=nsubj
+Pred: token=2 form=Neil head=5 label=nsubj
+Gold: token=3 form=does head=5 label=aux
+Pred: token=3 form=does head=5 label=aux
+Gold: token=4 form=n't head=5 label=advmod
+Pred: token=4 form=n't head=5 label=advmod
+Gold: token=5 form=sit head=0 label=root
+Pred: token=5 form=sit head=0 label=root
+Gold: token=6 form=on head=8 label=case
+Pred: token=6 form=on head=8 label=case
+Gold: token=7 form=the head=8 label=det
+Pred: token=7 form=the head=8 label=det
+Gold: token=8 form=stool head=5 label=obl
+Pred: token=8 form=stool head=5 label=obl
+Gold: token=9 form=. head=5 label=punct
+Pred: token=9 form=. head=5 label=punct
+------------------------------------------------------------
+# sent_id = 5096
+Gold: token=1 form=No head=4 label=discourse
+Pred: token=1 form=No head=2 label=det
+Gold: token=2 form=Fraser head=4 label=nsubj
+Pred: token=2 form=Fraser head=4 label=nsubj
+Gold: token=3 form='ll head=4 label=aux
+Pred: token=3 form='ll head=4 label=aux
+Gold: token=4 form=put head=0 label=root
+Pred: token=4 form=put head=0 label=root
+Gold: token=5 form=the head=6 label=det
+Pred: token=5 form=the head=6 label=det
+Gold: token=6 form=sugar head=4 label=obj
+Pred: token=6 form=sugar head=4 label=obj
+Gold: token=7 form=in head=10 label=case
+Pred: token=7 form=in head=10 label=case
+Gold: token=8 form=his head=10 label=det
+Pred: token=8 form=his head=10 label=nmod:poss
+Gold: token=9 form=own head=10 label=amod
+Pred: token=9 form=own head=10 label=amod
+Gold: token=10 form=coffee head=4 label=obl
+Pred: token=10 form=coffee head=4 label=obl
+Gold: token=11 form=. head=4 label=punct
+Pred: token=11 form=. head=4 label=punct
+------------------------------------------------------------
+# sent_id = 5148
+Gold: token=1 form=No head=2 label=discourse
+Pred: token=1 form=No head=2 label=det
+Gold: token=2 form=Fraser head=0 label=root
+Pred: token=2 form=Fraser head=0 label=root
+Gold: token=3 form=. head=2 label=punct
+Pred: token=3 form=. head=2 label=punct
+------------------------------------------------------------
+# sent_id = 5153
+Gold: token=1 form=Fraser head=0 label=root
+Pred: token=1 form=Fraser head=0 label=root
+Gold: token=2 form=no head=1 label=discourse
+Pred: token=2 form=no head=3 label=det
+Gold: token=3 form=Fraser head=1 label=conj
+Pred: token=3 form=Fraser head=1 label=flat
+Gold: token=4 form=. head=1 label=punct
+Pred: token=4 form=. head=1 label=punct
+------------------------------------------------------------
+# sent_id = 5500
+Gold: token=1 form=No head=2 label=discourse
+Pred: token=1 form=No head=2 label=det
+Gold: token=2 form=Eve head=0 label=root
+Pred: token=2 form=Eve head=0 label=root
+Gold: token=3 form=. head=2 label=punct
+Pred: token=3 form=. head=2 label=punct
+------------------------------------------------------------
+# sent_id = 5746
+Gold: token=1 form=No head=2 label=discourse
+Pred: token=1 form=No head=2 label=det
+Gold: token=2 form=d head=0 label=root
+Pred: token=2 form=d head=0 label=root
+Gold: token=3 form=for head=4 label=case
+Pred: token=3 form=for head=4 label=case
+Gold: token=4 form=dog head=2 label=nmod
+Pred: token=4 form=dog head=2 label=nmod
+Gold: token=5 form=. head=2 label=punct
+Pred: token=5 form=. head=2 label=punct
+------------------------------------------------------------
+# sent_id = 5830
+Gold: token=1 form=No head=5 label=discourse
+Pred: token=1 form=No head=2 label=det
+Gold: token=2 form=Fraser head=5 label=nsubj
+Pred: token=2 form=Fraser head=5 label=nsubj
+Gold: token=3 form='s head=5 label=cop
+Pred: token=3 form='s head=5 label=aux
+Gold: token=4 form=not head=5 label=advmod
+Pred: token=4 form=not head=5 label=advmod
+Gold: token=5 form=having head=0 label=root
+Pred: token=5 form=having head=0 label=root
+Gold: token=6 form=lunch head=5 label=obj
+Pred: token=6 form=lunch head=5 label=obj
+Gold: token=7 form=. head=5 label=punct
+Pred: token=7 form=. head=5 label=punct
+------------------------------------------------------------
+# sent_id = 6007
+Gold: token=1 form=No head=2 label=discourse
+Pred: token=1 form=No head=2 label=det
+Gold: token=2 form=read head=0 label=root
+Pred: token=2 form=read head=0 label=root
+Gold: token=3 form=. head=2 label=punct
+Pred: token=3 form=. head=2 label=punct
+------------------------------------------------------------
+# sent_id = 7546
+Gold: token=1 form=No head=5 label=discourse
+Pred: token=1 form=No head=2 label=det
+Gold: token=2 form=daddy head=5 label=nsubj
+Pred: token=2 form=daddy head=5 label=nsubj
+Gold: token=3 form=was head=5 label=cop
+Pred: token=3 form=was head=5 label=cop
+Gold: token=4 form=n't head=5 label=advmod
+Pred: token=4 form=n't head=5 label=advmod
+Gold: token=5 form=there head=0 label=root
+Pred: token=5 form=there head=0 label=root
+Gold: token=6 form=. head=5 label=punct
+Pred: token=6 form=. head=5 label=punct
+------------------------------------------------------------
+# sent_id = 7764
+Gold: token=1 form=I head=2 label=nsubj
+Pred: token=1 form=I head=6 label=nsubj
+Gold: token=2 form=do head=0 label=root
+Pred: token=2 form=do head=6 label=aux
+Gold: token=3 form=n't head=2 label=advmod
+Pred: token=3 form=n't head=6 label=advmod
+Gold: token=4 form=no head=6 label=discourse
+Pred: token=4 form=no head=5 label=det
+Gold: token=5 form=daddy head=6 label=nsubj
+Pred: token=5 form=daddy head=6 label=nsubj
+Gold: token=6 form=got head=2 label=parataxis
+Pred: token=6 form=got head=0 label=root
+Gold: token=7 form=them head=6 label=obj
+Pred: token=7 form=them head=6 label=obj
+Gold: token=8 form=for head=9 label=case
+Pred: token=8 form=for head=9 label=case
+Gold: token=9 form=me head=6 label=obl
+Pred: token=9 form=me head=6 label=obl
+Gold: token=10 form=because head=14 label=mark
+Pred: token=10 form=because head=14 label=mark
+Gold: token=11 form=they head=14 label=nsubj
+Pred: token=11 form=they head=14 label=nsubj
+Gold: token=12 form=were head=14 label=cop
+Pred: token=12 form=were head=14 label=cop
+Gold: token=13 form=too head=14 label=advmod
+Pred: token=13 form=too head=14 label=advmod
+Gold: token=14 form=heavy head=6 label=advcl
+Pred: token=14 form=heavy head=6 label=advcl
+Gold: token=15 form=. head=2 label=punct
+Pred: token=15 form=. head=6 label=punct
+------------------------------------------------------------
+# sent_id = 7921
+Gold: token=1 form=Daddy head=4 label=vocative
+Pred: token=1 form=Daddy head=4 label=vocative
+Gold: token=2 form=no head=4 label=discourse
+Pred: token=2 form=no head=4 label=det
+Gold: token=3 form=another head=4 label=det
+Pred: token=3 form=another head=4 label=det
+Gold: token=4 form=one head=0 label=root
+Pred: token=4 form=one head=0 label=root
+Gold: token=5 form=. head=4 label=punct
+Pred: token=5 form=. head=4 label=punct
+------------------------------------------------------------
+# sent_id = 8028
+Gold: token=1 form=No head=5 label=discourse
+Pred: token=1 form=No head=3 label=det
+Gold: token=2 form=this head=3 label=det
+Pred: token=2 form=this head=3 label=det
+Gold: token=3 form=dog head=5 label=nsubj
+Pred: token=3 form=dog head=5 label=nsubj
+Gold: token=4 form=is head=5 label=aux
+Pred: token=4 form=is head=5 label=aux
+Gold: token=5 form=gon head=0 label=root
+Pred: token=5 form=gon head=0 label=root
+Gold: token=6 form=na head=7 label=mark
+Pred: token=6 form=na head=7 label=mark
+Gold: token=7 form=hide head=5 label=xcomp
+Pred: token=7 form=hide head=5 label=xcomp
+Gold: token=8 form=in head=9 label=case
+Pred: token=8 form=in head=9 label=case
+Gold: token=9 form=there head=7 label=obl
+Pred: token=9 form=there head=7 label=obl
+Gold: token=10 form=. head=5 label=punct
+Pred: token=10 form=. head=5 label=punct
+------------------------------------------------------------
+# sent_id = 8496
+Gold: token=1 form=No head=5 label=discourse
+Pred: token=1 form=No head=2 label=det
+Gold: token=2 form=some head=5 label=nsubj
+Pred: token=2 form=some head=5 label=nsubj
+Gold: token=3 form=of head=4 label=case
+Pred: token=3 form=of head=4 label=case
+Gold: token=4 form=them head=2 label=nmod
+Pred: token=4 form=them head=2 label=nmod
+Gold: token=5 form=are head=0 label=root
+Pred: token=5 form=are head=0 label=root
+Gold: token=6 form=. head=5 label=punct
+Pred: token=6 form=. head=5 label=punct
+------------------------------------------------------------

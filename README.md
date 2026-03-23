@@ -17,7 +17,7 @@ The parser model is available on Hugging Face:
 
 To use this project, you need to create a Python environment with the correct dependencies.
 
-### 1. Create and activate a virtual environment
+### 1. Create and activate venv + install Supar and Stanza
 
 ```bash
 python3.12 -m venv cait_env
@@ -25,8 +25,20 @@ source cait_env/bin/activate
 
 pip install -U git+https://github.com/Yu-val-weiss/supar-parser
 pip install torch==2.5.1
-pip install stanza 
+git clone https://github.com/stanfordnlp/stanza.git
+cd stanza
+pip install -e .
+pip install -r requirements.txt
 ```
+### 2. To download the CAIT Parser follow this command:
+
+```bash
+huggingface-cli download fpadovani/biaffine_roberta_large_childes_10 --local-dir ./models/biaffine_roberta_large_childes_10
+```
+For an example on how to load it and use it, have a look at the example in the `try_out_model.py` script.
+Since CAIT Parser trained with Supar don't predict PoS tags, you can use it in combination with our PoS Tagger trained using golden annotations (UD_English-CHILDES). An example is provided in the same python script.
+
+
 
 ## 🔁 Training (Reproducibility)
 

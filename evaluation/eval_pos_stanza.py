@@ -1,3 +1,12 @@
+import os
+import sys
+
+# Get absolute path to this file
+current_dir = os.path.dirname(os.path.abspath(__file__))
+
+stanza_root = os.path.abspath(os.path.join(current_dir, "..", "stanza"))
+sys.path.insert(0, stanza_root)
+
 import stanza
 from stanza.utils.conll import CoNLL
 from stanza.models.pos import scorer

@@ -7,6 +7,10 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 stanza_root = os.path.abspath(os.path.join(current_dir, "..", "stanza"))
 sys.path.insert(0, stanza_root)
 
+import stanza
+from stanza.utils.conll import CoNLL
+from stanza.utils.conll18_ud_eval import load_conllu_file, evaluate
+
 # here you can specify the path to either test or dev set, depending on which one you want to evaluate on
 gold_ud = load_conllu_file("UD_English-CHILDES/en_childes-ud-test.conllu")
 pred_ud = load_conllu_file("prediction_files/supar_childes_roberta_test.conllu")
@@ -25,7 +29,7 @@ print("Total sentences in system:", scores["Sentences"].system_total)
 
 
 ## Calculate the LAS and UAS for child speech and child directed speech separately
-# Calculate LAS and UAS by year bins for child speech and child directed speech separately
+# Calculate LAS and UAS by sentence length for child speech and child directed speech separately
 BASE_GOLD = "UD_English-CHILDES"
 BASE_PRED_by_speaker = "prediction_files/prediction_files_by_speaker"
 
