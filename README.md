@@ -11,6 +11,9 @@ In this repository you can find:
 The parser model is available on Hugging Face:  
 👉 https://huggingface.co/fpadovani/biaffine_roberta_large_childes_10
 
+The POS model is available:
+👉 in this `stanza_model/pos` folder 
+
 ---
 
 ## ⚙️ Environment Setup
