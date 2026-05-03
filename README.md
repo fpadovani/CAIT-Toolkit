@@ -9,9 +9,11 @@ In this repository you can find:
 - A **construction tagger** based on this in-domain parser
 
 The parser model is available on Hugging Face:  
+
 👉 https://huggingface.co/fpadovani/biaffine_roberta_large_childes_10
 
 The POS model is available:
+
 👉 in this `stanza_model/pos/en_childes_charlm_tagger.pt` folder 
 
 ---
