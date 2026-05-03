@@ -108,7 +108,10 @@ To evaluate a Stanza dependency parser (either the default off-the-shelf model o
 evaluation/eval_parser_stanza.py
 ```
 
+## POS Tagger Training 
+We followed the official Stanza documentation at this [page](https://stanfordnlp.github.io/stanza/training_and_evaluation.html) to train the POS Tagger using the .conllu files of the official UD_English-CHILDES annotations.
 
 
 ```
-# TO BE CONTINUED
+# ADD the algorithm for the construction tagger
+
