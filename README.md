@@ -43,7 +43,7 @@ huggingface-cli download fpadovani/biaffine_roberta_large_childes_10 --local-dir
 For an example on how to load it and use it, have a look at the example in the `try_out_model.py` script.
 Since CAIT Parser trained with Supar don't predict PoS tags, you can use it in combination with our PoS Tagger trained using golden annotations (UD_English-CHILDES). An example is provided in the same python script.
 
-### 3. Integrate stanza in your parsing pipeline in order to obtain POS tags. 
+### 3. Integrate stanza pipeline in your parsing script in order to obtain POS tags. 
 Since the CAIT Parser only produces labels and relations between tokens, but doesn't predict POS tags, you should integrate the stanza pipeline in your parsing script, loading the pos tagger with the following command.
 
 ```
