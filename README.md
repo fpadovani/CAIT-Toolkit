@@ -12,7 +12,7 @@ The parser model is available on Hugging Face:
 👉 https://huggingface.co/fpadovani/biaffine_roberta_large_childes_10
 
 The POS model is available:
-👉 in this `stanza_model/pos` folder 
+👉 in this `stanza_model/pos/en_childes_charlm_tagger.pt` folder 
 
 ---
 
@@ -41,7 +41,14 @@ huggingface-cli download fpadovani/biaffine_roberta_large_childes_10 --local-dir
 For an example on how to load it and use it, have a look at the example in the `try_out_model.py` script.
 Since CAIT Parser trained with Supar don't predict PoS tags, you can use it in combination with our PoS Tagger trained using golden annotations (UD_English-CHILDES). An example is provided in the same python script.
 
+### 3. Integrate stanza in your parsing pipeline in order to obtain POS tags. 
+Since the CAIT Parser only produces labels and relations between tokens, but doesn't predict POS tags, you should integrate the stanza pipeline in your parsing script, loading the pos tagger with the following command.
 
+```
+import stanza
+pos_model = stanza.Pipeline('en', processors='tokenize,pos', tokenize_no_ssplit=True,
+                            pos_model_path="stanza_models/pos/en_childes_charlm_tagger.pt")
+```
 
 ## CAIT Training
 
@@ -100,11 +107,6 @@ evaluation/eval_parser_stanza.py
 ```
 
 
-## POS Tagger Training and Evaluation
 
-If you want to evaluate using a custom POS tagger, you need to specify the path to the trained model:
-
-```bash
-stanza_models/pos/en_childes_charlm_tagger.pt
 ```
 # TO BE CONTINUED
