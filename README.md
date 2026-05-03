@@ -18,7 +18,7 @@ The POS model is available:
 
 ## ⚙️ Environment Setup
 
-To use this project, you need to create a Python environment with the correct dependencies.
+To use this toolkit, you need to create a Python environment with the correct dependencies.
 
 ### 1. Create and activate venv + install Supar and Stanza
 
