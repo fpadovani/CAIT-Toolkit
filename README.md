@@ -22,17 +22,11 @@ The POS model is available:
 
 To use this toolkit, you need to create a Python environment with the correct dependencies.
 
-### 1. Create and activate venv + install Supar and Stanza
+### 1. Create and activate venv + install dependencies
 
 ```bash
 python3.12 -m venv cait_env
 source cait_env/bin/activate
-
-pip install -U git+https://github.com/Yu-val-weiss/supar-parser
-pip install torch==2.5.1
-git clone https://github.com/stanfordnlp/stanza.git
-cd stanza
-pip install -e .
 pip install -r requirements.txt
 ```
 ### 2. To download and start using CAIT Parser follow this command:
