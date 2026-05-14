@@ -106,6 +106,5 @@ evaluation/eval_parser_stanza.py
 We followed the official Stanza documentation at this [page](https://stanfordnlp.github.io/stanza/training_and_evaluation.html) to train the POS Tagger using the .conllu files of the official UD_English-CHILDES annotations.
 
 
-```
 # ADD the algorithm for the construction tagger
 
