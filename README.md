@@ -1,4 +1,4 @@
-# Syntactic Annotation Toolkit for Child–Adult InTeractions (CAIT)
+# CAIT 🪁: A Syntactic Parsing Toolkit for Child–Adult InTeractions
 
 ## 📖 Description
 In this repository you can find:
