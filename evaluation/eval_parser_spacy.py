@@ -14,7 +14,7 @@ from stanza.utils.conll18_ud_eval import load_conllu_file, evaluate
 
 ## test or dev files (change accordingly))
 gold_ud = load_conllu_file("UD_English-CHILDES/en_childes-ud-test.conllu")
-pred_ud = load_conllu_file("prediction_files/off_the_shelf_test_childes.conllu")
+pred_ud = load_conllu_file("prediction_files/spacy_trf_childes_test_mapped.conllu")
 scores = evaluate(gold_ud, pred_ud)
 
 print("UAS test: {:.2f}".format(100*scores["UAS"].f1))
