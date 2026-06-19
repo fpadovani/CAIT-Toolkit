@@ -1,0 +1,46 @@
+sentence,construction
+Hello!,FOR
+Thank you.,FOR
+Good morning.,FOR
+Bye bye.,FOR
+Sorry.,FOR
+A red ball.,FRA
+Very nice.,FRA
+In the garden.,FRA
+What a mess.,FRA
+Over there.,FRA
+What did you eat?,QWH
+Where is mommy?,QWH
+Why are you crying?,QWH
+Who took my toy?,QWH
+How do you do that?,QWH
+Did you eat the apple?,QYN
+Is daddy coming home?,QYN
+Can I have some more?,QYN
+Are you happy?,QYN
+Do you want to play?,QYN
+She is happy.,COP
+The dog is big.,COP
+There is a cat.,COP
+This is my toy.,COP
+It was cold.,COP
+Come here.,IMP
+Look at this.,IMP
+Eat your vegetables.,IMP
+Go to bed.,IMP
+Put it down.,IMP
+The dog runs.,SPI
+She sleeps.,SPI
+The baby cried.,SPI
+He laughed loudly.,SPI
+We did.,SPI
+She ate the apple.,SPT
+I saw the bird.,SPT
+He wants a cookie.,SPT
+Mommy read the book.,SPT
+I want to play.,SPT
+I think he went home.,COM
+She said she was tired.,COM
+Go and play outside.,COM
+"When you finish, we will go.",COM
+I know what you did.,COM

@@ -3,10 +3,10 @@
 ## 📖 Description
 In this repository you can find:
 
-- A dependency parser trained with **SuPar** on the golden annotations of  
+- A dependency parser trained with **SuPar** on the gold-standard annotations of  
   [UD_English-CHILDES](https://github.com/UniversalDependencies/UD_English-CHILDES)
-- A **PoS tagger** trained with Stanza on the golden
-- A **construction tagger** based on this in-domain parser
+- A **PoS tagger** trained with Stanza on these gold-standard annotation
+- An utterance-level **construction tagger** based on this in-domain parser
 
 The parser model is available on Hugging Face:  
 
@@ -112,5 +112,66 @@ evaluation/eval_parser_stanza.py
 We followed the official Stanza documentation at this [page](https://stanfordnlp.github.io/stanza/training_and_evaluation.html) to train the POS Tagger using the .conllu files of the official UD_English-CHILDES annotations.
 
 
-# ADD the algorithm for the construction tagger
+## Construction Tagger
 
+The construction tagger classifies utterances into nine mutually exclusive construction types (following Cameron-Faulkner, Lieven & Tomasello, 2003):
+
+| Code | Construction Type | Description |
+|------|-------------------|-------------|
+| FOR  | Formulaic         | Greetings, farewells, politeness formulas |
+| FRA  | Fragment          | Utterances without a verb |
+| QWH  | Wh-question       | Questions introduced by interrogative pronouns |
+| QYN  | Yes/No-question   | Questions with auxiliary inversion |
+| COP  | Copula            | Subject-predicate with copula verb |
+| IMP  | Imperative        | Verb in imperative mood |
+| SPI  | SP-Intransitive   | Subject-predicate without direct object |
+| SPT  | SP-Transitive     | Subject-predicate with direct object |
+| COM  | Complex           | Multiple independent verbs, co-/or subordination pattern |
+
+### Usage
+
+The construction tagger can work with any CoNLL-U annotated file:
+
+```bash
+# Tag a CoNLL-U file, output CSV (default)
+python construction_tagger.py input.conllu -o output.csv
+
+# Tag a CoNLL-U file, output annotated CoNLL-U
+python construction_tagger.py input.conllu -o output.conllu --format conllu
+```
+
+### Python API
+
+```python
+from construction_tagger import read_conllu_file, tag_constructions, write_results_csv
+
+# Read CoNLL-U file
+sentences = read_conllu_file("input.conllu")
+
+# Tag constructions
+tags = tag_constructions(sentences)
+
+# Write results
+write_results_csv(sentences, tags, "output.csv")
+```
+
+### Using with CAIT Parser
+
+To parse raw text and tag constructions:
+
+```python
+from construction_tagger import parse_utterances, tag_constructions
+
+utterances = ["Hello!", "What did you eat?", "She ate the apple."]
+
+# Parse with CAIT (Stanza POS + SuPar dependencies)
+sentences = parse_utterances(
+    utterances,
+    supar_model_path="models/biaffine_roberta_large_childes_10/brlc",
+    stanza_pos_model_path="stanza_models/pos/en_childes_charlm_tagger.pt"
+)
+
+# Tag constructions
+tags = tag_constructions(sentences)
+# Result: ["FOR", "QWH", "SPT"]
+```
